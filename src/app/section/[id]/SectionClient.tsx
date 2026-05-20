@@ -8,6 +8,7 @@ import {
   lookupSectionKo,
   UI_STRINGS,
 } from '@/lib/i18n/ko-data';
+import { lookupEtymologyForInstrument } from '@/data/etymology-data';
 import { imgUrl, formatFunction } from '@/lib/catalog';
 import type { Section, InstrumentEntry, TraySetup } from '@/lib/catalog';
 
@@ -190,6 +191,7 @@ function TrayBlock({ tray, lang, t }: { tray: TraySetup; lang: string; t: UiT })
           <div>
             {tray.items.map((item, idx) => {
               const ko = lang === 'ko' ? lookupInstrumentKo(item.name) : null;
+              const etymEntries = lookupEtymologyForInstrument(item.name);
               return (
                 <div
                   key={item.number}
@@ -204,9 +206,21 @@ function TrayBlock({ tray, lang, t }: { tray: TraySetup; lang: string; t: UiT })
                   >
                     {item.number}
                   </span>
-                  <div className="min-w-0">
-                    {/* English name — de-emphasized */}
-                    <span className="text-xs text-slate-400 font-normal">{item.name}</span>
+                  <div className="min-w-0 flex-1">
+                    {/* English name + etymology link */}
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      <span className="text-xs text-slate-400 font-normal">{item.name}</span>
+                      {etymEntries.length > 0 && (
+                        <Link
+                          href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}`}
+                          className="px-1.5 py-0.5 rounded-full text-white text-[9px] font-bold"
+                          style={{ background: 'rgba(99,102,241,0.7)', minHeight: 0 }}
+                          title={lang === 'ko' ? '어원 보기' : 'View Etymology'}
+                        >
+                          ⓘ
+                        </Link>
+                      )}
+                    </div>
                     {/* Korean pronunciation — primary */}
                     {ko && (
                       <p className="text-base font-bold text-purple-700 mt-0.5 tracking-tight">{ko.pronunciation}</p>
@@ -236,6 +250,7 @@ function InstrumentCard({
   const fnEn = formatFunction(instrument);
   const charsEn = instrument.characteristics;
   const ko = lang === 'ko' ? lookupInstrumentKo(instrument.name) : null;
+  const etymEntries = lookupEtymologyForInstrument(instrument.name);
 
   return (
     <div
@@ -252,6 +267,17 @@ function InstrumentCard({
           className="object-contain p-2"
           unoptimized
         />
+        {/* Etymology ⓘ badge */}
+        {etymEntries.length > 0 && (
+          <Link
+            href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}`}
+            className="absolute top-2 right-2 flex items-center gap-1 px-2 py-1 rounded-full text-white text-[10px] font-bold shadow-sm z-10"
+            style={{ background: 'rgba(99,102,241,0.85)', backdropFilter: 'blur(4px)', minHeight: 0 }}
+            title={lang === 'ko' ? '어원 보기' : 'View Etymology'}
+          >
+            ⓘ{etymEntries.length > 1 ? ` ×${etymEntries.length}` : ''}
+          </Link>
+        )}
       </div>
 
       <div className="p-4 space-y-3">

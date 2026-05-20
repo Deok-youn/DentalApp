@@ -1,4 +1,54 @@
 // ─── 치과 용어 어원 사전 ────────────────────────────────────────────────────
+// 기구명 → 어원 항목 매핑 (keyword → term)
+const KEYWORD_MAP: Array<{ keywords: string[]; term: string }> = [
+  { keywords: ['discoid'],                    term: 'Discoid' },
+  { keywords: ['cleoid'],                     term: 'Cleoid' },
+  { keywords: ['beavertail'],                 term: 'Beavertail' },
+  { keywords: ['acorn'],                      term: 'Acorn' },
+  { keywords: ['football'],                   term: 'Football' },
+  { keywords: ['burnisher'],                  term: 'Burnisher' },
+  { keywords: ['carver'],                     term: 'Carver' },
+  { keywords: ['condenser'],                  term: 'Condenser' },
+  { keywords: ['explorer'],                   term: 'Explorer' },
+  { keywords: ['excavator'],                  term: 'Excavator' },
+  { keywords: ['elevator'],                   term: 'Elevator' },
+  { keywords: ['forcep'],                     term: 'Forceps' },
+  { keywords: ['curette'],                    term: 'Curette' },
+  { keywords: ['scalpel'],                    term: 'Scalpel' },
+  { keywords: ['alginate', 'alignate'],       term: 'Alginate' },
+  { keywords: ['amalgam'],                    term: 'Amalgam' },
+  { keywords: ['eugenol'],                    term: 'Eugenol' },
+  { keywords: ['gutta'],                      term: 'Gutta Percha' },
+  { keywords: ['tofflemire', 'tofflemier'],   term: 'Tofflemire' },
+  { keywords: ['hollenback'],                 term: 'Hollenback' },
+  { keywords: ['woodson'],                    term: 'Woodson' },
+  { keywords: ['prophy', 'prophylaxis'],      term: 'Prophylaxis / Prophy' },
+  { keywords: ['perioprobe'],                 term: 'Perioprobe' },
+  { keywords: ['periosteal'],                 term: 'Periosteal' },
+  { keywords: ['cavitron'],                   term: 'Cavitron' },
+  { keywords: ['hemostat'],                   term: 'Hemostat' },
+  { keywords: ['syringe'],                    term: 'Syringe' },
+  { keywords: ['matrix'],                     term: 'Matrix' },
+  { keywords: ['articulating'],               term: 'Articulating (Paper)' },
+  { keywords: ['spatula'],                    term: 'Spatula' },
+  { keywords: ['irm'],                        term: 'IRM (ZOE)' },
+  { keywords: ['chlorhexidine', 'chlorohexidine'], term: 'Chlorhexidine' },
+  { keywords: ['hypochlorite', 'hypochloride'],    term: 'Sodium Hypochlorite' },
+  { keywords: ['calcium', 'hydroxide'],       term: 'Calcium Hydroxide' },
+];
+
+/** 기구 이름으로 관련 어원 항목들을 조회 */
+export function lookupEtymologyForInstrument(instrumentName: string): EtymEntry[] {
+  const lower = instrumentName.toLowerCase().replace(/[:()\[\].]/g, ' ');
+  const matched = new Map<string, EtymEntry>();
+  for (const { keywords, term } of KEYWORD_MAP) {
+    if (keywords.some((kw) => lower.includes(kw))) {
+      const entry = ETYMOLOGY_DATA.find((e) => e.term === term);
+      if (entry && !matched.has(term)) matched.set(term, entry);
+    }
+  }
+  return Array.from(matched.values()).slice(0, 3);
+}
 
 export type EtymCategory =
   | 'shape'     // 형태·모양 묘사어

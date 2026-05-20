@@ -1,10 +1,22 @@
+import { Suspense } from 'react';
 import { EtymologyClient } from './EtymologyClient';
 
 export const metadata = {
   title: 'Term Etymology | Dental Instruments',
-  description: '치과 기구 용어 어원 사전',
+  description: '치과 기구 용어 어원 사전 — 어원을 알면 오타도 줄고 암기도 쉬워집니다',
 };
 
 export default function EtymologyPage() {
-  return <EtymologyClient />;
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--background)' }}>
+        <div className="text-center space-y-2">
+          <p className="text-2xl">📖</p>
+          <p className="text-slate-400 text-sm">어원 사전 불러오는 중...</p>
+        </div>
+      </div>
+    }>
+      <EtymologyClient />
+    </Suspense>
+  );
 }
