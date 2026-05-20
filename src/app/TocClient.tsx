@@ -174,20 +174,20 @@ export function TocClient({ sections }: { sections: Section[] }) {
             </div>
             {/* Text */}
             <div className="flex-1 min-w-0">
-              <p className="font-normal text-slate-400 text-xs leading-snug">Term Etymology</p>
+              <p className="font-normal text-slate-400 text-xs leading-snug">용어 암기 팁</p>
               {lang === 'ko' && (
                 <>
                   <p className="text-base font-extrabold text-indigo-700 mt-0.5 leading-snug tracking-tight">
-                    텀 에티몰로지
+                    용어 암기 팁
                   </p>
                   <p className="text-xs font-medium text-indigo-500 mt-0.5 leading-snug">
-                    치과 용어 어원 사전
+                    어원을 알면 더 쉽게 외워집니다
                   </p>
                 </>
               )}
               <p className="mt-1.5">
                 <span className="px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-semibold">
-                  {lang === 'ko' ? '어원·암기 가이드' : 'Etymology Guide'}
+                  {lang === 'ko' ? '암기 노하우' : 'Memory Tips'}
                 </span>
               </p>
             </div>

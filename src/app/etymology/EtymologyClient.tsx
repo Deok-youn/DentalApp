@@ -49,17 +49,17 @@ export function EtymologyClient() {
           <div className="flex items-start justify-between gap-4">
             <div className="flex-1">
               <p className="text-white/50 text-[11px] tracking-widest uppercase mb-1">Dental Instruments</p>
-              <h1 className="text-2xl font-bold tracking-tight leading-tight">Term Etymology</h1>
+              <h1 className="text-2xl font-bold tracking-tight leading-tight">용어 암기 팁</h1>
               {lang === 'ko' && (
                 <>
-                  <p className="mt-2 text-white font-extrabold text-xl tracking-tight">텀 에티몰로지</p>
-                  <p className="text-white/60 text-xs mt-0.5">치과 용어 어원 사전</p>
+                  <p className="mt-2 text-white font-extrabold text-xl tracking-tight">용어 암기 팁</p>
+                  <p className="text-white/60 text-xs mt-0.5">어원을 알면 더 쉽게 외워집니다</p>
                 </>
               )}
               <p className="mt-2 text-white/50 text-[11px] leading-relaxed">
                 {lang === 'ko'
-                  ? '단어의 뿌리를 알면 오타가 줄고, 오래 기억됩니다 ✨'
-                  : 'Knowing word roots reduces typos and deepens memory.'}
+                  ? '단어의 뿌리를 알면 오타가 줄고 오래 기억됩니다 ✨'
+                  : 'Knowing roots reduces typos and deepens memory.'}
               </p>
             </div>
             <LanguageToggle className="shrink-0 mt-1" />
@@ -98,13 +98,13 @@ export function EtymologyClient() {
       </div>
 
       {/* ── Tip banner ──────────────────────────────────────────────── */}
-      {lang === 'ko' && (
+          {lang === 'ko' && (
         <div className="max-w-lg mx-auto px-4 pt-4">
           <div className="rounded-2xl px-4 py-3 flex gap-2.5 items-start"
             style={{ background: 'linear-gradient(135deg, #fdf2f8, #f5f3ff)', border: '1px solid #fce7f3' }}>
             <span className="text-xl shrink-0">💡</span>
             <p className="text-xs text-purple-800 leading-relaxed">
-              <strong>치과 선생님의 암기 노하우:</strong> 기구 이름 안에 힌트가 숨어 있어요!
+              <strong>암기 노하우:</strong> 기구 이름 안에 힌트가 숨어 있어요!
               어근을 알면 처음 보는 단어도 유추할 수 있고, 오타도 자연스럽게 줄어듭니다.
               각 카드를 탭해서 어원과 쉬운 연상법을 확인해보세요 ✨
             </p>
@@ -195,7 +195,14 @@ const EntryCard = React.forwardRef<HTMLDivElement, {
         </span>
 
         <div className="flex-1 min-w-0">
-          <p className="font-bold text-base text-slate-800 leading-snug">{entry.term}</p>
+              {/* English term */}
+              <p className="font-normal text-slate-400 text-xs leading-snug">{entry.term}</p>
+              {/* Korean pronunciation — primary */}
+              {illus?.termKo && (
+                <p className="text-lg font-extrabold text-purple-700 leading-snug tracking-tight mt-0.5">
+                  {illus.termKo}
+                </p>
+              )}
 
           {/* Typo warning */}
           {entry.common_typos && entry.common_typos.length > 0 && (
@@ -283,7 +290,7 @@ const EntryCard = React.forwardRef<HTMLDivElement, {
             {/* Memory tip */}
             <div className="rounded-xl px-3 py-2.5" style={{ background: 'rgba(251,191,36,0.1)', border: '1px solid rgba(251,191,36,0.3)' }}>
               <p className="text-[10px] uppercase font-semibold text-amber-600 tracking-widest mb-1">
-                {lang === 'ko' ? '✏️ 치과 선생님의 암기 팁' : '✏️ Memory Tip'}
+                {lang === 'ko' ? '✏️ 암기 노하우' : '✏️ Memory Tip'}
               </p>
               <p className="text-sm text-amber-900 leading-relaxed font-medium">{entry.memory_tip}</p>
             </div>
