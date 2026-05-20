@@ -150,6 +150,50 @@ export function TocClient({ sections }: { sections: Section[] }) {
             );
           })}
         </ol>
+
+        {/* ── Etymology link ──────────────────────────────────────── */}
+        <div className="mt-6">
+          <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest mb-3">
+            {lang === 'ko' ? '부록' : 'Appendix'}
+          </p>
+          <Link
+            href="/etymology"
+            className="flex items-center gap-3 rounded-2xl px-3 py-3 border transition-all active:scale-[0.98] bg-indigo-50 border-indigo-100 hover:border-indigo-300 hover:shadow-sm"
+            style={{ minHeight: 0 }}
+          >
+            {/* Icon badge */}
+            <span
+              className="w-7 h-7 rounded-full text-xs font-bold flex items-center justify-center shrink-0 bg-indigo-100 text-indigo-700"
+              style={{ minHeight: 0 }}
+            >
+              ∑
+            </span>
+            {/* Thumbnail placeholder */}
+            <div className="w-14 h-11 rounded-xl bg-indigo-100 shrink-0 flex items-center justify-center text-2xl">
+              🔤
+            </div>
+            {/* Text */}
+            <div className="flex-1 min-w-0">
+              <p className="font-normal text-slate-400 text-xs leading-snug">Term Etymology</p>
+              {lang === 'ko' && (
+                <>
+                  <p className="text-base font-extrabold text-indigo-700 mt-0.5 leading-snug tracking-tight">
+                    텀 에티몰로지
+                  </p>
+                  <p className="text-xs font-medium text-indigo-500 mt-0.5 leading-snug">
+                    치과 용어 어원 사전
+                  </p>
+                </>
+              )}
+              <p className="mt-1.5">
+                <span className="px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-semibold">
+                  {lang === 'ko' ? '어원·암기 가이드' : 'Etymology Guide'}
+                </span>
+              </p>
+            </div>
+            <span className="text-slate-300 text-lg shrink-0 mt-1 self-center">›</span>
+          </Link>
+        </div>
       </main>
 
       <footer className="text-center text-[11px] text-slate-300 py-10">
