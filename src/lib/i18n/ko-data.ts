@@ -1056,11 +1056,6 @@ export const KO_INSTRUMENTS: Record<string, KoInstrumentData> = {
     name: '크라운 기성 폼',
     hint: '임시 크라운 제작에 사용하는 기성 플라스틱 쉘',
   },
-  'scissors': {
-    pronunciation: '시저',
-    name: '가위',
-    hint: '봉합사·재료 절단에 사용하는 외과용 가위',
-  },
   'hemostat': {
     pronunciation: '헤모스탯',
     name: '지혈 겸자 (헤모스탯)',

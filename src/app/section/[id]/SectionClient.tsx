@@ -60,10 +60,12 @@ export function SectionClient({ section, prev, next }: Props) {
 
               {lang === 'ko' && koSection ? (
                 <>
-                  <p className="text-sm font-semibold text-white/80 mt-1 leading-snug">
+                  {/* pronunciation — primary */}
+                  <p className="text-xl font-extrabold text-white mt-1 leading-snug tracking-tight">
                     {koSection.pronunciation}
                   </p>
-                  <p className="text-xl font-bold text-white mt-0.5 leading-tight">{koSection.name}</p>
+                  {/* Korean name — secondary */}
+                  <p className="text-sm font-medium text-white/70 mt-0.5 leading-snug">{koSection.name}</p>
                   {koSection.hint && (
                     <p className="text-xs text-amber-200 mt-1.5 italic leading-relaxed">{koSection.hint}</p>
                   )}
@@ -205,9 +207,9 @@ function TrayBlock({ tray, lang, t }: { tray: TraySetup; lang: string; t: UiT })
                   <div className="min-w-0">
                     {/* English name — de-emphasized */}
                     <span className="text-xs text-slate-400 font-normal">{item.name}</span>
-                    {/* Korean pronunciation — prominently shown */}
+                    {/* Korean pronunciation — primary */}
                     {ko && (
-                      <p className="text-sm font-semibold text-purple-600 mt-0.5">{ko.pronunciation}</p>
+                      <p className="text-base font-bold text-purple-700 mt-0.5 tracking-tight">{ko.pronunciation}</p>
                     )}
                   </div>
                 </div>
@@ -259,10 +261,10 @@ function InstrumentCard({
           <h3 className="font-normal text-slate-400 text-xs leading-snug">{instrument.name}</h3>
           {ko && (
             <div className="mt-1.5 space-y-0.5">
-              {/* Korean pronunciation — MOST visible */}
-              <p className="text-sm font-semibold text-purple-600 leading-snug">{ko.pronunciation}</p>
-              {/* Korean name — prominent */}
-              <p className="text-lg font-bold leading-snug" style={{ color: '#be185d' }}>
+              {/* Korean pronunciation — PRIMARY (larger, bolder) */}
+              <p className="text-xl font-extrabold text-purple-700 leading-snug tracking-tight">{ko.pronunciation}</p>
+              {/* Korean name — SECONDARY (smaller than pronunciation) */}
+              <p className="text-sm font-medium leading-snug" style={{ color: '#9f1239' }}>
                 {ko.name}
               </p>
             </div>

@@ -28,8 +28,10 @@ export function TocClient({ sections }: { sections: Section[] }) {
               <h1 className="text-3xl font-bold tracking-tight leading-tight">Catalog</h1>
               {lang === 'ko' && (
                 <>
-                  <p className="mt-2 text-white/60 text-xs">덴탈 인스트루먼츠</p>
-                  <p className="text-white font-bold text-xl mt-0.5">치과 기구 도감</p>
+                  {/* pronunciation — primary */}
+                  <p className="mt-2 text-white font-extrabold text-xl tracking-tight">덴탈 인스트루먼츠</p>
+                  {/* Korean name — secondary */}
+                  <p className="text-white/60 text-xs mt-0.5">치과 기구 도감</p>
                 </>
               )}
               <p className="mt-3 text-white/40 text-[10px] leading-relaxed">
@@ -106,10 +108,12 @@ export function TocClient({ sections }: { sections: Section[] }) {
 
                     {lang === 'ko' && koData ? (
                       <>
-                        <p className="text-sm font-semibold text-purple-600 mt-0.5 leading-snug">
+                        {/* pronunciation — primary */}
+                        <p className="text-base font-extrabold text-purple-700 mt-0.5 leading-snug tracking-tight">
                           {koData.pronunciation}
                         </p>
-                        <p className="text-base font-bold text-rose-700 mt-0.5 leading-snug">
+                        {/* Korean name — secondary */}
+                        <p className="text-xs font-medium text-rose-600 mt-0.5 leading-snug">
                           {koData.name}
                         </p>
                         {koData.hint && (

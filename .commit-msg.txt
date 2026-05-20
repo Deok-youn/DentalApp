@@ -1,0 +1,11 @@
+style: promote Korean pronunciation over translated name across all pages
+
+- Instrument cards: pronunciation text-xl font-extrabold purple-700 (primary)
+- Instrument cards: Korean name demoted to text-sm font-medium (secondary)
+- Tray item list: pronunciation text-base font-bold purple-700
+- Section header: pronunciation text-xl font-extrabold white (primary)
+- Section header: Korean name demoted to text-sm white/70
+- TOC list items: pronunciation text-base font-extrabold purple-700 (primary)
+- TOC list items: Korean name demoted to text-xs rose-600
+- TOC header: pronunciation promoted, Korean name demoted to xs white/60
+- Fix: remove duplicate 'scissors' key from ko-data.ts
