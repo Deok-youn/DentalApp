@@ -356,8 +356,8 @@ export const KO_INSTRUMENTS: Record<string, KoInstrumentData> = {
     hint: 'Condense = 압축! 수복재를 구멍 안에 꾹꾹 눌러 다지는 기구',
   },
   'discoid-cleoid carver': {
-    pronunciation: '디스클로이드-클레오이드 카버',
-    name: '디스클로이드-클레오이드 조각기',
+    pronunciation: '디스코이드-클레오이드 카버',
+    name: '원형-갈고리형 조각기',
     function: '아말감 수복 후 교합면 해부학적 형태 조각',
     characteristics: '한쪽은 원형(Discoid), 반대쪽은 클레오이드(뾰족) 팁',
     hint: '아말감을 "조각"하는 도구! Disc(원반)+Cleoid(갈고리). 굳기 전에 치아 모양을 만든다',
@@ -1638,6 +1638,62 @@ export const KO_INSTRUMENTS: Record<string, KoInstrumentData> = {
     pronunciation: '마우스워시',
     name: '구강 세정제',
     hint: '처치 전후 구강 세정에 사용하는 액체',
+  },
+
+  // ── PDF 오타 별칭 (Typo aliases from PDF source) ──────────────────────────
+
+  // "ALIGNATE MATERIAL" → alginate material (알지네이트 오타)
+  'alignate material': {
+    pronunciation: '알지네이트 머티리얼',
+    name: '알지네이트 인상재',
+    function: '치아·구강 조직 인상 채득',
+    characteristics: '분말 + 물 혼합. 빠른 경화. 고무 형태',
+    hint: '"치아 틀 뜨는 재료"! 물 온도로 경화 시간 조절(냉수=느림, 온수=빠름)',
+  },
+
+  // "Discloid-Cleoid Carver" → discoid-cleoid carver (Discloid 오타)
+  'discloid-cleoid carver': {
+    pronunciation: '디스코이드-클레오이드 카버',
+    name: '원형-갈고리형 조각기',
+    function: '아말감 수복 후 교합면 해부학적 형태 조각',
+    characteristics: '한쪽은 원형(Discoid), 반대쪽은 클레오이드(뾰족) 팁',
+    hint: '아말감을 "조각"하는 도구! Disc(원반)+Cleoid(갈고리). 굳기 전에 치아 모양을 만든다',
+  },
+
+  // "Discloid-Celoid Carver" → discoid-cleoid carver (Discloid + Celoid 이중 오타)
+  'discloid-celoid carver': {
+    pronunciation: '디스코이드-클레오이드 카버',
+    name: '원형-갈고리형 조각기',
+    function: '아말감 수복 후 교합면 해부학적 형태 조각',
+    characteristics: '한쪽은 원형(Discoid), 반대쪽은 클레오이드(뾰족) 팁',
+    hint: '아말감을 "조각"하는 도구! Disc(원반)+Cleoid(갈고리). 굳기 전에 치아 모양을 만든다',
+  },
+
+  // "Forcep:" → cotton forceps (콜론 포함 불완전 추출)
+  'forcep': {
+    pronunciation: '포셉',
+    name: '포셉 (집게)',
+    function: '거즈·면 롤·기구 등 소형 물체 집기 및 이동',
+    characteristics: '끝이 잠금되는 다양한 형태. 면 포셉·조직 포셉 등',
+    hint: '"집게"! 치과용 핀셋. Cotton Forceps=면 집게, Tissue Forceps=조직 집게',
+  },
+
+  // "Prohpy Angle" → prophy angle (Prohpy 오타)
+  'prohpy angle': {
+    pronunciation: '프로피 앵글',
+    name: '프로피 앵글 (저속 핸드피스 어태치먼트)',
+    function: '저속 핸드피스에 장착하여 프로피 컵 또는 브러시로 치아 연마',
+    characteristics: '저속(straight/contra angle) 핸드피스에 부착. 일회용 또는 재사용형',
+    hint: '"각도 있는 어태치먼트"! Angle(앵글)=비스듬히 꺾인 형태. 프로피 컵을 달아 치아를 닦음',
+  },
+
+  // "Tofflemier" → tofflemire (Tofflemier 오타)
+  'tofflemier': {
+    pronunciation: '토플마이어',
+    name: '토플마이어 리테이너',
+    function: '매트릭스 밴드를 고정하여 인접면 수복 공간 형성',
+    characteristics: '나사 조임식 밴드 고정 장치',
+    hint: '"테두리 고정 틀"! 인접면을 채울 때 옆으로 넘치지 않도록 매트릭스 밴드를 고정',
   },
 };
 
