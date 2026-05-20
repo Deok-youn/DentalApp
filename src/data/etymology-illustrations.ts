@@ -2,6 +2,7 @@
 
 export interface EtymIllustration {
   termKo: string;         // 영어 용어의 한글 발음 표기
+  memoryKeyword: string;  // 핵심 암기 키워드 (어근 → 뜻 한 줄 요약)
   emoji: string;          // 대표 이모지
   altEmoji?: string;      // 보조 이모지
   koScene: string;        // 시각적 장면 묘사 (한글)
@@ -15,6 +16,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Discoid': {
     termKo: '디스코이드',
+    memoryKeyword: 'Disc(원반) + -oid(모양) → 납작하고 둥근 원반형 팁',
     emoji: '💿',
     koScene: 'CD처럼 납작하고 완전히 둥근 원반 모양',
     femaleAnalogy:
@@ -27,6 +29,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Cleoid': {
     termKo: '클레오이드',
+    memoryKeyword: 'kleis(열쇠·갈고리) + -oid(모양) → 뾰족하게 굽은 갈고리형 팁',
     emoji: '🗝️',
     altEmoji: '🪝',
     koScene: '빈티지 열쇠 끝처럼 갈고리 모양으로 굽어 있는',
@@ -40,6 +43,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Beavertail': {
     termKo: '비버테일',
+    memoryKeyword: 'Beaver(비버) + Tail(꼬리) → 납작하고 넓적한 형태',
     emoji: '🦫',
     koScene: '비버의 납작하고 넓적한 꼬리 — 자연이 만든 완벽한 블렌딩 도구',
     femaleAnalogy:
@@ -52,6 +56,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Acorn': {
     termKo: '에이컨',
+    memoryKeyword: 'Acorn(도토리) → 작고 통통하게 튀어나온 팁',
     emoji: '🌰',
     koScene: '작고 통통하게 튀어나온 도토리 — 치아 홈 속에 꼭 맞는 크기',
     femaleAnalogy:
@@ -63,6 +68,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Football': {
     termKo: '풋볼',
+    memoryKeyword: 'Football(럭비공) → 양 끝이 가늘고 가운데가 볼록한 타원형 팁',
     emoji: '🏉',
     koScene: '미식축구공처럼 양 끝이 가늘고 가운데가 볼록한 타원형',
     femaleAnalogy:
@@ -76,6 +82,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Burnisher': {
     termKo: '버니셔',
+    memoryKeyword: 'brunir(프랑스어: 광택내다) → 문질러서 반짝이게 하는 연마 도구',
     emoji: '💅',
     altEmoji: '✨',
     koScene: '네일 버핑 — 손톱을 부드럽게 문질러 반짝반짝 광택 내기',
@@ -88,6 +95,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Carver': {
     termKo: '카버',
+    memoryKeyword: 'carve(조각하다) → 수복재가 굳기 전 치아 형태를 조각하는 도구',
     emoji: '🎨',
     altEmoji: '🖼️',
     koScene: '점토가 굳기 전 조각가가 세밀하게 형태를 다듬는 모습',
@@ -100,6 +108,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Condenser': {
     termKo: '컨덴서',
+    memoryKeyword: 'con(함께) + densare(압축) → 아말감을 빈틈 없이 다져 넣는 도구',
     emoji: '🍱',
     altEmoji: '👊',
     koScene: '도시락 반찬을 빈틈 없이 꽉꽉 눌러 담는 것처럼',
@@ -112,6 +121,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Explorer': {
     termKo: '익스플로러',
+    memoryKeyword: 'ex(밖으로) + plorare(탐색) → 우식·결함을 촉각으로 탐지하는 탐침',
     emoji: '🔍',
     altEmoji: '🕵️‍♀️',
     koScene: '탐정이 돋보기로 단서를 찾듯 — 숨겨진 우식을 촉각으로 탐지',
@@ -124,6 +134,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Excavator': {
     termKo: '익스카베이터',
+    memoryKeyword: 'ex(밖으로) + cavare(파다) → 연화 우식을 숟가락 팁으로 파내는 도구',
     emoji: '🏗️',
     altEmoji: '🥄',
     koScene: '미니 굴착기가 부드러운 흙을 퍼내듯 — Spoon 모양 팁으로 연화 우식 제거',
@@ -136,6 +147,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Elevator': {
     termKo: '엘리베이터',
+    memoryKeyword: 'e(위로) + levare(들어올리다) → 치아를 소켓에서 들어올려 발치 보조',
     emoji: '🛗',
     altEmoji: '⬆️',
     koScene: '건물 엘리베이터처럼 아래에서 위로 부드럽게 들어올리는',
@@ -148,6 +160,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Forceps': {
     termKo: '포셉스',
+    memoryKeyword: 'formus(뜨거운) + capere(잡다) → 치아·조직·기구를 집는 집게',
     emoji: '🥢',
     altEmoji: '🍡',
     koScene: '요리용 트위저·젓가락 — 정확하게 집고 잡는 도구',
@@ -161,6 +174,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Curette': {
     termKo: '큐렛',
+    memoryKeyword: 'curer(긁다) + -ette(소형) → 잇몸 속 치석을 긁어 제거하는 소형 기구',
     emoji: '💆',
     altEmoji: '🛁',
     koScene: '스파 딥클렌징 — 모공 속 묵은 각질·노폐물을 부드럽게 긁어내는',
@@ -174,6 +188,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Scalpel': {
     termKo: '스칼펠',
+    memoryKeyword: 'scalpere(긁다·새기다) → 외과 절개용 메스 날 기구',
     emoji: '✂️',
     altEmoji: '🪡',
     koScene: '재봉 리퍼(실밥 뜯개)처럼 정밀하게 절개하는 날카로운 작은 칼',
@@ -189,6 +204,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Alginate': {
     termKo: '알지네이트',
+    memoryKeyword: 'alga(해조류) + -inate → 다시마에서 추출한 탄성 인상재',
     emoji: '🌿',
     altEmoji: '🧖',
     koScene: '바다 속 미역·다시마 — 알지네이트의 천연 원료',
@@ -202,6 +218,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Amalgam': {
     termKo: '아말감',
+    memoryKeyword: 'al-malgham(아랍어: 연화제) → 수은과 금속 분말을 혼합한 은색 충전재',
     emoji: '⚗️',
     altEmoji: '🎨',
     koScene: '아랍 연금술사가 신비한 금속들을 혼합하는 — 은빛 합금의 탄생',
@@ -214,6 +231,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Eugenol': {
     termKo: '유지놀',
+    memoryKeyword: 'Eugenia(정향나무) + -ol(화합물) → 정향 오일 성분, 항균·진통 시멘트',
     emoji: '🌸',
     altEmoji: '🕯️',
     koScene: '정향꽃 에센셜 오일 — 아로마테라피의 강한 항균 향',
@@ -226,6 +244,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Gutta Percha': {
     termKo: '구타 퍼차',
+    memoryKeyword: 'getah(수액) + perca(나무) → 열대 나무 천연 고무, 근관 충전 포인트',
     emoji: '🌴',
     altEmoji: '🧤',
     koScene: '말레이시아 열대 정글의 퍼차 나무 수액 — 천연 고무의 원조',
@@ -238,6 +257,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'IRM (ZOE)': {
     termKo: '아이알엠 (지오이)',
+    memoryKeyword: 'Intermediate(임시) + ZOE(산화아연·유지놀) → 최종 수복 전 임시 충전재',
     emoji: '🩹',
     altEmoji: '💊',
     koScene: '임시 반창고 — 최종 치료 준비 중 치아를 보호하는 임시 충전재',
@@ -250,6 +270,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Chlorhexidine': {
     termKo: '클로르헥시딘',
+    memoryKeyword: 'chloro(염소) + hex(6) + idine → 6각형 구조 항균 살균제',
     emoji: '🧪',
     altEmoji: '🫧',
     koScene: '정밀 화학의 항균 솔루션 — 세균 세포막을 파괴하는 살균제',
@@ -263,6 +284,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Sodium Hypochlorite': {
     termKo: '소디움 하이포클로라이트',
+    memoryKeyword: 'hypo(낮은 산화수) + chlor(염소) + ite(염) → 차아염소산나트륨 = 치과용 락스',
     emoji: '🧴',
     altEmoji: '💧',
     koScene: '욕실 락스 한 병 — 강력한 소독·표백 성분',
@@ -276,6 +298,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Calcium Hydroxide': {
     termKo: '칼슘 하이드록사이드',
+    memoryKeyword: 'calcium(칼슘) + hydroxide(수산화) → 강알칼리 흰색 페이스트, 치수 보호제',
     emoji: '🤍',
     altEmoji: '🦷',
     koScene: '흰 석회 분말 — 강알칼리성으로 세균 억제 & 치수 보호',
@@ -290,6 +313,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Tofflemire': {
     termKo: '토플마이어',
+    memoryKeyword: 'Dr. William Tofflemire(인명, 끝은 -re) → 매트릭스 밴드 고정기',
     emoji: '🏆',
     altEmoji: '🎖️',
     koScene: '발명가 Tofflemire 박사 — 치과를 바꾼 매트릭스 리테이너의 창시자',
@@ -302,6 +326,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Hollenback': {
     termKo: '홀렌백',
+    memoryKeyword: 'Dr. Hollenback(인명) → 아말감 조각기 (Half / Full 두 종류)',
     emoji: '🎖️',
     koScene: 'Hollenback 박사 — 아말감 조각기를 설계한 20세기 치과의사',
     femaleAnalogy:
@@ -312,6 +337,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Woodson': {
     termKo: '우드슨',
+    memoryKeyword: 'Dr. Woodson(인명) → 복합레진·임시 수복재 충전용 플라스틱 기구',
     emoji: '🌳',
     koScene: 'Woodson 박사 — 이름이 플라스틱 기구에 새겨진 치과 역사의 일부',
     femaleAnalogy:
@@ -324,6 +350,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Prophylaxis / Prophy': {
     termKo: '프로필락시스 / 프로피',
+    memoryKeyword: 'pro(미리) + phylaxis(지킴) → 충치·잇몸병 예방을 위한 정기 클리닝',
     emoji: '🛡️',
     altEmoji: '🌟',
     koScene: '예방 방패 — 충치·잇몸병을 미리 막아주는 정기 치과 클리닝',
@@ -337,6 +364,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Perioprobe': {
     termKo: '페리오프로브',
+    memoryKeyword: 'peri(주위) + probe(탐침) → 치주낭 깊이를 mm 단위로 측정하는 탐침',
     emoji: '📏',
     altEmoji: '🔬',
     koScene: '잇몸 포켓 깊이를 mm 단위로 재는 초정밀 자',
@@ -349,6 +377,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Periosteal': {
     termKo: '페리오스티얼',
+    memoryKeyword: 'peri(주위) + osteon(뼈) → 골막을 뼈에서 분리·거상하는 기구',
     emoji: '🦴',
     altEmoji: '🌸',
     koScene: '뼈를 덮은 골막을 과일 껍질 벗기듯 조심스럽게 들어올리는',
@@ -361,6 +390,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Cavitron': {
     termKo: '캐비트론',
+    memoryKeyword: 'cavitas(구멍) + -tron(기기) → 초음파 진동으로 치석 제거하는 스케일러',
     emoji: '⚡',
     altEmoji: '🔊',
     koScene: '초음파 진동으로 치석을 분쇄하는 전동 스케일러',
@@ -374,6 +404,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Hemostat': {
     termKo: '헤모스탯',
+    memoryKeyword: 'haima(피) + statos(멈춤) → 혈관을 집어 잠그는 출혈 정지 집게',
     emoji: '🩸',
     altEmoji: '🔒',
     koScene: '출혈 차단 잠금 집게 — 혈관을 집어 잠가 피를 멈추게 하는',
@@ -387,6 +418,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Syringe': {
     termKo: '시린지',
+    memoryKeyword: 'syrinx(갈대·관) → 속이 빈 관으로 액체를 전달하는 모든 주사기형 기구',
     emoji: '🪈',
     altEmoji: '💉',
     koScene: '그리스 신화의 갈대 피리 — 속이 빈 관(管) 구조의 기원',
@@ -399,6 +431,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Matrix': {
     termKo: '매트릭스',
+    memoryKeyword: 'mater(어머니·틀) → 인접면 수복 시 수복재가 굳는 형틀',
     emoji: '🎬',
     altEmoji: '✂️',
     koScene: '옷 패턴지처럼 원하는 형태로 굳히는 형틀 — 영화 매트릭스와 같은 어원',
@@ -411,6 +444,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Articulating (Paper)': {
     termKo: '아티큘레이팅 (페이퍼)',
+    memoryKeyword: 'articulare(관절로 연결) → 교합 접촉 고점에 색 자국을 남기는 종이',
     emoji: '🎯',
     altEmoji: '💋',
     koScene: '립스틱 각도를 확인하듯 교합 접촉 고점을 컬러로 표시하는',
@@ -423,6 +457,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'Spatula': {
     termKo: '스패튤라',
+    memoryKeyword: 'spatha(납작한 칼날) → 인상재·시멘트를 균일하게 혼합하는 납작한 도구',
     emoji: '🍰',
     altEmoji: '🎂',
     koScene: '케이크 아이싱 스패튤라 — 부드럽고 균일하게 재료를 혼합·도포',
@@ -438,6 +473,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'peri- (페리)': {
     termKo: '페리-',
+    memoryKeyword: 'peri- = 주위·둘레 → Periodontal·Periosteal·Perioprobe 모두 "잇몸·뼈 주변"',
     emoji: '🔄',
     koScene: '링처럼 주위를 감싸는 — peri-는 "둘레·주변"을 뜻하는 그리스어 접두어',
     femaleAnalogy:
@@ -449,6 +485,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'endo- (엔돈)': {
     termKo: '엔도-',
+    memoryKeyword: 'endo- = 내부·안쪽 → Endodontics(신경치료), Endofile(근관 파일)',
     emoji: '🔬',
     koScene: '내부 깊숙이 — endo-는 "안쪽·내부"를 뜻하는 그리스어 접두어',
     femaleAnalogy:
@@ -459,6 +496,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   '-oid (오에이데스)': {
     termKo: '-오이드',
+    memoryKeyword: '-oid = ~모양 → Discoid(원반형), Cleoid(갈고리형), Android(인간형)',
     emoji: '🔷',
     koScene: '원형(모양)에서 "-oid" 접미어가 붙어 "~모양"을 나타냄',
     femaleAnalogy:
@@ -469,6 +507,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   '-ette': {
     termKo: '-엣',
+    memoryKeyword: '-ette = 소형 → Curette(작은 긁개), Cigarette(작은 담배)',
     emoji: '🎀',
     koScene: '미니·소형을 나타내는 프랑스어 접미어 — 작고 귀여운 버전',
     femaleAnalogy:
@@ -480,6 +519,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   'hypo- (휘포)': {
     termKo: '하이포-',
+    memoryKeyword: 'hypo- = 아래·낮은 → Hypochlorite(낮은 산화 염소 = 락스), Hyper-의 반대',
     emoji: '⬇️',
     altEmoji: '📉',
     koScene: '아래 방향 화살표 — hypo-는 "아래·부족·낮은 수준"을 나타냄',

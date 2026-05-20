@@ -187,42 +187,41 @@ const EntryCard = React.forwardRef<HTMLDivElement, {
       }}
     >
       {/* ── Collapsed header ─── */}
-      <button className="w-full text-left px-4 py-3.5 flex items-start gap-3" onClick={onToggle} style={{ minHeight: 0 }}>
-        {/* Emoji or color dot */}
-        <span className="w-9 h-9 rounded-xl flex items-center justify-center text-xl shrink-0"
-          style={{ background: meta.bg }}>
-          {illus?.emoji ?? '🔤'}
-        </span>
+      <button className="w-full text-left px-3 py-3 flex items-stretch gap-3" onClick={onToggle} style={{ minHeight: 0 }}>
+        {/* Big emoji block */}
+        <div className="w-16 shrink-0 rounded-xl flex flex-col items-center justify-center gap-0.5 text-4xl"
+          style={{ background: illus?.accentColor ? illus.accentColor + '18' : meta.bg, minHeight: '72px' }}>
+          <span>{illus?.emoji ?? '🔤'}</span>
+          {illus?.altEmoji && <span className="text-xl opacity-60">{illus.altEmoji}</span>}
+        </div>
 
-        <div className="flex-1 min-w-0">
-              {/* English term */}
-              <p className="font-normal text-slate-400 text-xs leading-snug">{entry.term}</p>
-              {/* Korean pronunciation — primary */}
-              {illus?.termKo && (
-                <p className="text-lg font-extrabold text-purple-700 leading-snug tracking-tight mt-0.5">
-                  {illus.termKo}
-                </p>
-              )}
-
+        <div className="flex-1 min-w-0 py-0.5">
+          {/* English term — de-emphasized */}
+          <p className="font-normal text-slate-400 text-[11px] leading-snug">{entry.term}</p>
+          {/* Korean pronunciation — PRIMARY */}
+          {illus?.termKo && (
+            <p className="text-xl font-extrabold leading-snug tracking-tight" style={{ color: meta.color }}>
+              {illus.termKo}
+            </p>
+          )}
+          {/* Memory keyword — the core to memorize */}
+          {illus?.memoryKeyword && (
+            <div className="mt-1.5 px-2 py-1.5 rounded-lg" style={{ background: meta.bg }}>
+              <p className="text-[10px] font-bold uppercase tracking-widest mb-0.5" style={{ color: meta.color }}>
+                암기 키워드
+              </p>
+              <p className="text-xs leading-snug text-slate-700 font-medium">{illus.memoryKeyword}</p>
+            </div>
+          )}
           {/* Typo warning */}
           {entry.common_typos && entry.common_typos.length > 0 && (
-            <p className="text-[11px] text-rose-500 font-semibold mt-0.5">
+            <p className="text-[11px] text-rose-500 font-semibold mt-1">
               ⚠ 오타 주의: {entry.common_typos.join(', ')}
             </p>
           )}
-
-          <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
-            <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold text-white"
-              style={{ background: meta.color }}>
-              {lang === 'ko' ? meta.koLabel : meta.label}
-            </span>
-            <span className="text-xs text-slate-400">
-              {entry.roots.map((r) => r.word).join(' + ')}
-            </span>
-          </div>
         </div>
 
-        <span className="text-slate-300 text-lg shrink-0 mt-1 transition-transform duration-200"
+        <span className="text-slate-300 text-lg shrink-0 self-center transition-transform duration-200"
           style={{ transform: expanded ? 'rotate(90deg)' : undefined }}>›</span>
       </button>
 
@@ -230,19 +229,29 @@ const EntryCard = React.forwardRef<HTMLDivElement, {
       {expanded && (
         <div className="border-t" style={{ borderColor: '#f1f5f9' }}>
 
+          {/* Category label */}
+          <div className="px-4 pt-3">
+            <span className="px-2.5 py-1 rounded-full text-[11px] font-semibold text-white"
+              style={{ background: meta.color }}>
+              {lang === 'ko' ? meta.koLabel : meta.label}
+            </span>
+          </div>
+
           {/* Illustration banner */}
           {illus && (
-            <div className="px-4 pt-4">
+            <div className="px-4 pt-3">
               <div className="rounded-2xl overflow-hidden" style={{ background: illus.accentColor + '12', border: `1px solid ${illus.accentColor}30` }}>
-                {/* Scene header */}
-                <div className="flex items-center gap-3 px-4 py-3" style={{ background: illus.accentColor + '20' }}>
-                  <span className="text-4xl">{illus.emoji}</span>
-                  {illus.altEmoji && <span className="text-2xl opacity-70">{illus.altEmoji}</span>}
-                  <p className="text-sm font-semibold leading-snug" style={{ color: illus.accentColor }}>
-                    {illus.koScene}
-                  </p>
+                {/* Scene header — bigger visual */}
+                <div className="flex items-center gap-4 px-4 py-4" style={{ background: illus.accentColor + '20' }}>
+                  <span className="text-6xl shrink-0">{illus.emoji}</span>
+                  <div>
+                    {illus.altEmoji && <span className="text-2xl opacity-60 mr-1">{illus.altEmoji}</span>}
+                    <p className="text-sm font-bold leading-snug" style={{ color: illus.accentColor }}>
+                      {illus.koScene}
+                    </p>
+                  </div>
                 </div>
-                {/* Female-friendly analogy */}
+                {/* Easy analogy */}
                 <div className="px-4 py-3">
                   <p className="text-[10px] font-bold uppercase tracking-widest mb-1.5" style={{ color: illus.accentColor }}>
                     💡 쉬운 연상법

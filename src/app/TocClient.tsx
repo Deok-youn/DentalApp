@@ -174,14 +174,14 @@ export function TocClient({ sections }: { sections: Section[] }) {
             </div>
             {/* Text */}
             <div className="flex-1 min-w-0">
-              <p className="font-normal text-slate-400 text-xs leading-snug">용어 암기 팁</p>
+              <p className="font-normal text-slate-400 text-xs leading-snug">암기 도우미</p>
               {lang === 'ko' && (
                 <>
                   <p className="text-base font-extrabold text-indigo-700 mt-0.5 leading-snug tracking-tight">
-                    용어 암기 팁
+                    암기 도우미
                   </p>
                   <p className="text-xs font-medium text-indigo-500 mt-0.5 leading-snug">
-                    어원을 알면 더 쉽게 외워집니다
+                    어원·키워드로 쉽게 외우기
                   </p>
                 </>
               )}
