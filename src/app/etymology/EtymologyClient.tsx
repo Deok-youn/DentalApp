@@ -17,20 +17,20 @@ export function EtymologyClient() {
   const { lang } = useLanguage();
   const searchParams = useSearchParams();
   const highlightTerm = searchParams.get('term');
+  const fromPath = searchParams.get('from'); // e.g. /section/operative-instruments
 
   const [filter, setFilter] = useState<Filter>(ALL);
   const [expanded, setExpanded] = useState<string | null>(null);
   const entryRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  // Deep-link: auto-expand and scroll to highlighted term
+  // Deep-link: auto-expand and scroll to highlighted term (top-aligned)
   useEffect(() => {
     if (!highlightTerm) return;
     setFilter(ALL);
     setExpanded(highlightTerm);
-    // Small delay so the list renders before scroll
     const timer = setTimeout(() => {
       const el = entryRefs.current[highlightTerm];
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 200);
     return () => clearTimeout(timer);
   }, [highlightTerm]);
@@ -139,13 +139,23 @@ export function EtymologyClient() {
           backdropFilter: 'blur(12px)',
         }}
       >
-        <div className="max-w-lg mx-auto flex items-center justify-center py-3 px-4">
+        <div className="max-w-lg mx-auto flex items-center justify-center gap-3 py-3 px-4">
+          {/* Back to instrument page */}
+          {fromPath && (
+            <Link
+              href={fromPath}
+              className="flex items-center gap-1.5 px-4 py-2 rounded-full text-white text-sm font-semibold"
+              style={{ background: 'rgba(251,191,36,0.25)', border: '1px solid rgba(251,191,36,0.4)', minHeight: 0 }}
+            >
+              ↩ {lang === 'ko' ? '기구로 돌아가기' : 'Back to Instruments'}
+            </Link>
+          )}
           <Link
             href="/"
-            className="flex items-center gap-2 px-5 py-2 rounded-full text-white text-sm font-semibold"
+            className="flex items-center gap-2 px-4 py-2 rounded-full text-white text-sm font-semibold"
             style={{ background: 'rgba(255,255,255,0.15)', minHeight: 0 }}
           >
-            ← {lang === 'ko' ? '목차로' : 'Table of Contents'}
+            ← {lang === 'ko' ? '목차로' : 'Contents'}
           </Link>
         </div>
       </div>

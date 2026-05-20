@@ -81,7 +81,7 @@ export function SectionClient({ section, prev, next }: Props) {
 
       <main className="max-w-lg mx-auto px-4 py-6 space-y-8">
         {/* ── TRAY SETUP (diagram + items only, NO instruments) ─── */}
-        {section.tray && <TrayBlock tray={section.tray} lang={lang} t={t} />}
+        {section.tray && <TrayBlock tray={section.tray} lang={lang} t={t} sectionId={section.id} />}
 
         {/* ── INSTRUMENTS (instrs sections only) ──────────────────── */}
         {section.type === 'instrs' && section.instruments.length > 0 && (
@@ -94,7 +94,7 @@ export function SectionClient({ section, prev, next }: Props) {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {section.instruments.map((inst) => (
-                <InstrumentCard key={inst.id} instrument={inst} lang={lang} t={t} />
+                <InstrumentCard key={inst.id} instrument={inst} lang={lang} t={t} sectionId={section.id} />
               ))}
             </div>
           </div>
@@ -152,7 +152,7 @@ export function SectionClient({ section, prev, next }: Props) {
 
 type UiT = (typeof UI_STRINGS)[keyof typeof UI_STRINGS];
 
-function TrayBlock({ tray, lang, t }: { tray: TraySetup; lang: string; t: UiT }) {
+function TrayBlock({ tray, lang, t, sectionId }: { tray: TraySetup; lang: string; t: UiT; sectionId: string }) {
   return (
     <div className="space-y-5">
       <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest">{t.trayDiagram}</p>
@@ -212,10 +212,10 @@ function TrayBlock({ tray, lang, t }: { tray: TraySetup; lang: string; t: UiT })
                       <span className="text-xs text-slate-400 font-normal">{item.name}</span>
                       {etymEntries.length > 0 && (
                         <Link
-                          href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}`}
+                          href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}&from=${encodeURIComponent('/section/' + sectionId)}`}
                           className="px-1.5 py-0.5 rounded-full text-white text-[9px] font-bold"
                           style={{ background: 'rgba(99,102,241,0.7)', minHeight: 0 }}
-                          title={lang === 'ko' ? '어원 보기' : 'View Etymology'}
+                          title={lang === 'ko' ? '암기 도우미 보기' : 'View Memory Tip'}
                         >
                           ⓘ
                         </Link>
@@ -242,15 +242,20 @@ function InstrumentCard({
   instrument,
   lang,
   t,
+  sectionId,
 }: {
   instrument: InstrumentEntry;
   lang: string;
   t: UiT;
+  sectionId: string;
 }) {
   const fnEn = formatFunction(instrument);
   const charsEn = instrument.characteristics;
   const ko = lang === 'ko' ? lookupInstrumentKo(instrument.name) : null;
   const etymEntries = lookupEtymologyForInstrument(instrument.name);
+  const etymUrl = etymEntries.length > 0
+    ? `/etymology?term=${encodeURIComponent(etymEntries[0].term)}&from=${encodeURIComponent('/section/' + sectionId)}`
+    : null;
 
   return (
     <div
@@ -267,29 +272,30 @@ function InstrumentCard({
           className="object-contain p-2"
           unoptimized
         />
-        {/* Etymology ⓘ badge */}
-        {etymEntries.length > 0 && (
-          <Link
-            href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}`}
-            className="absolute top-2 right-2 flex items-center gap-1 px-2 py-1 rounded-full text-white text-[10px] font-bold shadow-sm z-10"
-            style={{ background: 'rgba(99,102,241,0.85)', backdropFilter: 'blur(4px)', minHeight: 0 }}
-            title={lang === 'ko' ? '어원 보기' : 'View Etymology'}
-          >
-            ⓘ{etymEntries.length > 1 ? ` ×${etymEntries.length}` : ''}
-          </Link>
-        )}
       </div>
 
       <div className="p-4 space-y-3">
         {/* Name block */}
         <div>
-          {/* English — de-emphasized */}
-          <h3 className="font-normal text-slate-400 text-xs leading-snug">{instrument.name}</h3>
+          {/* English + ⓘ button inline */}
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <h3 className="font-normal text-slate-400 text-xs leading-snug">{instrument.name}</h3>
+            {etymUrl && (
+              <Link
+                href={etymUrl}
+                className="px-1.5 py-0.5 rounded-full text-white text-[10px] font-bold leading-none"
+                style={{ background: 'rgba(99,102,241,0.75)', minHeight: 0 }}
+                title={lang === 'ko' ? '암기 도우미 보기' : 'View Memory Tip'}
+              >
+                ⓘ{etymEntries.length > 1 ? ` ×${etymEntries.length}` : ''}
+              </Link>
+            )}
+          </div>
           {ko && (
             <div className="mt-1.5 space-y-0.5">
-              {/* Korean pronunciation — PRIMARY (larger, bolder) */}
+              {/* Korean pronunciation — PRIMARY */}
               <p className="text-xl font-extrabold text-purple-700 leading-snug tracking-tight">{ko.pronunciation}</p>
-              {/* Korean name — SECONDARY (smaller than pronunciation) */}
+              {/* Korean name — SECONDARY */}
               <p className="text-sm font-medium leading-snug" style={{ color: '#9f1239' }}>
                 {ko.name}
               </p>
