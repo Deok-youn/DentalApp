@@ -213,10 +213,10 @@ function TrayBlock({ tray, lang, t, sectionId }: { tray: TraySetup; lang: string
                     {etymEntries.length > 0 && (
                       <Link
                         href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}&from=${encodeURIComponent('/section/' + sectionId)}`}
-                        className="inline-flex items-center gap-1 mt-0.5 px-2 py-0.5 rounded-full text-white text-[10px] font-bold"
-                        style={{ background: '#6366f1', minHeight: 0 }}
+                        className="inline-flex items-center gap-1 mt-0.5 px-2 py-0.5 rounded-full text-white text-[10px] font-bold active:opacity-70"
+                        style={{ background: '#6366f1', minHeight: 0, cursor: 'pointer', boxShadow: '0 1px 4px rgba(99,102,241,0.4)' }}
                       >
-                        📖 {lang === 'ko' ? '암기팁' : 'Tip'}
+                        📖 {lang === 'ko' ? '암기팁 보기 →' : 'Tip →'}
                       </Link>
                     )}
                     {/* Korean pronunciation — primary */}
@@ -281,10 +281,10 @@ function InstrumentCard({
           {etymUrl && (
             <Link
               href={etymUrl}
-              className="inline-flex items-center gap-1 mt-1 px-2.5 py-1 rounded-full text-white text-xs font-bold"
-              style={{ background: '#6366f1', minHeight: 0 }}
+              className="inline-flex items-center gap-1 mt-1 px-2.5 py-1 rounded-full text-white text-xs font-bold active:opacity-70"
+              style={{ background: '#6366f1', minHeight: 0, cursor: 'pointer', boxShadow: '0 2px 6px rgba(99,102,241,0.4)' }}
             >
-              📖 {lang === 'ko' ? '암기팁' : 'Memory Tip'}
+              📖 {lang === 'ko' ? '암기팁 보기 →' : 'Memory Tip →'}
               {etymEntries.length > 1 && <span className="opacity-70 text-[10px]">×{etymEntries.length}</span>}
             </Link>
           )}
