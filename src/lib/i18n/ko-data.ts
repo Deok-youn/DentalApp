@@ -355,7 +355,7 @@ export const KO_INSTRUMENTS: Record<string, KoInstrumentData> = {
     characteristics: '평탄 또는 격자 무늬 팁. 다양한 크기',
     hint: 'Condense = 압축! 수복재를 구멍 안에 꾹꾹 눌러 다지는 기구',
   },
-  'discloid-cleoid carver': {
+  'discoid-cleoid carver': {
     pronunciation: '디스클로이드-클레오이드 카버',
     name: '디스클로이드-클레오이드 조각기',
     function: '아말감 수복 후 교합면 해부학적 형태 조각',
