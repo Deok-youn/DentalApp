@@ -11,10 +11,10 @@ export type Language = 'en' | 'ko';
 
 type Ctx = { lang: Language; setLang: (l: Language) => void };
 
-const LanguageContext = createContext<Ctx>({ lang: 'en', setLang: () => {} });
+const LanguageContext = createContext<Ctx>({ lang: 'ko', setLang: () => {} });
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Language>('en');
+  const [lang, setLangState] = useState<Language>('ko');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -23,8 +23,8 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     setMounted(true);
   }, []);
 
-  // SSR과 초기 클라이언트 렌더링은 항상 'en' 으로 통일
-  const effectiveLang: Language = mounted ? lang : 'en';
+  // SSR과 초기 클라이언트 렌더링 기본값을 'ko' 로 통일
+  const effectiveLang: Language = mounted ? lang : 'ko';
 
   const setLang = (l: Language) => {
     setLangState(l);
