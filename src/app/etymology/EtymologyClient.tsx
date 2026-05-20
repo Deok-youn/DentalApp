@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useSearchParams, useRouter } from 'next/navigation';
 import { useLanguage } from '@/lib/i18n/LanguageContext';
 import { LanguageToggle } from '@/components/LanguageToggle';
 import { ETYMOLOGY_DATA, CATEGORY_META, type EtymCategory, type EtymEntry } from '@/data/etymology-data';
@@ -15,6 +15,7 @@ const CATEGORY_ORDER: EtymCategory[] = ['shape', 'function', 'material', 'eponym
 
 export function EtymologyClient() {
   const { lang } = useLanguage();
+  const router = useRouter();
   const searchParams = useSearchParams();
   const highlightTerm = searchParams.get('term');
   const fromPath = searchParams.get('from'); // e.g. /section/operative-instruments
@@ -23,15 +24,20 @@ export function EtymologyClient() {
   const [expanded, setExpanded] = useState<string | null>(null);
   const entryRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  // Deep-link: auto-expand and scroll to highlighted term (top-aligned)
+  // Deep-link: auto-expand + scroll with sticky-header offset
   useEffect(() => {
     if (!highlightTerm) return;
     setFilter(ALL);
     setExpanded(highlightTerm);
+    // Wait for render, then scroll with offset (sticky tabs ≈ 90px + extra padding)
     const timer = setTimeout(() => {
       const el = entryRefs.current[highlightTerm];
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 200);
+      if (el) {
+        const top = el.getBoundingClientRect().top + window.scrollY;
+        const offset = 100; // height of sticky filter bar + breathing room
+        window.scrollTo({ top: Math.max(0, top - offset), behavior: 'smooth' });
+      }
+    }, 300);
     return () => clearTimeout(timer);
   }, [highlightTerm]);
 
@@ -140,15 +146,15 @@ export function EtymologyClient() {
         }}
       >
         <div className="max-w-lg mx-auto flex items-center justify-center gap-3 py-3 px-4">
-          {/* Back to instrument page */}
+          {/* Back to instrument — router.back() restores exact scroll position */}
           {fromPath && (
-            <Link
-              href={fromPath}
+            <button
+              onClick={() => router.back()}
               className="flex items-center gap-1.5 px-4 py-2 rounded-full text-white text-sm font-semibold"
-              style={{ background: 'rgba(251,191,36,0.25)', border: '1px solid rgba(251,191,36,0.4)', minHeight: 0 }}
+              style={{ background: 'rgba(251,191,36,0.3)', border: '1px solid rgba(251,191,36,0.5)', minHeight: 0 }}
             >
               ↩ {lang === 'ko' ? '기구로 돌아가기' : 'Back to Instruments'}
-            </Link>
+            </button>
           )}
           <Link
             href="/"

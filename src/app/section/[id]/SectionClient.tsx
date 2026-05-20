@@ -207,20 +207,18 @@ function TrayBlock({ tray, lang, t, sectionId }: { tray: TraySetup; lang: string
                     {item.number}
                   </span>
                   <div className="min-w-0 flex-1">
-                    {/* English name + etymology link */}
-                    <div className="flex items-center gap-1.5 flex-wrap">
-                      <span className="text-xs text-slate-400 font-normal">{item.name}</span>
-                      {etymEntries.length > 0 && (
-                        <Link
-                          href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}&from=${encodeURIComponent('/section/' + sectionId)}`}
-                          className="px-1.5 py-0.5 rounded-full text-white text-[9px] font-bold"
-                          style={{ background: 'rgba(99,102,241,0.7)', minHeight: 0 }}
-                          title={lang === 'ko' ? '암기 도우미 보기' : 'View Memory Tip'}
-                        >
-                          ⓘ
-                        </Link>
-                      )}
-                    </div>
+                    {/* English name */}
+                    <span className="text-xs text-slate-400 font-normal">{item.name}</span>
+                    {/* 암기팁 button */}
+                    {etymEntries.length > 0 && (
+                      <Link
+                        href={`/etymology?term=${encodeURIComponent(etymEntries[0].term)}&from=${encodeURIComponent('/section/' + sectionId)}`}
+                        className="inline-flex items-center gap-1 mt-0.5 px-2 py-0.5 rounded-full text-white text-[10px] font-bold"
+                        style={{ background: '#6366f1', minHeight: 0 }}
+                      >
+                        📖 {lang === 'ko' ? '암기팁' : 'Tip'}
+                      </Link>
+                    )}
                     {/* Korean pronunciation — primary */}
                     {ko && (
                       <p className="text-base font-bold text-purple-700 mt-0.5 tracking-tight">{ko.pronunciation}</p>
@@ -277,20 +275,19 @@ function InstrumentCard({
       <div className="p-4 space-y-3">
         {/* Name block */}
         <div>
-          {/* English + ⓘ button inline */}
-          <div className="flex items-center gap-1.5 flex-wrap">
-            <h3 className="font-normal text-slate-400 text-xs leading-snug">{instrument.name}</h3>
-            {etymUrl && (
-              <Link
-                href={etymUrl}
-                className="px-1.5 py-0.5 rounded-full text-white text-[10px] font-bold leading-none"
-                style={{ background: 'rgba(99,102,241,0.75)', minHeight: 0 }}
-                title={lang === 'ko' ? '암기 도우미 보기' : 'View Memory Tip'}
-              >
-                ⓘ{etymEntries.length > 1 ? ` ×${etymEntries.length}` : ''}
-              </Link>
-            )}
-          </div>
+          {/* English name */}
+          <h3 className="font-normal text-slate-400 text-xs leading-snug">{instrument.name}</h3>
+          {/* 암기팁 button — prominent, below English name */}
+          {etymUrl && (
+            <Link
+              href={etymUrl}
+              className="inline-flex items-center gap-1 mt-1 px-2.5 py-1 rounded-full text-white text-xs font-bold"
+              style={{ background: '#6366f1', minHeight: 0 }}
+            >
+              📖 {lang === 'ko' ? '암기팁' : 'Memory Tip'}
+              {etymEntries.length > 1 && <span className="opacity-70 text-[10px]">×{etymEntries.length}</span>}
+            </Link>
+          )}
           {ko && (
             <div className="mt-1.5 space-y-0.5">
               {/* Korean pronunciation — PRIMARY */}
