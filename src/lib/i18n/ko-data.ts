@@ -376,6 +376,13 @@ export const KO_INSTRUMENTS: Record<string, KoInstrumentData> = {
     characteristics: '도토리(Acorn) 모양 팁',
     hint: '도토리(Acorn) 모양! 수복재 표면을 곡면에 맞게 광택 내는 데 사용',
   },
+  'beavertail burnisher': {
+    pronunciation: '비버테일 버니셔',
+    name: '비버테일 연마기',
+    function: '아말감 충전 후 협·설면 벽 연마, 인접면 매트릭스 밴드 윤곽 형성, 수복물 광택',
+    characteristics: '비버 꼬리(Beavertail) 모양 납작하고 매끄러운 금속 팁. 단일 또는 양단형',
+    hint: '"비버 꼬리처럼 납작한 연마기"! 넓고 평평한 면으로 아말감 옆면(협·설면)을 쓸어 매끄럽게 광택 냄. Carver와 헷갈리지 말 것 — 이건 연마(Burnish)용!',
+  },
   'beavertail carver': {
     pronunciation: '비버테일 카버',
     name: '비버테일 조각기',
