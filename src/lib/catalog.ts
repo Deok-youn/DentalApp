@@ -215,7 +215,13 @@ export function getSections(): Section[] {
     if (def.type === 'instrs') {
       for (const pn of def.pages) {
         const page = pageMap.get(pn);
-        if (page) instruments.push(...page.instruments);
+        if (page) {
+          // "(unknown)" 등 이름/설명 없는 오탐 이미지 제외
+          const valid = page.instruments.filter(
+            (i) => i.name && !i.name.toLowerCase().includes('unknown') && i.name.trim() !== '',
+          );
+          instruments.push(...valid);
+        }
       }
     }
 

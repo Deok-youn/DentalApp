@@ -631,9 +631,9 @@ export const KO_INSTRUMENTS: Record<string, KoInstrumentData> = {
   'periosteal elevator': {
     pronunciation: '페리오스티얼 엘리베이터',
     name: '골막 거상기 (페리오스티얼 엘리베이터)',
-    function: '골막과 점막을 치조골에서 분리·거상',
-    characteristics: '납작하고 끝이 날카로운 금속 기구',
-    hint: '"잇몸 들어올리기"! 발치나 외과 수술 전 잇몸을 뼈에서 떼어내는 첫 단계 기구',
+    function: '골막과 점막을 치조골에서 분리·거상. 발치·외과 수술 전 flap 형성 시 사용',
+    characteristics: '납작하고 끝이 날카로운 금속 기구. 한쪽은 끝이 뾰족, 반대쪽은 넓고 둥근 이중형',
+    hint: '"잇몸 들어올리기"! 수술 첫 단계에서 잇몸(골막)을 뼈에서 박리. Minnesota와 함께 외과 필수 기구',
   },
   'surgical curette': {
     pronunciation: '서지컬 큐렛',
