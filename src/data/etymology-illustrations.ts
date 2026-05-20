@@ -401,7 +401,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
 
   // ── 접두·접미어 (시각 설명 위주) ────────────────────────────────────────────
 
-  'peri- (περί)': {
+  'peri- (페리)': {
     emoji: '🔄',
     koScene: '링처럼 주위를 감싸는 — peri-는 "둘레·주변"을 뜻하는 그리스어 접두어',
     femaleAnalogy:
@@ -411,7 +411,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
     accentColor: '#6366f1',
   },
 
-  'endo- (ἔνδον)': {
+  'endo- (엔돈)': {
     emoji: '🔬',
     koScene: '내부 깊숙이 — endo-는 "안쪽·내부"를 뜻하는 그리스어 접두어',
     femaleAnalogy:
@@ -420,7 +420,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
     accentColor: '#0891b2',
   },
 
-  '-oid (-οειδής)': {
+  '-oid (오에이데스)': {
     emoji: '🔷',
     koScene: '원형(모양)에서 "-oid" 접미어가 붙어 "~모양"을 나타냄',
     femaleAnalogy:
@@ -439,7 +439,7 @@ export const ETYMOLOGY_ILLUSTRATIONS: Record<string, EtymIllustration> = {
     accentColor: '#db2777',
   },
 
-  'hypo- (ὑπό)': {
+  'hypo- (휘포)': {
     emoji: '⬇️',
     altEmoji: '📉',
     koScene: '아래 방향 화살표 — hypo-는 "아래·부족·낮은 수준"을 나타냄',

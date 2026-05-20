@@ -99,7 +99,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     ],
     original_meaning: '원반처럼 생긴',
     ko_explanation:
-      'diskos(원반) + -oid(모양) = "원반 모양". 고대 그리스에서 원반 던지기 종목의 원반(δίσκος)과 같은 어근. ' +
+      'diskos(원반) + -oid(모양) = "원반 모양". 고대 그리스에서 원반 던지기 종목의 원반(디스코스)과 같은 어근. ' +
       'Discoid Carver의 한쪽 팁이 납작하고 둥근 원반처럼 생긴 데서 이름이 붙었습니다.',
     memory_tip:
       '"Disc(원반) + oid(모양)" → 원반 닮은 팁! CD·DVD처럼 납작하고 둥글다고 떠올리세요. 오타 "Discloid"는 없는 단어—l을 빼세요!',
@@ -110,7 +110,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     category: 'shape',
     origin: 'Greek',
     roots: [
-      { word: 'kleis (κλείς)', lang: 'Greek', meaning: '열쇠, 갈고리, 빗장' },
+      { word: 'kleis (클레이스)', lang: 'Greek', meaning: '열쇠, 갈고리, 빗장' },
       { word: '-oid', lang: 'Greek', meaning: '~모양' },
     ],
     original_meaning: '갈고리 모양',
@@ -323,8 +323,8 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     category: 'material',
     origin: 'Arabic / Medieval Latin',
     roots: [
-      { word: 'al-malgham (الملغم)', lang: 'Arabic', meaning: '유연화제, 연고' },
-      { word: 'malagma (μάλαγμα)', lang: 'Greek', meaning: '부드럽게 하는 것' },
+      { word: 'al-malgham (알-말감)', lang: 'Arabic', meaning: '유연화제, 연고' },
+      { word: 'malagma (말라그마)', lang: 'Greek', meaning: '부드럽게 하는 것' },
     ],
     original_meaning: '금속을 부드럽게 혼합한 물질',
     ko_explanation:
@@ -485,7 +485,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     origin: 'Greek',
     roots: [
       { word: 'pro-', lang: 'Greek', meaning: '앞에, 미리, 예방하여' },
-      { word: 'phylaxis (φύλαξις)', lang: 'Greek', meaning: '지킴, 보호, 경계' },
+      { word: 'phylaxis (퓔락시스)', lang: 'Greek', meaning: '지킴, 보호, 경계' },
     ],
     original_meaning: '미리 막음, 예방적 보호',
     ko_explanation:
@@ -500,7 +500,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     category: 'compound',
     origin: 'Greek + Latin',
     roots: [
-      { word: 'peri- (περί)', lang: 'Greek', meaning: '주위, 둘레' },
+      { word: 'peri- (페리)', lang: 'Greek', meaning: '주위, 둘레' },
       { word: 'probare', lang: 'Latin', meaning: '검사하다, 탐색하다, 증명하다' },
     ],
     original_meaning: '치주 주변을 탐색하는 도구',
@@ -514,8 +514,8 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     category: 'compound',
     origin: 'Greek',
     roots: [
-      { word: 'peri- (περί)', lang: 'Greek', meaning: '주위' },
-      { word: 'osteon (ὀστέον)', lang: 'Greek', meaning: '뼈' },
+      { word: 'peri- (페리)', lang: 'Greek', meaning: '주위' },
+      { word: 'osteon (오스테온)', lang: 'Greek', meaning: '뼈' },
       { word: '-al', lang: 'Latin', meaning: '~에 관한, ~의' },
     ],
     original_meaning: '뼈 주위(골막)에 관련된',
@@ -545,8 +545,8 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     category: 'compound',
     origin: 'Greek',
     roots: [
-      { word: 'haima (αἷμα)', lang: 'Greek', meaning: '피, 혈액' },
-      { word: 'statos (στατός)', lang: 'Greek', meaning: '서 있는, 멈춰 있는' },
+      { word: 'haima (하이마)', lang: 'Greek', meaning: '피, 혈액' },
+      { word: 'statos (스타토스)', lang: 'Greek', meaning: '서 있는, 멈춰 있는' },
     ],
     original_meaning: '피를 멈추게 하는 것',
     ko_explanation:
@@ -559,7 +559,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     category: 'compound',
     origin: 'Greek',
     roots: [
-      { word: 'syrinx (σύριγξ)', lang: 'Greek', meaning: '갈대, 갈대 피리, 관(管)' },
+      { word: 'syrinx (쉬링크스)', lang: 'Greek', meaning: '갈대, 갈대 피리, 관(管)' },
     ],
     original_meaning: '관(管) 형태의 기구',
     ko_explanation:
@@ -604,7 +604,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
     origin: 'Latin / Greek',
     roots: [
       { word: 'spatha', lang: 'Latin', meaning: '넓적한 날, 납작한 검' },
-      { word: 'spathe (σπάθη)', lang: 'Greek', meaning: '넓고 납작한 칼날' },
+      { word: 'spathe (스파테)', lang: 'Greek', meaning: '넓고 납작한 칼날' },
     ],
     original_meaning: '납작하고 넓은 칼 모양 도구',
     ko_explanation:
@@ -617,7 +617,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
   // ── 접두어·접미어 (Prefix) ────────────────────────────────────────────────
 
   {
-    term: 'peri- (περί)',
+    term: 'peri- (페리)',
     category: 'prefix',
     origin: 'Greek',
     roots: [{ word: 'peri', lang: 'Greek', meaning: '주위, 둘레, ~을 둘러싸고' }],
@@ -629,7 +629,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
       '"Peri = 주위!" Perimeter(둘레), Peripheral(주변부)—모두 같은 peri-. 치과에서 peri-가 나오면 "잇몸·뼈 주변"을 떠올리세요.',
   },
   {
-    term: 'endo- (ἔνδον)',
+    term: 'endo- (엔돈)',
     category: 'prefix',
     origin: 'Greek',
     roots: [{ word: 'endon', lang: 'Greek', meaning: '내부, 안쪽' }],
@@ -641,7 +641,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
       '"Endo = 내부(Inside)!" 신경치료는 치아 내부(endo) 치료—Endodontics.',
   },
   {
-    term: '-oid (-οειδής)',
+    term: '-oid (오에이데스)',
     category: 'prefix',
     origin: 'Greek',
     roots: [{ word: '-oeides / -oid', lang: 'Greek', meaning: '~처럼 생긴, ~모양의' }],
@@ -663,7 +663,7 @@ export const ETYMOLOGY_DATA: EtymEntry[] = [
       '"-ette = 소형!" Curette = Cure의 작은 버전 → 작은 치료 긁개.',
   },
   {
-    term: 'hypo- (ὑπό)',
+    term: 'hypo- (휘포)',
     category: 'prefix',
     origin: 'Greek',
     roots: [{ word: 'hypo', lang: 'Greek', meaning: '아래, 부족, 낮은 (상태)' }],

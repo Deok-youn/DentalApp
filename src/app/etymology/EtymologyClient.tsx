@@ -106,7 +106,7 @@ export function EtymologyClient() {
             <p className="text-xs text-purple-800 leading-relaxed">
               <strong>치과 선생님의 암기 노하우:</strong> 기구 이름 안에 힌트가 숨어 있어요!
               어근을 알면 처음 보는 단어도 유추할 수 있고, 오타도 자연스럽게 줄어듭니다.
-              각 카드를 탭해서 어원과 여성 친화 연상법을 확인해보세요 🌸
+              각 카드를 탭해서 어원과 쉬운 연상법을 확인해보세요 ✨
             </p>
           </div>
         </div>
@@ -238,7 +238,7 @@ const EntryCard = React.forwardRef<HTMLDivElement, {
                 {/* Female-friendly analogy */}
                 <div className="px-4 py-3">
                   <p className="text-[10px] font-bold uppercase tracking-widest mb-1.5" style={{ color: illus.accentColor }}>
-                    🌸 여성 친화 연상법
+                    💡 쉬운 연상법
                   </p>
                   <p className="text-sm leading-relaxed text-slate-700">{illus.femaleAnalogy}</p>
                 </div>
