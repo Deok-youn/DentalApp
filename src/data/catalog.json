@@ -1,0 +1,2775 @@
+{
+  "version": 3,
+  "sourceFile": "C:\\Users\\LG\\Downloads\\pds-instrument-supply-manual-1.pdf",
+  "sourceBaseName": "pds-instrument-supply-manual-1",
+  "extractedAt": "2026-05-20T02:45:30.305Z",
+  "pageCount": 45,
+  "totalInstruments": 119,
+  "totalTraySetups": 14,
+  "options": {
+    "renderScale": 2,
+    "minImageWidth": 80,
+    "minImageHeight": 60,
+    "textSearchGap": 60
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "University of California, San Diego Pre-Dental Society\nDENTAL INSTRUMENTS PACKET\nCREATED BY: SUMEI MAI\nSUPERVISED BY: DR. RANDALL TAYLOR\n1"
+    },
+    {
+      "pageNumber": 2,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "TABLE OF CONTENT\nPAGE #:\nBASIC DENTAL INSTRUMENTS & SUPPLIES 3-6\nBASIC TRAY SET-UP 4\nINSTRUMENTS & SUPPLIES FOR PROPHY AND SRP 7 - 9\nPROPHYLAXIS TRAY SET-UP 8\nSRP (SCALING & ROOT PLANING) TRAY SET-UP 9\nOPERATIVE INSTRUMENTS & SUPPLIES 10 – 24\nAMALGAM TRAY SET-UP 15\nRUBBER DAM TRAY SET-UP 17\nCOMPOSITE TRAY SET-UP 20\nRESTORATIVE BUR BLOCK SET-UP 21\nX-RAY INSTRUMENTS 25\nUNIVERSAL SURGICAL INSTRUMENTS 26 - 33\nSUTURE TRAY SET-UP 27\nSUTURE REMOVAL TRAY SET-UP 28\nEXTRACTION INSTRUMENTS 29\nEXTRACTION TRAY SET-UP 32\nBURS 34 - 36\nPULPOTOMY/ OPEN & MED. TRAY SET-UP 37\nROOT CANAL TRAY SET-UP 39\nDRY SOCKET TRAY SET-UP 41\nFULL DENTURE ALIGINATE IMPRESSION TRAY SET-UP 42\nCROWN PREP TRAY SEP-UP 43\nCREDITS 45\n2"
+    },
+    {
+      "pageNumber": 3,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p3-inst-0",
+          "pageNumber": 3,
+          "entryIndex": 0,
+          "imagePath": "instruments/p003-i00-dental-tray.png",
+          "widthPx": 352,
+          "heightPx": 219,
+          "name": "Dental Tray",
+          "function": "To provide an area specific for instruments",
+          "characteristics": "Different designs for different procedures, e.g. hygiene tray, operative tray, surgical tray.",
+          "description": "Instrument: Dental Tray\nFunction: To provide an area specific for\ninstruments\nCharacteristics: Different designs for different\nprocedures, e.g. hygiene tray,\noperative tray, surgical tray."
+        },
+        {
+          "id": "p3-inst-1",
+          "pageNumber": 3,
+          "entryIndex": 1,
+          "imagePath": "instruments/p003-i01-mouth-mirror.png",
+          "widthPx": 640,
+          "heightPx": 125,
+          "name": "Mouth Mirror",
+          "function": "To provide indirect vision To retract lips, cheeks, and tongue To reflect light into the mouth",
+          "characteristics": "Accurate image from flat surface mirrors, image magnified with concave mirrors.",
+          "description": "Instrument: Mouth Mirror\nFunction: To provide indirect vision\nTo retract lips, cheeks, and tongue\nTo reflect light into the mouth\nCharacteristics: Accurate image from flat surface\nmirrors, image magnified with\nconcave mirrors."
+        },
+        {
+          "id": "p3-inst-2",
+          "pageNumber": 3,
+          "entryIndex": 2,
+          "imagePath": "instruments/p003-i02-explorers.png",
+          "widthPx": 419,
+          "heightPx": 223,
+          "name": "Explorers",
+          "function": "To Examine teeth for decay (caries), calculus, furcation, or canals and other anomalies",
+          "characteristics": "Pointed tips: sharp, thin and flexible. 1. Orbin; 2. Shepherds; 3. Pigtail",
+          "description": "Instrument: Explorers\nFunction: To Examine teeth for decay\n(caries), calculus, furcation, or\ncanals and other anomalies\nCharacteristics: Pointed tips: sharp, thin and\nflexible.\n1. Orbin; 2. Shepherds; 3. Pigtail"
+        },
+        {
+          "id": "p3-inst-3",
+          "pageNumber": 3,
+          "entryIndex": 3,
+          "imagePath": "instruments/p003-i03-cotton-forceps.png",
+          "widthPx": 639,
+          "heightPx": 111,
+          "name": "Cotton Forceps",
+          "function": "To Grasp and/or transfer material in and out of the oral cavity.",
+          "characteristics": "Plain or serrated tips variety of sizes, angled tip.",
+          "description": "Instrument: Cotton Forceps\nFunction: To Grasp and/or transfer\nmaterial in and out of the oral\ncavity.\nCharacteristics: Plain or serrated tips\nvariety of sizes, angled tip."
+        },
+        {
+          "id": "p3-inst-4",
+          "pageNumber": 3,
+          "entryIndex": 4,
+          "imagePath": "instruments/p003-i04-bib-holder.png",
+          "widthPx": 375,
+          "heightPx": 219,
+          "name": "Bib holder",
+          "function": "To attach the patient bib around the patient’s neck",
+          "characteristics": "Disposable snap/adhesive clips Alligator clip (not disposable) 3",
+          "description": "Instrument: Bib holder\nFunction: To attach the patient bib around\nthe patient’s neck\nCharacteristics: Disposable snap/adhesive clips\nAlligator clip (not disposable)\n3"
+        },
+        {
+          "id": "p3-inst-5",
+          "pageNumber": 3,
+          "entryIndex": 5,
+          "imagePath": "instruments/p003-i05-perioprobe.png",
+          "widthPx": 545,
+          "heightPx": 219,
+          "name": "Perioprobe",
+          "function": "An instrument with incremental marks on the tip to measure the periodontal pockets",
+          "characteristics": "Designed with different increments, e.g. 1mm, 3 mm, PSR probe",
+          "description": "Instrument: Perioprobe\nFunction: An instrument with incremental\nmarks on the tip to measure\nthe periodontal pockets\nCharacteristics: Designed with different\nincrements, e.g. 1mm, 3 mm,\nPSR probe"
+        }
+      ],
+      "fullPageText": "BASIC DENTAL INSTRUMENTS & SUPPLIES\nInstrument: Dental Tray Instrument: Mouth Mirror\nFunction: To provide an area specific for Function: To provide indirect vision\ninstruments To retract lips, cheeks, and tongue\nTo reflect light into the mouth\nCharacteristics: Different designs for different Characteristics: Accurate image from flat surface\nprocedures, e.g. hygiene tray, mirrors, image magnified with\noperative tray, surgical tray. concave mirrors.\nInstrument: Cotton Forceps Instrument: Explorers\nFunction: To Grasp and/or transfer Function: To Examine teeth for decay\nmaterial in and out of the oral (caries), calculus, furcation, or\ncavity. canals and other anomalies\nCharacteristics: Plain or serrated tips Characteristics: Pointed tips: sharp, thin and\nvariety of sizes, angled tip. flexible.\n1. Orbin; 2. Shepherds; 3. Pigtail\nInstrument: Perioprobe Instrument: Bib holder\nFunction: An instrument with incremental Function: To attach the patient bib around\nmarks on the tip to measure the patient’s neck\nthe periodontal pockets\nCharacteristics: Disposable snap/adhesive clips\nCharacteristics: Designed with different Alligator clip (not disposable)\nincrements, e.g. 1mm, 3 mm,\nPSR probe 3"
+    },
+    {
+      "pageNumber": 4,
+      "pageType": "mixed",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p4-inst-0",
+          "pageNumber": 4,
+          "entryIndex": 0,
+          "imagePath": "instruments/p004-i00-patient-bib.png",
+          "widthPx": 288,
+          "heightPx": 219,
+          "name": "Patient Bib",
+          "function": "To prevent materials, debris, fluids from contacting the patient",
+          "characteristics": "Differs in colors, shapes and designs; has a protective liquid barrier side and an absorbent side",
+          "description": "Instrument: Patient Bib\nFunction: To prevent materials, debris, fluids\nfrom contacting the patient\nCharacteristics: Differs in colors, shapes and\ndesigns; has a protective liquid\nbarrier side and an absorbent\nside"
+        },
+        {
+          "id": "p4-inst-1",
+          "pageNumber": 4,
+          "entryIndex": 1,
+          "imagePath": "instruments/p004-i01-instrument-handles.png",
+          "widthPx": 645,
+          "heightPx": 137,
+          "name": "Instrument Handles",
+          "function": "Handles for detachable instrument, heads screw into handle",
+          "characteristics": "E.g. mouth mirror",
+          "description": "Instrument: Instrument Handles\nFunction: Handles for detachable\ninstrument, heads screw into\nhandle\nCharacteristics: E.g. mouth mirror"
+        },
+        {
+          "id": "p4-inst-2",
+          "pageNumber": 4,
+          "entryIndex": 2,
+          "imagePath": "instruments/p004-i02-2-x-2-gauze.png",
+          "widthPx": 233,
+          "heightPx": 219,
+          "name": "2 x 2 gauze",
+          "function": "Absorbent cloth, aid in homeostasis, clean instruments, used in all aspects of dentistry",
+          "characteristics": "2 x 2 inches in size, white, thinly/thick woven absorbent fiber 4 5 4",
+          "description": "Instrument: 2 x 2 gauze\nFunction: Absorbent cloth, aid in\nhomeostasis, clean instruments,\nused in all aspects of dentistry\nCharacteristics: 2 x 2 inches in size, white,\nthinly/thick woven absorbent\nfiber\n4 5\n4"
+        },
+        {
+          "id": "p4-inst-3",
+          "pageNumber": 4,
+          "entryIndex": 3,
+          "imagePath": "instruments/p004-i03-cotton-rolls.png",
+          "widthPx": 230,
+          "heightPx": 219,
+          "name": "Cotton Rolls",
+          "function": "To isolate teeth and absorb saliva Act as a protective tissue barrier; aid in endodontic diagnostics",
+          "characteristics": "Fluid absorbent roll ~ 1 in long 1. 2x2 Gauzes 2. Cotton Rolls 1 3 3. Mouth Mirror 2 4. Explorer 5. Cotton Forcep Basic Tray Set - Up",
+          "description": "Instrument: Cotton Rolls\nFunction: To isolate teeth and absorb saliva\nAct as a protective tissue barrier;\naid in endodontic diagnostics\nCharacteristics: Fluid absorbent roll ~ 1 in long\n1. 2x2 Gauzes\n2. Cotton Rolls\n1 3\n3. Mouth Mirror\n2\n4. Explorer\n5. Cotton Forcep\nBasic Tray Set - Up"
+        }
+      ],
+      "traySetup": {
+        "id": "p4-tray",
+        "pageNumber": 4,
+        "title": "BASIC DENTAL INSTRUMENTS & SUPPLIES",
+        "imagePath": "tray-setups/p004-basic-dental-instruments-supplies.png",
+        "widthPx": 585,
+        "heightPx": 399,
+        "items": [
+          {
+            "number": 2,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 3,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 4,
+            "name": "Explorer"
+          },
+          {
+            "number": 5,
+            "name": "Cotton Forcep"
+          }
+        ],
+        "legendText": "BASIC DENTAL INSTRUMENTS & SUPPLIES\nInstrument: Instrument Handles Instrument: Patient Bib\nFunction: Handles for detachable Function: To prevent materials, debris, fluids\ninstrument, heads screw into from contacting the patient\nhandle\nCharacteristics: Differs in colors, shapes and\nCharacteristics: E.g. mouth mirror designs; has a protective liquid\nbarrier side and an absorbent\nside\nInstrument: Cotton Rolls Instrument: 2 x 2 gauze\nFunction: To isolate teeth and absorb saliva Function: Absorbent cloth, aid in\nAct as a protective tissue barrier; homeostasis, clean instruments,\naid in endodontic diagnostics used in all aspects of dentistry\nCharacteristics: Fluid absorbent roll ~ 1 in long Characteristics: 2 x 2 inches in size, white,\nthinly/thick woven absorbent\nfiber\n1. 2x2 Gauzes\n2. Cotton Rolls\n1 3 4 5\n3. Mouth Mirror\n2\n4. Explorer\n5. Cotton Forcep\nBasic Tray Set - Up\n4",
+        "matchConfidence": "medium"
+      },
+      "fullPageText": "BASIC DENTAL INSTRUMENTS & SUPPLIES\nInstrument: Instrument Handles Instrument: Patient Bib\nFunction: Handles for detachable Function: To prevent materials, debris, fluids\ninstrument, heads screw into from contacting the patient\nhandle\nCharacteristics: Differs in colors, shapes and\nCharacteristics: E.g. mouth mirror designs; has a protective liquid\nbarrier side and an absorbent\nside\nInstrument: Cotton Rolls Instrument: 2 x 2 gauze\nFunction: To isolate teeth and absorb saliva Function: Absorbent cloth, aid in\nAct as a protective tissue barrier; homeostasis, clean instruments,\naid in endodontic diagnostics used in all aspects of dentistry\nCharacteristics: Fluid absorbent roll ~ 1 in long Characteristics: 2 x 2 inches in size, white,\nthinly/thick woven absorbent\nfiber\n1. 2x2 Gauzes\n2. Cotton Rolls\n1 3 4 5\n3. Mouth Mirror\n2\n4. Explorer\n5. Cotton Forcep\nBasic Tray Set - Up\n4"
+    },
+    {
+      "pageNumber": 5,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p5-inst-0",
+          "pageNumber": 5,
+          "entryIndex": 0,
+          "imagePath": "instruments/p005-i00-high-velocity-saliva.png",
+          "widthPx": 639,
+          "heightPx": 118,
+          "name": "High Velocity Saliva",
+          "function": "To evacuate large volumes of fluid and debris from oral cavity",
+          "characteristics": "Straight or slightly angled at one or both end; stainless steel, autoclavable plastic, or disposable plastics; attaches to tubing on dental unit",
+          "description": "Instrument: High Velocity Saliva\nEvacuation (HVE)\nFunction: To evacuate large volumes of fluid\nand debris from oral cavity\nCharacteristics: Straight or slightly angled at one\nor both end; stainless steel,\nautoclavable plastic, or disposable\nplastics; attaches to tubing on\ndental unit"
+        },
+        {
+          "id": "p5-inst-1",
+          "pageNumber": 5,
+          "entryIndex": 1,
+          "imagePath": "instruments/p005-i01-low-velocity-saliva.png",
+          "widthPx": 639,
+          "heightPx": 110,
+          "name": "Low Velocity Saliva",
+          "function": "To evacuate reduced volumes of fluid from oral cavity",
+          "characteristics": "Disposable plastic for single use; can be bent or used straight; attaches to tubing on dental unit 5",
+          "description": "Instrument: Low Velocity Saliva\nEvacuation (LVE)\nFunction: To evacuate reduced volumes of\nfluid from oral cavity\nCharacteristics: Disposable plastic for single use;\ncan be bent or used straight;\nattaches to tubing on dental unit\n5"
+        },
+        {
+          "id": "p5-inst-2",
+          "pageNumber": 5,
+          "entryIndex": 2,
+          "imagePath": "instruments/p005-i02-air-water-syringe-tip.png",
+          "widthPx": 639,
+          "heightPx": 185,
+          "name": "Air/Water Syringe Tip",
+          "function": "To rinse and dry specific teeth or entire oral cavity",
+          "characteristics": "Three-way syringe: air, water, or spray with water and air; Syringe tip: Disposable plastic or autoclavable metal; attaches to air/water syringe on dental unit",
+          "description": "Instrument: Air/Water Syringe Tip\nFunction: To rinse and dry specific teeth or\nentire oral cavity\nCharacteristics: Three-way syringe: air, water, or\nspray with water and air; Syringe\ntip: Disposable plastic or\nautoclavable metal; attaches to\nair/water syringe on dental unit"
+        }
+      ],
+      "fullPageText": "BASIC DENTAL INSTRUMENTS & SUPPLIES\nInstrument: Low Velocity Saliva\nInstrument: High Velocity Saliva\nEvacuation (LVE)\nEvacuation (HVE)\nFunction: To evacuate reduced volumes of\nFunction: To evacuate large volumes of fluid fluid from oral cavity\nand debris from oral cavity Characteristics: Disposable plastic for single use;\ncan be bent or used straight;\nCharacteristics: Straight or slightly angled at one attaches to tubing on dental unit\nor both end; stainless steel,\nautoclavable plastic, or disposable\nplastics; attaches to tubing on\ndental unit\nInstrument: Air/Water Syringe Tip\nFunction: To rinse and dry specific teeth or\nentire oral cavity\nCharacteristics: Three-way syringe: air, water, or\nspray with water and air; Syringe\ntip: Disposable plastic or\nautoclavable metal; attaches to\nair/water syringe on dental unit\n5"
+    },
+    {
+      "pageNumber": 6,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p6-inst-0",
+          "pageNumber": 6,
+          "entryIndex": 0,
+          "imagePath": "instruments/p006-i00-ultrasonic-scaler-unit.png",
+          "widthPx": 293,
+          "heightPx": 219,
+          "name": "Ultrasonic Scaler Unit",
+          "function": "To use with water-cooled ultrasonic tips, to remove calculus",
+          "characteristics": "Has ultra-high frequency tip movement that also sprays water, attaches to dental chair",
+          "description": "Instrument: Ultrasonic Scaler Unit\nFunction: To use with water-cooled\nultrasonic tips, to remove calculus\nCharacteristics: Has ultra-high frequency tip\nmovement that also sprays\nwater, attaches to dental chair"
+        },
+        {
+          "id": "p6-inst-1",
+          "pageNumber": 6,
+          "entryIndex": 1,
+          "imagePath": "instruments/p006-i01-ultrasonic-scaler-tips.png",
+          "widthPx": 639,
+          "heightPx": 118,
+          "name": "Ultrasonic Scaler Tips",
+          "function": "To remove supra/subgingival calculus on teeth, remove bacteria from periodontal pockets and stain.",
+          "characteristics": "Used with Ultrasonic Scaler Unit, water is used to cool tips, 25 k 30 k size tips. Not interchable",
+          "description": "Instrument: Ultrasonic Scaler Tips\nFunction: To remove supra/subgingival\ncalculus on teeth, remove bacteria\nfrom periodontal pockets and stain.\nCharacteristics: Used with Ultrasonic Scaler Unit,\nwater is used to cool tips, 25 k\n30 k size tips. Not interchable"
+        },
+        {
+          "id": "p6-inst-2",
+          "pageNumber": 6,
+          "entryIndex": 2,
+          "imagePath": "instruments/p006-i02-area-specific-curette.png",
+          "widthPx": 180,
+          "heightPx": 621,
+          "name": "Area-Specific Curette",
+          "function": "To scale and remove deposits from specific sub gingival surfaces.",
+          "characteristics": "Anterior and Posterior specific curettes",
+          "description": "Instrument: Area-Specific Curette\nFunction: To scale and remove deposits\nfrom specific sub gingival surfaces.\nCharacteristics: Anterior and Posterior specific\ncurettes"
+        },
+        {
+          "id": "p6-inst-3",
+          "pageNumber": 6,
+          "entryIndex": 3,
+          "imagePath": "instruments/p006-i03-universal-curette.png",
+          "widthPx": 174,
+          "heightPx": 794,
+          "name": "Universal Curette",
+          "function": "To Scale and remove deposits and stain, remove calculus",
+          "characteristics": "Blade has two cutting edges, rounded toe, round on the back Single or double ended.",
+          "description": "Instrument: Universal Curette\nFunction: To Scale and remove deposits\nand stain, remove calculus\nCharacteristics: Blade has two cutting edges,\nrounded toe, round on the back\nSingle or double ended."
+        },
+        {
+          "id": "p6-inst-4",
+          "pageNumber": 6,
+          "entryIndex": 4,
+          "imagePath": "instruments/p006-i04-0-12-chlorhexidine.png",
+          "widthPx": 219,
+          "heightPx": 621,
+          "name": "0.12 % Chlorhexidine",
+          "function": "Oral rinse before treatment, aid with lowering patients oral bioburden",
+          "characteristics": "Blue or Pink liquid, 15 ml oral rinse before and after cleaning 6",
+          "description": "Instrument: 0.12 % Chlorhexidine\nFunction: Oral rinse before treatment, aid\nwith lowering patients oral\nbioburden\nCharacteristics: Blue or Pink liquid, 15 ml oral\nrinse before and after cleaning\n6"
+        },
+        {
+          "id": "p6-inst-5",
+          "pageNumber": 6,
+          "entryIndex": 5,
+          "imagePath": "instruments/p006-i05-sickle-scaler.png",
+          "widthPx": 639,
+          "heightPx": 172,
+          "name": "Sickle Scaler",
+          "function": "To remove large amounts of deposits from supragingival surfaces, ideal for anterior interproximal area",
+          "characteristics": "Variety of sizes, sharp edges with sharp point.",
+          "description": "Instrument: Sickle Scaler\nFunction: To remove large amounts of\ndeposits from supragingival\nsurfaces, ideal for anterior\ninterproximal area\nCharacteristics: Variety of sizes, sharp edges with\nsharp point."
+        }
+      ],
+      "fullPageText": "INSTRUMENTS & SUPPLIES FOR PROPHY AND SRP\nInstrument: Ultrasonic Scaler Unit Instrument: Ultrasonic Scaler Tips\nFunction: To use with water-cooled Function: To remove supra/subgingival\nultrasonic tips, to remove calculus calculus on teeth, remove bacteria\nfrom periodontal pockets and stain.\nCharacteristics: Has ultra-high frequency tip\nmovement that also sprays Characteristics: Used with Ultrasonic Scaler Unit,\nwater, attaches to dental chair water is used to cool tips, 25 k\n30 k size tips. Not interchable\nInstrument: Universal Curette Instrument: Area-Specific Curette\nFunction: To Scale and remove deposits Function: To scale and remove deposits\nand stain, remove calculus from specific sub gingival surfaces.\nCharacteristics: Blade has two cutting edges, Characteristics: Anterior and Posterior specific\nrounded toe, round on the back curettes\nSingle or double ended.\nInstrument: Sickle Scaler Instrument: 0.12 % Chlorhexidine\nFunction: To remove large amounts of Function: Oral rinse before treatment, aid\ndeposits from supragingival with lowering patients oral\nsurfaces, ideal for anterior bioburden\ninterproximal area\nCharacteristics: Blue or Pink liquid, 15 ml oral\nCharacteristics: Variety of sizes, sharp edges with rinse before and after cleaning\nsharp point.\n6"
+    },
+    {
+      "pageNumber": 7,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p7-inst-0",
+          "pageNumber": 7,
+          "entryIndex": 0,
+          "imagePath": "instruments/p007-i00-prophy-cup-paste.png",
+          "widthPx": 489,
+          "heightPx": 213,
+          "name": "Prophy Cup & Paste",
+          "function": "To polish coronal surface after cleaning or before certain operative procedures",
+          "characteristics": "Different prophy cups/points fluoridated or non-fluoridated pastes, also differ in grit",
+          "description": "Instrument: Prophy Cup & Paste\nFunction: To polish coronal surface after\ncleaning or before certain\noperative procedures\nCharacteristics: Different prophy cups/points\nfluoridated or non-fluoridated\npastes, also differ in grit"
+        },
+        {
+          "id": "p7-inst-1",
+          "pageNumber": 7,
+          "entryIndex": 1,
+          "imagePath": "instruments/p007-i01-fluoride-varnish.png",
+          "widthPx": 633,
+          "heightPx": 174,
+          "name": "Fluoride Varnish",
+          "function": "To decrease post cleaning sensitivity, remineralize incipient carious lesions, caries prevention",
+          "characteristics": "Differs in color, sticky, resin based, some patients may be allergic to the resin in the varnish",
+          "description": "Instrument: Fluoride Varnish\nFunction: To decrease post cleaning\nsensitivity, remineralize incipient\ncarious lesions, caries prevention\nCharacteristics: Differs in color, sticky, resin based,\nsome patients may be allergic to the\nresin in the varnish"
+        },
+        {
+          "id": "p7-inst-2",
+          "pageNumber": 7,
+          "entryIndex": 2,
+          "imagePath": "instruments/p007-i02-patient-floss.png",
+          "widthPx": 237,
+          "heightPx": 219,
+          "name": "Patient Floss",
+          "function": "To allow the patient to continue good oral home care",
+          "characteristics": "Waxed or non-waxed floss 7",
+          "description": "Instrument: Patient Floss\nFunction: To allow the patient to continue\ngood oral home care\nCharacteristics: Waxed or non-waxed floss\n7"
+        },
+        {
+          "id": "p7-inst-3",
+          "pageNumber": 7,
+          "entryIndex": 3,
+          "imagePath": "instruments/p007-i03-patient-tooth-brush.png",
+          "widthPx": 639,
+          "heightPx": 97,
+          "name": "Patient Tooth Brush",
+          "function": "To allow the patient to continue good oral home care",
+          "characteristics": "Soft bristle tooth brush",
+          "description": "Instrument: Patient Tooth Brush\nFunction: To allow the patient to continue\ngood oral home care\nCharacteristics: Soft bristle tooth brush"
+        },
+        {
+          "id": "p7-inst-4",
+          "pageNumber": 7,
+          "entryIndex": 4,
+          "imagePath": "instruments/p007-i04-prophy-angle.png",
+          "widthPx": 107,
+          "heightPx": 278,
+          "name": "Prophy Angle",
+          "function": "To polish teeth with prophy cup or brush",
+          "characteristics": "An attachment for straight or prophy handpiece; types: prophy cup for polishing all surfaces of teeth, prophy brush for polishing occlusal surfaces and lingual surfaces of anterior teeth",
+          "description": "Instrument: Prophy Angle\nFunction: To polish teeth with prophy cup or\nbrush\nCharacteristics: An attachment for straight or\nprophy handpiece; types: prophy\ncup for polishing all surfaces of\nteeth, prophy brush for polishing\nocclusal surfaces and lingual\nsurfaces of anterior teeth"
+        }
+      ],
+      "fullPageText": "HYGIENE SET UP FOR PROPHY AND SRP\nInstrument: Prophy Cup & Paste Instrument: Fluoride Varnish\nFunction: To polish coronal surface after Function: To decrease post cleaning\ncleaning or before certain sensitivity, remineralize incipient\noperative procedures carious lesions, caries prevention\nCharacteristics: Different prophy cups/points Characteristics: Differs in color, sticky, resin based,\nfluoridated or non-fluoridated some patients may be allergic to the\npastes, also differ in grit resin in the varnish\nInstrument: Patient Tooth Brush Instrument: Patient Floss\nFunction: To allow the patient to continue Function: To allow the patient to continue\ngood oral home care good oral home care\nCharacteristics: Soft bristle tooth brush Characteristics: Waxed or non-waxed floss\nInstrument: Prophy Angle\nFunction: To polish teeth with prophy cup or\nbrush\nCharacteristics: An attachment for straight or\nprophy handpiece; types: prophy\ncup for polishing all surfaces of\nteeth, prophy brush for polishing\nocclusal surfaces and lingual\nsurfaces of anterior teeth 7"
+    },
+    {
+      "pageNumber": 8,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p8-tray",
+        "pageNumber": 8,
+        "title": "PROPHYLAXIS TRAY SET-UP",
+        "imagePath": "tray-setups/p008-prophylaxis-tray-set-up.png",
+        "widthPx": 1299,
+        "heightPx": 949,
+        "items": [
+          {
+            "number": 1,
+            "name": "Cavitron Tip"
+          },
+          {
+            "number": 2,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 3,
+            "name": "Perioprobe"
+          },
+          {
+            "number": 4,
+            "name": "Scalars"
+          },
+          {
+            "number": 5,
+            "name": "Straight Nose"
+          },
+          {
+            "number": 6,
+            "name": "Prohpy Angle"
+          },
+          {
+            "number": 7,
+            "name": "Prophy Paste"
+          },
+          {
+            "number": 9,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 10,
+            "name": "Floss"
+          }
+        ],
+        "legendText": "PROPHYLAXIS TRAY SET-UP\n9 10\n8\n1 1 2 3 5 6 7\n4\n1. Cavitron Tip\n2. Mouth Mirror\n3. Perioprobe\n4. Scalars\n5. Straight Nose\n6. Prohpy Angle\n7. Prophy Paste\n8. 2x2 Gauzes\n9. Cotton Rolls\n10. Floss\n8",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "PROPHYLAXIS TRAY SET-UP\n9 10\n8\n1 1 2 3 5 6 7\n4\n1. Cavitron Tip\n2. Mouth Mirror\n3. Perioprobe\n4. Scalars\n5. Straight Nose\n6. Prohpy Angle\n7. Prophy Paste\n8. 2x2 Gauzes\n9. Cotton Rolls\n10. Floss\n8"
+    },
+    {
+      "pageNumber": 9,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p9-tray",
+        "pageNumber": 9,
+        "title": "SRP (SCALING & ROOT PLANING) TRAY SET-UP",
+        "imagePath": "tray-setups/p009-srp-scaling-root-planing-tray-set-up.png",
+        "widthPx": 1299,
+        "heightPx": 990,
+        "items": [
+          {
+            "number": 1,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 3,
+            "name": "Topical Anesthetic"
+          },
+          {
+            "number": 4,
+            "name": "Long Needle"
+          },
+          {
+            "number": 5,
+            "name": "Short Needle"
+          },
+          {
+            "number": 6,
+            "name": "Anesthetic Carpule"
+          },
+          {
+            "number": 7,
+            "name": "Chlorohexidine"
+          },
+          {
+            "number": 8,
+            "name": "Syringe"
+          },
+          {
+            "number": 9,
+            "name": "Floss"
+          },
+          {
+            "number": 10,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 11,
+            "name": "Perioprobe"
+          },
+          {
+            "number": 12,
+            "name": "Scalars"
+          },
+          {
+            "number": 13,
+            "name": "Cavitron Tip"
+          }
+        ],
+        "legendText": "SRP (SCALING & ROOT PLANING) TRAY SET-UP\n1\n13\n10 11\n2\n3\n6\n4 5\n8\n7\n9\n12\n1. Cotton Rolls 10. Mouth Mirror\n2. 2x2 Gauzes 11. Perioprobe\n3. Topical Anesthetic 12. Scalars\n4. Long Needle 13. Cavitron Tip\n5. Short Needle\n6. Anesthetic Carpule\n7. Chlorohexidine\n8. Syringe\n9. Floss\n9",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "SRP (SCALING & ROOT PLANING) TRAY SET-UP\n1\n13\n10 11\n2\n3\n6\n4 5\n8\n7\n9\n12\n1. Cotton Rolls 10. Mouth Mirror\n2. 2x2 Gauzes 11. Perioprobe\n3. Topical Anesthetic 12. Scalars\n4. Long Needle 13. Cavitron Tip\n5. Short Needle\n6. Anesthetic Carpule\n7. Chlorohexidine\n8. Syringe\n9. Floss\n9"
+    },
+    {
+      "pageNumber": 10,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p10-inst-0",
+          "pageNumber": 10,
+          "entryIndex": 0,
+          "imagePath": "instruments/p010-i00-q-tip.png",
+          "widthPx": 586,
+          "heightPx": 191,
+          "name": "Q-tip",
+          "function": "To apply topical anesthetic, bite stick, aid in perio and endo diagnostics",
+          "characteristics": "cotton tipped wooden/plastic stick",
+          "description": "Instrument: Q-tip\nFunction: To apply topical anesthetic, bite\nstick, aid in perio and endo\ndiagnostics\nCharacteristics: cotton tipped wooden/plastic\nstick"
+        },
+        {
+          "id": "p10-inst-1",
+          "pageNumber": 10,
+          "entryIndex": 1,
+          "imagePath": "instruments/p010-i01-topical-anesthetic.png",
+          "widthPx": 639,
+          "heightPx": 170,
+          "name": "Topical Anesthetic",
+          "function": "To aid in painless anesthesia",
+          "characteristics": "Gel consistency, applied with Q-tip to the injection site, differs in color and taste",
+          "description": "Instrument: Topical Anesthetic\nFunction: To aid in painless anesthesia\nCharacteristics: Gel consistency, applied with\nQ-tip to the injection site, differs\nin color and taste"
+        },
+        {
+          "id": "p10-inst-2",
+          "pageNumber": 10,
+          "entryIndex": 2,
+          "imagePath": "instruments/p010-i02-lidocaine-red.png",
+          "widthPx": 611,
+          "heightPx": 181,
+          "name": "Lidocaine - Red",
+          "function": "An anesthetic with epinephrine",
+          "characteristics": "2 % Lidocaine 1:100,000 epinephrine; has a red band on the carpule; most used anesthetic",
+          "description": "Instrument: Lidocaine - Red\nFunction: An anesthetic with epinephrine\nCharacteristics: 2 % Lidocaine 1:100,000\nepinephrine; has a red band on the\ncarpule; most used anesthetic"
+        },
+        {
+          "id": "p10-inst-3",
+          "pageNumber": 10,
+          "entryIndex": 3,
+          "imagePath": "instruments/p010-i03-polocaine-tan.png",
+          "widthPx": 627,
+          "heightPx": 181,
+          "name": "Polocaine - Tan",
+          "function": "A non-epinephrine anesthetic, used when patients can’t have epinephrine, e.g. HTN patients",
+          "characteristics": "3 % Polocaine Plain; has a tan band on the carpule",
+          "description": "Instrument: Polocaine - Tan\nFunction: A non-epinephrine anesthetic,\nused when patients can’t have\nepinephrine, e.g. HTN patients\nCharacteristics: 3 % Polocaine Plain; has a tan band\non the carpule"
+        },
+        {
+          "id": "p10-inst-4",
+          "pageNumber": 10,
+          "entryIndex": 4,
+          "imagePath": "instruments/p010-i04-needle-stick-protector.png",
+          "widthPx": 381,
+          "heightPx": 234,
+          "name": "Needle Stick Protector",
+          "function": "To hold needle sheath for one-handed recapping after injection, Prevent needle stick",
+          "characteristics": "Metal and card board protector 10",
+          "description": "Instrument: Needle Stick Protector\nFunction: To hold needle sheath for\none-handed recapping after\ninjection, Prevent needle stick\nCharacteristics: Metal and card board protector\n10"
+        },
+        {
+          "id": "p10-inst-5",
+          "pageNumber": 10,
+          "entryIndex": 5,
+          "imagePath": "instruments/p010-i05-anesthetic-needle.png",
+          "widthPx": 539,
+          "heightPx": 179,
+          "name": "Anesthetic Needle",
+          "function": "To inject anesthetic into soft tissue",
+          "characteristics": "Varies in Gauge and Length Typically short for maxillary Typically long for mandibular",
+          "description": "Instrument: Anesthetic Needle\nFunction: To inject anesthetic into soft\ntissue\nCharacteristics: Varies in Gauge and Length\nTypically short for maxillary\nTypically long for mandibular"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Q-tip Instrument: Topical Anesthetic\nFunction: To apply topical anesthetic, bite Function: To aid in painless anesthesia\nstick, aid in perio and endo\ndiagnostics Characteristics: Gel consistency, applied with\nQ-tip to the injection site, differs\nCharacteristics: cotton tipped wooden/plastic in color and taste\nstick\nInstrument: Lidocaine - Red Instrument: Polocaine - Tan\nFunction: An anesthetic with epinephrine Function: A non-epinephrine anesthetic,\nused when patients can’t have\nepinephrine, e.g. HTN patients\nCharacteristics: 2 % Lidocaine 1:100,000 Characteristics: 3 % Polocaine Plain; has a tan band\nepinephrine; has a red band on the on the carpule\ncarpule; most used anesthetic\nInstrument: Anesthetic Needle Instrument: Needle Stick Protector\nFunction: To inject anesthetic into soft Function: To hold needle sheath for\ntissue one-handed recapping after\ninjection, Prevent needle stick\nCharacteristics: Varies in Gauge and Length\nTypically short for maxillary Characteristics: Metal and card board protector\nTypically long for mandibular\n10"
+    },
+    {
+      "pageNumber": 11,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p11-inst-0",
+          "pageNumber": 11,
+          "entryIndex": 0,
+          "imagePath": "instruments/p011-i00-amalgam-capsule.png",
+          "widthPx": 229,
+          "heightPx": 227,
+          "name": "Amalgam Capsule",
+          "function": "Material used to restore a cavity, build up for crown",
+          "characteristics": "Contains amalgam, has to be triturated, times differ on types of amalgams",
+          "description": "Instrument: Amalgam Capsule\nFunction: Material used to restore a cavity,\nbuild up for crown\nCharacteristics: Contains amalgam, has to be\ntriturated, times differ on types\nof amalgams"
+        },
+        {
+          "id": "p11-inst-1",
+          "pageNumber": 11,
+          "entryIndex": 1,
+          "imagePath": "instruments/p011-i01-anesthetic-syringe.png",
+          "widthPx": 471,
+          "heightPx": 219,
+          "name": "Anesthetic Syringe",
+          "function": "To administer local anesthetic",
+          "characteristics": "Aspirating and self-aspirating syringe. Aspirating syringes have a barb that inserts in the carpule",
+          "description": "Instrument: Anesthetic Syringe\nFunction: To administer local anesthetic\nCharacteristics: Aspirating and self-aspirating\nsyringe. Aspirating syringes have\na barb that inserts in the carpule"
+        },
+        {
+          "id": "p11-inst-2",
+          "pageNumber": 11,
+          "entryIndex": 2,
+          "imagePath": "instruments/p011-i02-amalgam-well.png",
+          "widthPx": 191,
+          "heightPx": 220,
+          "name": "Amalgam Well",
+          "function": "To hold amalgam before it is placed in the preparation",
+          "characteristics": "Metal, plastic, or glass",
+          "description": "Instrument: Amalgam Well\nFunction: To hold amalgam before it is\nplaced in the preparation\nCharacteristics: Metal, plastic, or glass"
+        },
+        {
+          "id": "p11-inst-3",
+          "pageNumber": 11,
+          "entryIndex": 3,
+          "imagePath": "instruments/p011-i03-amalgam-carrier.png",
+          "widthPx": 632,
+          "heightPx": 172,
+          "name": "Amalgam Carrier",
+          "function": "To carry and dispense amalgam for cavity preparation",
+          "characteristics": "Amalgam is placed in hollow tubes, and is then placed in cavity preparation, double or single sided",
+          "description": "Instrument: Amalgam Carrier\nFunction: To carry and dispense amalgam\nfor cavity preparation\nCharacteristics: Amalgam is placed in hollow\ntubes, and is then placed in\ncavity preparation, double or\nsingle sided"
+        },
+        {
+          "id": "p11-inst-4",
+          "pageNumber": 11,
+          "entryIndex": 4,
+          "imagePath": "instruments/p011-i04-unknown.png",
+          "widthPx": 219,
+          "heightPx": 214,
+          "name": "(unknown)",
+          "description": ""
+        },
+        {
+          "id": "p11-inst-5",
+          "pageNumber": 11,
+          "entryIndex": 5,
+          "imagePath": "instruments/p011-i05-smooth-condenser.png",
+          "widthPx": 511,
+          "heightPx": 219,
+          "name": "Smooth Condenser",
+          "function": "To pack and condense amalgam into cavity preparation",
+          "characteristics": "Has smooth ends, round, flat, small and large sizes, single or double sided 11",
+          "description": "Instrument: Smooth Condenser\nFunction: To pack and condense amalgam\ninto cavity preparation\nCharacteristics: Has smooth ends, round, flat,\nsmall and large sizes, single or\ndouble sided\n11"
+        },
+        {
+          "id": "p11-inst-6",
+          "pageNumber": 11,
+          "entryIndex": 6,
+          "imagePath": "instruments/p011-i06-hatchet.png",
+          "widthPx": 639,
+          "heightPx": 156,
+          "name": "Hatchet",
+          "function": "An instrument to accentuate line and point angles of internal and external outlines, remove unsupported enamel",
+          "characteristics": "Cutting edges at differing angles",
+          "description": "Instrument: Hatchet\nFunction: An instrument to accentuate\nline and point angles of internal\nand external outlines, remove\nunsupported enamel\nCharacteristics: Cutting edges at differing angles"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Anesthetic Syringe Instrument: Amalgam Capsule\nFunction: To administer local anesthetic Function: Material used to restore a cavity,\nbuild up for crown\nCharacteristics: Aspirating and self-aspirating Characteristics: Contains amalgam, has to be\nsyringe. Aspirating syringes have triturated, times differ on types\na barb that inserts in the carpule of amalgams\nInstrument: Amalgam Well Instrument: Amalgam Carrier\nFunction: To hold amalgam before it is Function: To carry and dispense amalgam\nplaced in the preparation for cavity preparation\nCharacteristics: Metal, plastic, or glass Characteristics: Amalgam is placed in hollow\ntubes, and is then placed in\ncavity preparation, double or\nsingle sided\nInstrument: Hatchet Instrument: Smooth Condenser\nFunction: To pack and condense amalgam\nFunction: An instrument to accentuate\ninto cavity preparation\nline and point angles of internal\nand external outlines, remove\nCharacteristics: Has smooth ends, round, flat,\nunsupported enamel\nsmall and large sizes, single or\ndouble sided\nCharacteristics: Cutting edges at differing angles\n11"
+    },
+    {
+      "pageNumber": 12,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p12-inst-0",
+          "pageNumber": 12,
+          "entryIndex": 0,
+          "imagePath": "instruments/p012-i00-serrated-condenser.png",
+          "widthPx": 236,
+          "heightPx": 219,
+          "name": "Serrated Condenser",
+          "function": "To pack and condense amalgam into cavity preparation",
+          "characteristics": "Ends are serrated, round, flat, small and large sizes, single or double sided",
+          "description": "Instrument: Serrated Condenser\nFunction: To pack and condense amalgam\ninto cavity preparation\nCharacteristics: Ends are serrated, round, flat,\nsmall and large sizes, single or\ndouble sided"
+        },
+        {
+          "id": "p12-inst-1",
+          "pageNumber": 12,
+          "entryIndex": 1,
+          "imagePath": "instruments/p012-i01-unknown.png",
+          "widthPx": 599,
+          "heightPx": 128,
+          "name": "(unknown)",
+          "description": ""
+        },
+        {
+          "id": "p12-inst-2",
+          "pageNumber": 12,
+          "entryIndex": 2,
+          "imagePath": "instruments/p012-i02-interproximal-condenser.png",
+          "widthPx": 372,
+          "heightPx": 128,
+          "name": "Interproximal Condenser",
+          "function": "To pack and condense amalgam into interproximal areas of the cavity preparation",
+          "characteristics": "Ends are shaped to fit in the mesial or distal box. Smooth or serrated ends",
+          "description": "Instrument: Interproximal Condenser\nFunction: To pack and condense amalgam\ninto interproximal areas of the\ncavity preparation\nCharacteristics: Ends are shaped to fit in the\nmesial or distal box. Smooth or\nserrated ends"
+        },
+        {
+          "id": "p12-inst-3",
+          "pageNumber": 12,
+          "entryIndex": 3,
+          "imagePath": "instruments/p012-i03-football-burnisher.png",
+          "widthPx": 640,
+          "heightPx": 197,
+          "name": "Football Burnisher",
+          "function": "To smooth Amalgam after condensing, to contour matrix band, to burnish amalgam",
+          "characteristics": "Smooth football shaped metal instrument, single or double sided",
+          "description": "Instrument: Football Burnisher\nFunction: To smooth Amalgam after\ncondensing, to contour matrix\nband, to burnish amalgam\nCharacteristics: Smooth football shaped metal\ninstrument, single or double\nsided"
+        },
+        {
+          "id": "p12-inst-4",
+          "pageNumber": 12,
+          "entryIndex": 4,
+          "imagePath": "instruments/p012-i04-acorn-burnisher.png",
+          "widthPx": 612,
+          "heightPx": 161,
+          "name": "Acorn Burnisher",
+          "function": "To smooth amalgam after condensing, used to create occlusal anatomy, burnish amalgam",
+          "characteristics": "Acorn shaped tip, metal, single or double sided",
+          "description": "Instrument: Acorn Burnisher\nFunction: To smooth amalgam after\ncondensing, used to create\nocclusal anatomy, burnish\namalgam\nCharacteristics: Acorn shaped tip, metal, single or\ndouble sided"
+        },
+        {
+          "id": "p12-inst-5",
+          "pageNumber": 12,
+          "entryIndex": 5,
+          "imagePath": "instruments/p012-i05-t-ball-burnisher.png",
+          "widthPx": 88,
+          "heightPx": 176,
+          "name": "T-Ball Burnisher",
+          "function": "To Smooth amalgam after condensing; to contour matrix band, initiate carving and occlusal anatomy",
+          "characteristics": "Smooth metal, has a ball and paddle single or double sided",
+          "description": "Instrument: T-Ball Burnisher\nFunction: To Smooth amalgam after\ncondensing; to contour matrix\nband, initiate carving and occlusal\nanatomy\nCharacteristics: Smooth metal, has a ball and paddle\nsingle or double sided"
+        },
+        {
+          "id": "p12-inst-6",
+          "pageNumber": 12,
+          "entryIndex": 6,
+          "imagePath": "instruments/p012-i06-beavertail-burnisher.png",
+          "widthPx": 659,
+          "heightPx": 140,
+          "name": "Beavertail Burnisher",
+          "function": "To smooth amalgam after condensing; to burnish the lingual, facial amalgam walls of a restoration",
+          "characteristics": "Similar shape to beaver tail, smooth metal, single or double sided 12",
+          "description": "Instrument: Beavertail Burnisher\nFunction: To smooth amalgam after\ncondensing; to burnish the lingual,\nfacial amalgam walls of a\nrestoration\nCharacteristics: Similar shape to beaver tail,\nsmooth metal, single or double\nsided\n12"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Serrated Condenser Instrument: Interproximal Condenser\nFunction: To pack and condense amalgam Function: To pack and condense amalgam\ninto cavity preparation into interproximal areas of the\ncavity preparation\nCharacteristics: Ends are serrated, round, flat,\nsmall and large sizes, single or Characteristics: Ends are shaped to fit in the\ndouble sided mesial or distal box. Smooth or\nserrated ends\nInstrument: Football Burnisher Instrument: Acorn Burnisher\nFunction: To smooth Amalgam after Function: To smooth amalgam after\ncondensing, to contour matrix condensing, used to create\nband, to burnish amalgam occlusal anatomy, burnish\namalgam\nCharacteristics: Smooth football shaped metal\ninstrument, single or double Characteristics: Acorn shaped tip, metal, single or\nsided double sided\nInstrument: T-Ball Burnisher Instrument: Beavertail Burnisher\nFunction: To Smooth amalgam after Function: To smooth amalgam after\ncondensing; to contour matrix condensing; to burnish the lingual,\nband, initiate carving and occlusal facial amalgam walls of a\nanatomy restoration\nCharacteristics: Smooth metal, has a ball and paddle Characteristics: Similar shape to beaver tail,\nsingle or double sided smooth metal, single or double\nsided\n12"
+    },
+    {
+      "pageNumber": 13,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p13-inst-0",
+          "pageNumber": 13,
+          "entryIndex": 0,
+          "imagePath": "instruments/p013-i00-ball-burnisher.png",
+          "widthPx": 640,
+          "heightPx": 159,
+          "name": "Ball Burnisher",
+          "function": "To smooth amalgam after condensing To contour matrix band before amalgam placement",
+          "characteristics": "Burnishes alloy restorations, single or double sided",
+          "description": "Instrument: Ball Burnisher\nFunction: To smooth amalgam after\ncondensing\nTo contour matrix band before\namalgam placement\nCharacteristics: Burnishes alloy restorations,\nsingle or double sided"
+        },
+        {
+          "id": "p13-inst-1",
+          "pageNumber": 13,
+          "entryIndex": 1,
+          "imagePath": "instruments/p013-i01-tanner-carver.png",
+          "widthPx": 659,
+          "heightPx": 147,
+          "name": "Tanner Carver",
+          "function": "To carve occlusal anatomy into amalgam restorations",
+          "characteristics": "Double ended, ends are shaped to carve alloy restorations, sharp",
+          "description": "Instrument: Tanner Carver\nFunction: To carve occlusal anatomy into\namalgam restorations\nCharacteristics: Double ended, ends are shaped\nto carve alloy restorations, sharp"
+        },
+        {
+          "id": "p13-inst-2",
+          "pageNumber": 13,
+          "entryIndex": 2,
+          "imagePath": "instruments/p013-i02-discoid-cleoid-carver.png",
+          "widthPx": 639,
+          "heightPx": 209,
+          "name": "Discoid-Cleoid Carver",
+          "function": "To carve occlusal anatomy into amalgam restorations",
+          "characteristics": "Double ended; Discoid is disk shaped; cleoid is pointed, sharp",
+          "description": "Instrument: Discoid-Cleoid Carver\nFunction: To carve occlusal anatomy into\namalgam restorations\nCharacteristics: Double ended; Discoid is disk\nshaped; cleoid is pointed, sharp"
+        },
+        {
+          "id": "p13-inst-3",
+          "pageNumber": 13,
+          "entryIndex": 3,
+          "imagePath": "instruments/p013-i03-unknown.png",
+          "widthPx": 224,
+          "heightPx": 93,
+          "name": "(unknown)",
+          "description": ""
+        },
+        {
+          "id": "p13-inst-4",
+          "pageNumber": 13,
+          "entryIndex": 4,
+          "imagePath": "instruments/p013-i04-woodson.png",
+          "widthPx": 228,
+          "heightPx": 93,
+          "name": "Woodson",
+          "function": "Used as a burnisher and condenser",
+          "characteristics": "Doubled ended, one end a condenser while other is paddle shaped",
+          "description": "Instrument: Woodson\nFunction: Used as a burnisher and\ncondenser\nCharacteristics: Doubled ended, one end a\ncondenser while other is paddle\nshaped"
+        },
+        {
+          "id": "p13-inst-5",
+          "pageNumber": 13,
+          "entryIndex": 5,
+          "imagePath": "instruments/p013-i05-half-hollenback-carver-2.png",
+          "widthPx": 453,
+          "heightPx": 199,
+          "name": "Half-Hollenback Carver (2)",
+          "function": "To contour and carve occlusal and interproximal anatomy in amalgam restorations",
+          "characteristics": "Half the size of Hollenback (1); double ended, sharp stiff metal blade, sharp point; ends are protrude at different angles; carves other restorative materials 13",
+          "description": "Instrument: Half-Hollenback Carver (2)\nFunction: To contour and carve occlusal\nand interproximal anatomy in\namalgam restorations\nCharacteristics: Half the size of Hollenback (1);\ndouble ended, sharp stiff metal\nblade, sharp point; ends are\nprotrude at different angles; carves\nother restorative materials 13"
+        },
+        {
+          "id": "p13-inst-6",
+          "pageNumber": 13,
+          "entryIndex": 6,
+          "imagePath": "instruments/p013-i06-hollenback-carver.png",
+          "widthPx": 659,
+          "heightPx": 171,
+          "name": "Hollenback Carver",
+          "function": "To contour and carve occlusal and interproximal anatomy in amalgam restorations",
+          "characteristics": "Double ended, sharp stiff metal blade, sharp point; ends are protrude at different angles; carves other restorative materials",
+          "description": "Instrument: Hollenback Carver\nFunction: To contour and carve occlusal\nand interproximal anatomy in\namalgam restorations\nCharacteristics: Double ended, sharp stiff metal\nblade, sharp point; ends are\nprotrude at different angles; carves\nother restorative materials"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Ball Burnisher Instrument: Tanner Carver\nFunction: To smooth amalgam after Function: To carve occlusal anatomy into\ncondensing amalgam restorations\nTo contour matrix band before\namalgam placement Characteristics: Double ended, ends are shaped\nto carve alloy restorations, sharp\nCharacteristics: Burnishes alloy restorations,\nsingle or double sided\nInstrument: Discoid-Cleoid Carver Instrument: Woodson\nFunction: To carve occlusal anatomy into Function: Used as a burnisher and\namalgam restorations condenser\nCharacteristics: Double ended; Discoid is disk Characteristics: Doubled ended, one end a\nshaped; cleoid is pointed, sharp condenser while other is paddle\nshaped\n1\n2\nInstrument: Hollenback Carver Instrument: Half-Hollenback Carver (2)\nFunction: To contour and carve occlusal\nFunction: To contour and carve occlusal\nand interproximal anatomy in\nand interproximal anatomy in\namalgam restorations\namalgam restorations\nCharacteristics: Half the size of Hollenback (1);\nCharacteristics: Double ended, sharp stiff metal\ndouble ended, sharp stiff metal\nblade, sharp point; ends are\nblade, sharp point; ends are\nprotrude at different angles; carves\nprotrude at different angles; carves\nother restorative materials 13\nother restorative materials"
+    },
+    {
+      "pageNumber": 14,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p14-inst-0",
+          "pageNumber": 14,
+          "entryIndex": 0,
+          "imagePath": "instruments/p014-i00-articulating-paper-holder.png",
+          "widthPx": 639,
+          "heightPx": 119,
+          "name": "Articulating Paper Holder",
+          "function": "To hold articulating paper in checking patients bite",
+          "characteristics": "Articulating paper is blue or red, thin to thick",
+          "description": "Instrument: Articulating Paper Holder\nFunction: To hold articulating paper in\nchecking patients bite\nCharacteristics: Articulating paper is blue or\nred, thin to thick"
+        },
+        {
+          "id": "p14-inst-1",
+          "pageNumber": 14,
+          "entryIndex": 1,
+          "imagePath": "instruments/p014-i01-dycal-liner-applicator.png",
+          "widthPx": 639,
+          "heightPx": 100,
+          "name": "Dycal/Liner Applicator",
+          "function": "To Place Calcium Hydroxide or Glass Ionomer",
+          "characteristics": "Has short or long handle, similar to a tiny ball burnisher",
+          "description": "Instrument: Dycal/Liner Applicator\nFunction: To Place Calcium Hydroxide or Glass\nIonomer\nCharacteristics: Has short or long handle, similar\nto a tiny ball burnisher"
+        },
+        {
+          "id": "p14-inst-2",
+          "pageNumber": 14,
+          "entryIndex": 2,
+          "imagePath": "instruments/p014-i02-matrix-band.png",
+          "widthPx": 271,
+          "heightPx": 219,
+          "name": "Matrix Band",
+          "function": "To replace missing proximal walls of cavity preparation for condensation of restorative material",
+          "characteristics": "Universal, premolar, molar, and pediatric bands 14",
+          "description": "Instrument: Matrix Band\nFunction: To replace missing proximal walls of\ncavity preparation for condensation\nof restorative material\nCharacteristics: Universal, premolar, molar, and\npediatric bands\n14"
+        },
+        {
+          "id": "p14-inst-3",
+          "pageNumber": 14,
+          "entryIndex": 3,
+          "imagePath": "instruments/p014-i03-tofflemire-matrix-band.png",
+          "widthPx": 639,
+          "heightPx": 176,
+          "name": "Tofflemire/Matrix Band",
+          "function": "To maintain stability of matrix band during condensation of restorations",
+          "characteristics": "Has a guide slot, spindle, outer and inner knob",
+          "description": "Instrument: Tofflemire/Matrix Band\nRetainer\nFunction: To maintain stability of matrix\nband during condensation of\nrestorations\nCharacteristics: Has a guide slot, spindle, outer\nand inner knob"
+        },
+        {
+          "id": "p14-inst-4",
+          "pageNumber": 14,
+          "entryIndex": 4,
+          "imagePath": "instruments/p014-i04-interproximal-knife.png",
+          "widthPx": 299,
+          "heightPx": 107,
+          "name": "Interproximal Knife",
+          "function": "To Carve interproximal walls of amalgams, to restore contour of proximal walls",
+          "characteristics": "Double ended, Sharp carving hard metal blade",
+          "description": "Instrument: Interproximal Knife\nFunction: To Carve interproximal walls\nof amalgams, to restore contour\nof proximal walls\nCharacteristics: Double ended, Sharp carving\nhard metal blade"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Dycal/Liner Applicator Instrument: Articulating Paper Holder\nFunction: To Place Calcium Hydroxide or Glass Function: To hold articulating paper in\nIonomer checking patients bite\nCharacteristics: Has short or long handle, similar Characteristics: Articulating paper is blue or\nto a tiny ball burnisher red, thin to thick\nInstrument: Tofflemire/Matrix Band Instrument: Matrix Band\nRetainer\nFunction: To replace missing proximal walls of\nFunction: To maintain stability of matrix cavity preparation for condensation\nband during condensation of of restorative material\nrestorations\nCharacteristics: Universal, premolar, molar, and\nCharacteristics: Has a guide slot, spindle, outer pediatric bands\nand inner knob\nInstrument: Interproximal Knife\nFunction: To Carve interproximal walls\nof amalgams, to restore contour\nof proximal walls\nCharacteristics: Double ended, Sharp carving\nhard metal blade\n14"
+    },
+    {
+      "pageNumber": 15,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p15-tray",
+        "pageNumber": 15,
+        "title": "AMALGAM TRAY SET-UP INSTRUMENTS",
+        "imagePath": "tray-setups/p015-amalgam-tray-set-up-7.png",
+        "widthPx": 1500,
+        "heightPx": 1100,
+        "items": [
+          {
+            "number": 2,
+            "name": "Topical Anesthetics"
+          },
+          {
+            "number": 3,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 4,
+            "name": "Needle"
+          },
+          {
+            "number": 5,
+            "name": "Anesthetic Carpules"
+          },
+          {
+            "number": 6,
+            "name": "Floss"
+          },
+          {
+            "number": 7,
+            "name": "Syringe"
+          },
+          {
+            "number": 8,
+            "name": "Restorative Bur Block"
+          },
+          {
+            "number": 9,
+            "name": "Articulating Paper"
+          },
+          {
+            "number": 10,
+            "name": "Amalgam pellets"
+          },
+          {
+            "number": 11,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 12,
+            "name": "Explorer/ Perioprobe"
+          },
+          {
+            "number": 13,
+            "name": "Spoon Excavator"
+          },
+          {
+            "number": 14,
+            "name": "Condenser"
+          },
+          {
+            "number": 15,
+            "name": "Plastic"
+          },
+          {
+            "number": 16,
+            "name": "Discloid-Celoid Carver"
+          },
+          {
+            "number": 17,
+            "name": "Ball Burnisher"
+          },
+          {
+            "number": 18,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 19,
+            "name": "Articulating Paper Holder"
+          },
+          {
+            "number": 20,
+            "name": "Amalgam Carrier"
+          },
+          {
+            "number": 21,
+            "name": "Wood Wedges"
+          },
+          {
+            "number": 22,
+            "name": "Matrix Band"
+          },
+          {
+            "number": 23,
+            "name": "Tofflemier"
+          },
+          {
+            "number": 24,
+            "name": "Amalgam Well"
+          },
+          {
+            "number": 25,
+            "name": "High Speed Handpiece"
+          },
+          {
+            "number": 26,
+            "name": "Low Speed Handpiece"
+          }
+        ],
+        "legendText": "AMALGAM TRAY SET-UP INSTRUMENTS\n1. 2x2 Gauzes\n2. Topical Anesthetics\n3. Cotton Rolls\n4. Needle\n5. Anesthetic Carpules\n6. Floss\n7. Syringe\n8. Restorative Bur Block\n9. Articulating Paper\n10. Amalgam pellets\n11. Mouth Mirror\n12. Explorer/ Perioprobe\n13. Spoon Excavator\n14. Condenser\n15. Plastic\n16. Discloid-Celoid Carver\n17. Ball Burnisher\n18. Cotton Forcep\n19. Articulating Paper Holder\n20. Amalgam Carrier\n21. Wood Wedges\n22. Matrix Band\n23. Tofflemier\n24. Amalgam Well\n25. High Speed Handpiece\n26. Low Speed Handpiece\n16",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "25\n20\n26\n19\n18\n17\n16\n24\n15\n14\n13\n12\n21 22 23\n11\n10\nAMALGAM TRAY SET-UP 7\n8 9\n2\n5\n1\n3 6\n4\n15"
+    },
+    {
+      "pageNumber": 16,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "AMALGAM TRAY SET-UP INSTRUMENTS\n1. 2x2 Gauzes\n2. Topical Anesthetics\n3. Cotton Rolls\n4. Needle\n5. Anesthetic Carpules\n6. Floss\n7. Syringe\n8. Restorative Bur Block\n9. Articulating Paper\n10. Amalgam pellets\n11. Mouth Mirror\n12. Explorer/ Perioprobe\n13. Spoon Excavator\n14. Condenser\n15. Plastic\n16. Discloid-Celoid Carver\n17. Ball Burnisher\n18. Cotton Forcep\n19. Articulating Paper Holder\n20. Amalgam Carrier\n21. Wood Wedges\n22. Matrix Band\n23. Tofflemier\n24. Amalgam Well\n25. High Speed Handpiece\n26. Low Speed Handpiece\n16"
+    },
+    {
+      "pageNumber": 17,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p17-tray",
+        "pageNumber": 17,
+        "title": "RUBBER DAM TRAY SET-UP",
+        "imagePath": "tray-setups/p017-rubber-dam-tray-set-up.png",
+        "widthPx": 1276,
+        "heightPx": 957,
+        "items": [
+          {
+            "number": 1,
+            "name": "Rubber Dam"
+          },
+          {
+            "number": 2,
+            "name": "Clamp holder"
+          },
+          {
+            "number": 3,
+            "name": "Rubber Dam Holder"
+          },
+          {
+            "number": 4,
+            "name": "Rubber Dam Hole Puncher"
+          },
+          {
+            "number": 5,
+            "name": "Clamp"
+          }
+        ],
+        "legendText": "RUBBER DAM TRAY SET-UP\n2\n1\n4\n5\n3\nRUBBER DAM TRAY SET-UP INSTRUMENTS\n1. Rubber Dam\n2. Clamp holder\n3. Rubber Dam Holder\n4. Rubber Dam Hole Puncher\n5. Clamp\n17",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "RUBBER DAM TRAY SET-UP\n2\n1\n4\n5\n3\nRUBBER DAM TRAY SET-UP INSTRUMENTS\n1. Rubber Dam\n2. Clamp holder\n3. Rubber Dam Holder\n4. Rubber Dam Hole Puncher\n5. Clamp\n17"
+    },
+    {
+      "pageNumber": 18,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p18-inst-0",
+          "pageNumber": 18,
+          "entryIndex": 0,
+          "imagePath": "instruments/p018-i00-wood-wedges.png",
+          "widthPx": 477,
+          "heightPx": 219,
+          "name": "Wood Wedges",
+          "function": "To hold matrix band in place along gingival margin of class II",
+          "characteristics": "Triangular or rounded plastic or wooden, various sizes and color",
+          "description": "Instrument: Wood Wedges\nFunction: To hold matrix band in place\nalong gingival margin of class II\nCharacteristics: Triangular or rounded plastic or\nwooden, various sizes and color"
+        },
+        {
+          "id": "p18-inst-1",
+          "pageNumber": 18,
+          "entryIndex": 1,
+          "imagePath": "instruments/p018-i01-spoon-excavator.png",
+          "widthPx": 659,
+          "heightPx": 168,
+          "name": "Spoon Excavator",
+          "function": "To remove carious dentin To remove temp cement, provisional crowns",
+          "characteristics": "Spoon-shaped with a cutting edge, small and large sizes",
+          "description": "Instrument: Spoon Excavator\nFunction: To remove carious dentin\nTo remove temp cement,\nprovisional crowns\nCharacteristics: Spoon-shaped with a cutting\nedge, small and large sizes"
+        },
+        {
+          "id": "p18-inst-2",
+          "pageNumber": 18,
+          "entryIndex": 2,
+          "imagePath": "instruments/p018-i02-plastic-instrument.png",
+          "widthPx": 659,
+          "heightPx": 192,
+          "name": "Plastic Instrument",
+          "function": "To carry composite material for cavity preparation, and shape composite, not for any other use",
+          "characteristics": "Specially coated instrument, not for amalgam or any other use",
+          "description": "Instrument: Plastic Instrument\nFunction: To carry composite material for\ncavity preparation, and shape\ncomposite, not for any other use\nCharacteristics: Specially coated instrument, not\nfor amalgam or any other use"
+        },
+        {
+          "id": "p18-inst-3",
+          "pageNumber": 18,
+          "entryIndex": 3,
+          "imagePath": "instruments/p018-i03-micro-brush.png",
+          "widthPx": 639,
+          "heightPx": 98,
+          "name": "Micro Brush",
+          "function": "Use to apply primer, dentin bond enamel bond, sealants",
+          "characteristics": "Small plastic instrument with small fiber bristled head",
+          "description": "Instrument: Micro Brush\nFunction: Use to apply primer, dentin bond\nenamel bond, sealants\nCharacteristics: Small plastic instrument with\nsmall fiber bristled head"
+        },
+        {
+          "id": "p18-inst-4",
+          "pageNumber": 18,
+          "entryIndex": 4,
+          "imagePath": "instruments/p018-i04-composite-well.png",
+          "widthPx": 242,
+          "heightPx": 249,
+          "name": "Composite Well",
+          "function": "Plastic well used to hold composite, etch, bond, cavity conditioner",
+          "characteristics": "Plastic well, smaller than amalgam well 18",
+          "description": "Instrument: Composite Well\nFunction: Plastic well used to hold composite,\netch, bond, cavity conditioner\nCharacteristics: Plastic well, smaller than amalgam\nwell\n18"
+        },
+        {
+          "id": "p18-inst-5",
+          "pageNumber": 18,
+          "entryIndex": 5,
+          "imagePath": "instruments/p018-i05-mylar-strip.png",
+          "widthPx": 271,
+          "heightPx": 260,
+          "name": "Mylar Strip",
+          "function": "Thin clear strip used to isolate cavity prep, able to use cure light",
+          "characteristics": "Similar size to matrix band, clear",
+          "description": "Instrument: Mylar Strip\nFunction: Thin clear strip used to isolate cavity\nprep, able to use cure light\nCharacteristics: Similar size to matrix band, clear"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Spoon Excavator Instrument: Wood Wedges\nFunction: To remove carious dentin\nFunction: To hold matrix band in place\nTo remove temp cement,\nalong gingival margin of class II\nprovisional crowns\nCharacteristics: Spoon-shaped with a cutting\nCharacteristics: Triangular or rounded plastic or\nedge, small and large sizes\nwooden, various sizes and color\nInstrument: Plastic Instrument Instrument: Micro Brush\nFunction: To carry composite material for\nFunction: Use to apply primer, dentin bond\ncavity preparation, and shape\nenamel bond, sealants\ncomposite, not for any other use\nCharacteristics: Small plastic instrument with\nCharacteristics: Specially coated instrument, not\nsmall fiber bristled head\nfor amalgam or any other use\nInstrument: Composite Well\nInstrument: Mylar Strip\nFunction: Plastic well used to hold composite,\netch, bond, cavity conditioner\nFunction: Thin clear strip used to isolate cavity\nprep, able to use cure light\nCharacteristics: Plastic well, smaller than amalgam\nwell\nCharacteristics: Similar size to matrix band, clear\n18"
+    },
+    {
+      "pageNumber": 19,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p19-inst-0",
+          "pageNumber": 19,
+          "entryIndex": 0,
+          "imagePath": "instruments/p019-i00-protective-eye-wear.png",
+          "widthPx": 501,
+          "heightPx": 219,
+          "name": "Protective Eye Wear",
+          "function": "To protect operator’s and assistant’s eyes during procedures",
+          "characteristics": "Orange, dark, clear, protects eyes",
+          "description": "Instrument: Protective Eye Wear\nFunction: To protect operator’s and\nassistant’s eyes during procedures\nCharacteristics: Orange, dark, clear, protects\neyes"
+        },
+        {
+          "id": "p19-inst-1",
+          "pageNumber": 19,
+          "entryIndex": 1,
+          "imagePath": "instruments/p019-i01-curing-light.png",
+          "widthPx": 288,
+          "heightPx": 219,
+          "name": "Curing Light",
+          "function": "To harden light-cure materials, bonding, composites, sealants, cements, build up",
+          "characteristics": "Material must be cured in increments of 2 mm or less, need to be above 300 wavelength",
+          "description": "Instrument: Curing Light\nFunction: To harden light-cure materials,\nbonding, composites, sealants,\ncements, build up\nCharacteristics: Material must be cured in\nincrements of 2 mm or less, need to\nbe above 300 wavelength"
+        },
+        {
+          "id": "p19-inst-2",
+          "pageNumber": 19,
+          "entryIndex": 2,
+          "imagePath": "instruments/p019-i02-finishing-strips.png",
+          "widthPx": 266,
+          "heightPx": 219,
+          "name": "Finishing Strips",
+          "function": "To finish and smooth interproximal surfaces",
+          "characteristics": "Differs in grit, coarse, fine, extra fine. Abrasive",
+          "description": "Instrument: Finishing Strips\nFunction: To finish and smooth\ninterproximal surfaces\nCharacteristics: Differs in grit, coarse, fine, extra\nfine. Abrasive"
+        },
+        {
+          "id": "p19-inst-3",
+          "pageNumber": 19,
+          "entryIndex": 3,
+          "imagePath": "instruments/p019-i03-bonding-agents.png",
+          "widthPx": 214,
+          "heightPx": 220,
+          "name": "Bonding Agents",
+          "function": "Acts as an adhesive between the tooth and the composite material",
+          "characteristics": "Differs in generation, all in one unit, 3 step, 2 step, brands require different techniques 19",
+          "description": "Instrument: Bonding Agents\nFunction: Acts as an adhesive between the\ntooth and the composite material\nCharacteristics: Differs in generation, all in one\nunit, 3 step, 2 step, brands require\ndifferent techniques\n19"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Curing Light Instrument: Protective Eye Wear\nFunction: To harden light-cure materials, Function: To protect operator’s and\nbonding, composites, sealants, assistant’s eyes during procedures\ncements, build up\nCharacteristics: Material must be cured in Characteristics: Orange, dark, clear, protects\nincrements of 2 mm or less, need to eyes\nbe above 300 wavelength\nInstrument: Finishing Strips Instrument: Bonding Agents\nFunction: To finish and smooth Function: Acts as an adhesive between the\ninterproximal surfaces tooth and the composite material\nCharacteristics: Differs in grit, coarse, fine, extra Characteristics: Differs in generation, all in one\nfine. Abrasive unit, 3 step, 2 step, brands require\ndifferent techniques\n19"
+    },
+    {
+      "pageNumber": 20,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p20-tray",
+        "pageNumber": 20,
+        "title": "Composite Tray Set-up Instruments",
+        "imagePath": "tray-setups/p020-composite-tray-set-up-5.png",
+        "widthPx": 1453,
+        "heightPx": 1074,
+        "items": [
+          {
+            "number": 1,
+            "name": "Diamond Football"
+          },
+          {
+            "number": 2,
+            "name": "Topical Anesthetic"
+          },
+          {
+            "number": 3,
+            "name": "Anesthetic carpules"
+          },
+          {
+            "number": 4,
+            "name": "Diamond Round-Nosed"
+          },
+          {
+            "number": 5,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 6,
+            "name": "Syringe"
+          },
+          {
+            "number": 7,
+            "name": "High Speed Handpiece"
+          },
+          {
+            "number": 8,
+            "name": "Restorative Bur Block"
+          },
+          {
+            "number": 9,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 10,
+            "name": "Floss"
+          },
+          {
+            "number": 11,
+            "name": "Hand Mirror"
+          },
+          {
+            "number": 12,
+            "name": "Perioprobe"
+          },
+          {
+            "number": 13,
+            "name": "Spoon Excavator"
+          },
+          {
+            "number": 14,
+            "name": "Acorn Burnisher"
+          },
+          {
+            "number": 15,
+            "name": "Ball/ Football Burnisher"
+          },
+          {
+            "number": 16,
+            "name": "Condenser"
+          },
+          {
+            "number": 17,
+            "name": "Plastic Instrument"
+          },
+          {
+            "number": 18,
+            "name": "Discloid-Cleoid Carver"
+          },
+          {
+            "number": 19,
+            "name": "Beavertail Carver"
+          },
+          {
+            "number": 20,
+            "name": "Bonding Agents"
+          },
+          {
+            "number": 21,
+            "name": "Microbrush"
+          },
+          {
+            "number": 22,
+            "name": "Mixing Well"
+          },
+          {
+            "number": 23,
+            "name": "Articulating Paper"
+          },
+          {
+            "number": 24,
+            "name": "Wooden Wedges"
+          },
+          {
+            "number": 25,
+            "name": "Matrix Band"
+          },
+          {
+            "number": 26,
+            "name": "Packable Composite"
+          },
+          {
+            "number": 27,
+            "name": "Tofflemire"
+          },
+          {
+            "number": 28,
+            "name": "Flowable Composite"
+          },
+          {
+            "number": 29,
+            "name": "Etch"
+          },
+          {
+            "number": 30,
+            "name": "Slow speed"
+          }
+        ],
+        "legendText": "Composite Tray Set-up Instruments\n1. 2x2 Gauzes 16. Condenser\n2. Topical Anesthetic 17. Plastic Instrument\n3. Anesthetic carpules 18. Discloid-Cleoid Carver\n4. Needle 19. Beavertail Carver\n5. Cotton Rolls 20. Bonding Agents\n6. Syringe 21. Microbrush\n7. High Speed Handpiece 22. Mixing Well\n8. Restorative Bur Block 23. Articulating Paper\n9. Cotton Forcep 24. Wooden Wedges\n10. Floss 25. Matrix Band\n11. Hand Mirror 26. Packable Composite\n12. Perioprobe 27. Tofflemire\n13. Spoon Excavator 28. Flowable Composite\n14. Acorn Burnisher 29. Etch\n15. Ball/ Football Burnisher 30. Slow speed\nRESTORATIVE BUR BLOCK\n1 2 3 1. Diamond Football\n2. Round Bur\n3. Latch Round Bur\n4\n5\n4. Diamond Round-Nosed\n5. White Stone\n6 7 8 6. 330\n7. 557\n8. Diamond Tree Top\n21",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "29\n22\n20\n27 28\n21\n19 26 25\n18\n17\n16 24\n15\n14 20\n13\n12 23\n11\n10\n9\n8\n7\n6\nCOMPOSITE TRAY SET-UP 5\n2 30\n4\n3\n1\n20"
+    },
+    {
+      "pageNumber": 21,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "Composite Tray Set-up Instruments\n1. 2x2 Gauzes 16. Condenser\n2. Topical Anesthetic 17. Plastic Instrument\n3. Anesthetic carpules 18. Discloid-Cleoid Carver\n4. Needle 19. Beavertail Carver\n5. Cotton Rolls 20. Bonding Agents\n6. Syringe 21. Microbrush\n7. High Speed Handpiece 22. Mixing Well\n8. Restorative Bur Block 23. Articulating Paper\n9. Cotton Forcep 24. Wooden Wedges\n10. Floss 25. Matrix Band\n11. Hand Mirror 26. Packable Composite\n12. Perioprobe 27. Tofflemire\n13. Spoon Excavator 28. Flowable Composite\n14. Acorn Burnisher 29. Etch\n15. Ball/ Football Burnisher 30. Slow speed\nRESTORATIVE BUR BLOCK\n1 2 3 1. Diamond Football\n2. Round Bur\n3. Latch Round Bur\n4\n5\n4. Diamond Round-Nosed\n5. White Stone\n6 7 8 6. 330\n7. 557\n8. Diamond Tree Top\n21"
+    },
+    {
+      "pageNumber": 22,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p22-inst-0",
+          "pageNumber": 22,
+          "entryIndex": 0,
+          "imagePath": "instruments/p022-i00-cavity-conditioner.png",
+          "widthPx": 293,
+          "heightPx": 341,
+          "name": "Cavity Conditioner",
+          "function": "Works similar as etch, used to prepare the tooth for a Glass Ionomer restoration",
+          "characteristics": "20 % Polyacrylic Acid, Deep blue tint",
+          "description": "Instrument: Cavity Conditioner\nFunction: Works similar as etch, used to\nprepare the tooth for a Glass\nIonomer restoration\nCharacteristics: 20 % Polyacrylic Acid, Deep blue\ntint"
+        },
+        {
+          "id": "p22-inst-1",
+          "pageNumber": 22,
+          "entryIndex": 1,
+          "imagePath": "instruments/p022-i01-etch.png",
+          "widthPx": 659,
+          "heightPx": 139,
+          "name": "Etch",
+          "function": "To remove the smear layer, prepare the tooth for bonding",
+          "characteristics": "Differs in color and pH level. Concentrations of Phosphoric Acid ~ typically 37 % and blue",
+          "description": "Instrument: Etch\nFunction: To remove the smear layer,\nprepare the tooth for bonding\nCharacteristics: Differs in color and pH level.\nConcentrations of Phosphoric\nAcid ~ typically 37 % and blue"
+        },
+        {
+          "id": "p22-inst-2",
+          "pageNumber": 22,
+          "entryIndex": 2,
+          "imagePath": "instruments/p022-i02-vitrabond-liner.png",
+          "widthPx": 280,
+          "heightPx": 219,
+          "name": "Vitrabond liner",
+          "function": "A glass ionomer material used to make a liner",
+          "characteristics": "Powder and liquid mixed 1:1 ratio, light cure and self setting",
+          "description": "Instrument: Vitrabond liner\nFunction: A glass ionomer material used\nto make a liner\nCharacteristics: Powder and liquid mixed 1:1\nratio, light cure and self setting"
+        },
+        {
+          "id": "p22-inst-3",
+          "pageNumber": 22,
+          "entryIndex": 3,
+          "imagePath": "instruments/p022-i03-dycal-calcium-hydroxide.png",
+          "widthPx": 376,
+          "heightPx": 219,
+          "name": "Dycal (Calcium Hydroxide",
+          "function": "Used for indirect pulp cap, protective liner for deep cavities",
+          "characteristics": "A base and catalyst paste, mixes together to form a tan paste, self sets. 1:1 ratio mix",
+          "description": "Instrument: Dycal (Calcium Hydroxide\nComposition)\nFunction: Used for indirect pulp cap,\nprotective liner for deep cavities\nCharacteristics: A base and catalyst paste, mixes\ntogether to form a tan paste, self\nsets. 1:1 ratio mix"
+        },
+        {
+          "id": "p22-inst-4",
+          "pageNumber": 22,
+          "entryIndex": 4,
+          "imagePath": "instruments/p022-i04-irm-zoe.png",
+          "widthPx": 256,
+          "heightPx": 219,
+          "name": "IRM (ZOE)",
+          "function": "Used as a temporary filling material, sedative filling",
+          "characteristics": "White powder mixed with eugenol, 1:1 mixture, mix so it is not sticky to gloved finger",
+          "description": "Instrument: IRM (ZOE)\nFunction: Used as a temporary filling\nmaterial, sedative filling\nCharacteristics: White powder mixed with\neugenol, 1:1 mixture, mix so it is\nnot sticky to gloved finger"
+        },
+        {
+          "id": "p22-inst-5",
+          "pageNumber": 22,
+          "entryIndex": 5,
+          "imagePath": "instruments/p022-i05-fuji-ix-or-fuji-ii.png",
+          "widthPx": 464,
+          "heightPx": 220,
+          "name": "Fuji IX or Fuji II",
+          "function": "Used for restorative material for high caries risk, releases fluoride",
+          "characteristics": "Triturable capsules or liquid powder 22",
+          "description": "Instrument: Fuji IX or Fuji II\nFunction: Used for restorative material\nfor high caries risk, releases\nfluoride\nCharacteristics: Triturable capsules or liquid\npowder\n22"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Etch Instrument: Cavity Conditioner\nFunction: To remove the smear layer, Function: Works similar as etch, used to\nprepare the tooth for bonding prepare the tooth for a Glass\nIonomer restoration\nCharacteristics: Differs in color and pH level.\nConcentrations of Phosphoric Characteristics: 20 % Polyacrylic Acid, Deep blue\nAcid ~ typically 37 % and blue tint\nInstrument: Dycal (Calcium Hydroxide Instrument: Vitrabond liner\nComposition)\nFunction: Used for indirect pulp cap, Function: A glass ionomer material used\nprotective liner for deep cavities to make a liner\nCharacteristics: A base and catalyst paste, mixes Characteristics: Powder and liquid mixed 1:1\ntogether to form a tan paste, self ratio, light cure and self setting\nsets. 1:1 ratio mix\nInstrument: IRM (ZOE) Instrument: Fuji IX or Fuji II\nFunction: Used as a temporary filling Function: Used for restorative material\nmaterial, sedative filling for high caries risk, releases\nfluoride\nCharacteristics: White powder mixed with\neugenol, 1:1 mixture, mix so it is Characteristics: Triturable capsules or liquid\nnot sticky to gloved finger powder\n22"
+    },
+    {
+      "pageNumber": 23,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p23-inst-0",
+          "pageNumber": 23,
+          "entryIndex": 0,
+          "imagePath": "instruments/p023-i00-packable-composite.png",
+          "widthPx": 524,
+          "heightPx": 219,
+          "name": "Packable Composite",
+          "function": "Low viscosity, high filler, permanent restorative material",
+          "characteristics": "Either in a syringe or composite tip. Composite tip requires composite gun",
+          "description": "Instrument: Packable Composite\nFunction: Low viscosity, high filler,\npermanent restorative material\nCharacteristics: Either in a syringe or composite\ntip. Composite tip requires\ncomposite gun"
+        },
+        {
+          "id": "p23-inst-1",
+          "pageNumber": 23,
+          "entryIndex": 1,
+          "imagePath": "instruments/p023-i01-flowable-composite.png",
+          "widthPx": 639,
+          "heightPx": 146,
+          "name": "Flowable Composite",
+          "function": "High viscosity, low filler composite, used small areas or before placement of packable composite, differs in shade",
+          "characteristics": "Fluid like composite, with in a syringe used with a syringe tip",
+          "description": "Instrument: Flowable Composite\nFunction: High viscosity, low filler\ncomposite, used small areas or\nbefore placement of packable\ncomposite, differs in shade\nCharacteristics: Fluid like composite, with in a\nsyringe used with a syringe tip"
+        },
+        {
+          "id": "p23-inst-2",
+          "pageNumber": 23,
+          "entryIndex": 2,
+          "imagePath": "instruments/p023-i02-composite-gun.png",
+          "widthPx": 375,
+          "heightPx": 220,
+          "name": "Composite Gun",
+          "function": "Holds composite tip, used to deliver composite to the cavity prep",
+          "characteristics": "Composite tip inserts in the barrel of the composite gun",
+          "description": "Instrument: Composite Gun\nFunction: Holds composite tip, used to\ndeliver composite to the cavity\nprep\nCharacteristics: Composite tip inserts in the\nbarrel of the composite gun"
+        },
+        {
+          "id": "p23-inst-3",
+          "pageNumber": 23,
+          "entryIndex": 3,
+          "imagePath": "instruments/p023-i03-composite-shade-guide.png",
+          "widthPx": 479,
+          "heightPx": 219,
+          "name": "Composite Shade Guide",
+          "function": "To allow the patient to see the shade they would like the filling to be.",
+          "characteristics": "Has different color teeth with a shade, e.g. A2, B1, C3, D2…",
+          "description": "Instrument: Composite Shade Guide\nFunction: To allow the patient to see\nthe shade they would like\nthe filling to be.\nCharacteristics: Has different color teeth with a\nshade, e.g. A2, B1, C3, D2…\nInstrument: Low Speed Handpiece\nFunction: To remove decay, polish, open\npulpal access, endo, refine prep\nCharacteristics: Runs on air, up to 30,000 rpm’s,\nlatch and friction grip\n23"
+        },
+        {
+          "id": "p23-inst-4",
+          "pageNumber": 23,
+          "entryIndex": 4,
+          "imagePath": "instruments/p023-i04-high-speed-handpiece.png",
+          "widthPx": 639,
+          "heightPx": 187,
+          "name": "High Speed Handpiece",
+          "function": "To be used with a bur to cut a cavity/crown prep",
+          "characteristics": "Runs on air pressure, up to 400,000 rpm’s, sprays water, friction grip",
+          "description": "Instrument: High Speed Handpiece\nFunction: To be used with a bur to cut a\ncavity/crown prep\nCharacteristics: Runs on air pressure, up to\n400,000 rpm’s, sprays water,\nfriction grip"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Flowable Composite Instrument: Packable Composite\nFunction: Low viscosity, high filler,\nFunction: High viscosity, low filler\npermanent restorative material\ncomposite, used small areas or\nbefore placement of packable\nCharacteristics: Either in a syringe or composite\ncomposite, differs in shade\ntip. Composite tip requires\ncomposite gun\nCharacteristics: Fluid like composite, with in a\nsyringe used with a syringe tip\nInstrument: Composite Shade Guide\nInstrument: Composite Gun\nFunction: Holds composite tip, used to Function: To allow the patient to see\ndeliver composite to the cavity the shade they would like\nprep the filling to be.\nCharacteristics: Composite tip inserts in the Characteristics: Has different color teeth with a\nbarrel of the composite gun shade, e.g. A2, B1, C3, D2…\nInstrument: High Speed Handpiece Instrument: Low Speed Handpiece\nFunction: To be used with a bur to cut a Function: To remove decay, polish, open\ncavity/crown prep pulpal access, endo, refine prep\nCharacteristics: Runs on air pressure, up to Characteristics: Runs on air, up to 30,000 rpm’s,\n400,000 rpm’s, sprays water, latch and friction grip\nfriction grip\n23"
+    },
+    {
+      "pageNumber": 24,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p24-inst-0",
+          "pageNumber": 24,
+          "entryIndex": 0,
+          "imagePath": "instruments/p024-i00-contra-angle.png",
+          "widthPx": 639,
+          "heightPx": 165,
+          "name": "Contra Angle",
+          "function": "To use with slow speed motor",
+          "characteristics": "Different designs for different procedures, e.g. hygiene tray, operative tray, surgical tray.",
+          "description": "Instrument: Contra Angle\nFunction: To use with slow speed motor\nCharacteristics: Different designs for different\nprocedures, e.g. hygiene tray,\noperative tray, surgical tray."
+        },
+        {
+          "id": "p24-inst-1",
+          "pageNumber": 24,
+          "entryIndex": 1,
+          "imagePath": "instruments/p024-i01-straight-nose-cone.png",
+          "widthPx": 640,
+          "heightPx": 141,
+          "name": "Straight Nose Cone",
+          "function": "To use with or without attachments. Examples of attachments: Contra angle or prophy angle; To use with a long- shank straight bur",
+          "characteristics": "Runs at maximum 30,000 rpm; use outside oral cavity unless used with attachments 24",
+          "description": "Instrument: Straight Nose Cone\nFunction: To use with or without\nattachments. Examples of\nattachments: Contra angle or\nprophy angle; To use with a long-\nshank straight bur\nCharacteristics: Runs at maximum 30,000 rpm; use\noutside oral cavity unless used with\nattachments\n24"
+        }
+      ],
+      "fullPageText": "OPERATIVE INSTRUMENTS - AMALGAM - COMPOSITE\nInstrument: Contra Angle Instrument: Straight Nose Cone\nFunction: To use with slow speed motor Function: To use with or without\nattachments. Examples of\nattachments: Contra angle or\nCharacteristics: Different designs for different prophy angle; To use with a long-\nprocedures, e.g. hygiene tray, shank straight bur\noperative tray, surgical tray. Characteristics: Runs at maximum 30,000 rpm; use\noutside oral cavity unless used with\nattachments\n24"
+    },
+    {
+      "pageNumber": 25,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p25-inst-0",
+          "pageNumber": 25,
+          "entryIndex": 0,
+          "imagePath": "instruments/p025-i00-digital-sensor.png",
+          "widthPx": 457,
+          "heightPx": 219,
+          "name": "Digital Sensor",
+          "function": "To be placed in mouth and capture digital image of teeth; used in place of traditional X-ray films",
+          "characteristics": "Variety sizes and types 25",
+          "description": "Instrument: Digital Sensor\nFunction: To be placed in mouth and capture\ndigital image of teeth; used in place\nof traditional X-ray films\nCharacteristics: Variety sizes and types\n25"
+        },
+        {
+          "id": "p25-inst-1",
+          "pageNumber": 25,
+          "entryIndex": 1,
+          "imagePath": "instruments/p025-i01-anterior-x-ray.png",
+          "widthPx": 350,
+          "heightPx": 219,
+          "name": "Anterior X-ray",
+          "function": "To take X-ray for Anterior teeth",
+          "characteristics": "1. Plastic aiming ring; 2. metal indicator arm; 3. plastic bite-block; 4. film",
+          "description": "Instrument: Anterior X-ray\nFunction: To take X-ray for Anterior teeth\nCharacteristics: 1. Plastic aiming ring; 2. metal\nindicator arm; 3. plastic bite-block;\n4. film"
+        },
+        {
+          "id": "p25-inst-2",
+          "pageNumber": 25,
+          "entryIndex": 2,
+          "imagePath": "instruments/p025-i02-posterior-x-ray.png",
+          "widthPx": 366,
+          "heightPx": 220,
+          "name": "Posterior X-Ray",
+          "function": "To take X-ray for Posterior teeth",
+          "characteristics": "1&5. Plastic bite-block; 2.Plastic aiming ring; 3. metal indicator arm; 4. film",
+          "description": "Instrument: Posterior X-Ray\nFunction: To take X-ray for Posterior teeth\nCharacteristics: 1&5. Plastic bite-block; 2.Plastic\naiming ring; 3. metal indicator arm;\n4. film"
+        }
+      ],
+      "fullPageText": "X-RAY\n1 2 4\n3\nInstrument: Anterior X-ray Instrument: Digital Sensor\nFunction: To take X-ray for Anterior teeth Function: To be placed in mouth and capture\ndigital image of teeth; used in place\nCharacteristics: 1. Plastic aiming ring; 2. metal of traditional X-ray films\nindicator arm; 3. plastic bite-block; Characteristics: Variety sizes and types\n4. film\n1 3\n4\n2\n5\nInstrument: Posterior X-Ray\nFunction: To take X-ray for Posterior teeth\nCharacteristics: 1&5. Plastic bite-block; 2.Plastic\naiming ring; 3. metal indicator arm;\n4. film\n25"
+    },
+    {
+      "pageNumber": 26,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p26-inst-0",
+          "pageNumber": 26,
+          "entryIndex": 0,
+          "imagePath": "instruments/p026-i00-scalpel-handle-with.png",
+          "widthPx": 324,
+          "heightPx": 89,
+          "name": "Scalpel Handle with",
+          "function": "To Hold blade in place, cut tissue with blade, trim interproximal restoration",
+          "characteristics": "Blades are disposable after each use. Handle can be autoclaved or disposable.",
+          "description": "Instrument: Scalpel Handle with\nBlades\nFunction: To Hold blade in place, cut tissue\nwith blade, trim interproximal\nrestoration\nCharacteristics: Blades are disposable after each\nuse. Handle can be autoclaved or\ndisposable."
+        },
+        {
+          "id": "p26-inst-1",
+          "pageNumber": 26,
+          "entryIndex": 1,
+          "imagePath": "instruments/p026-i01-tissue-forcep.png",
+          "widthPx": 338,
+          "heightPx": 62,
+          "name": "Tissue Forcep",
+          "function": "To hold tissue during surgical procedures",
+          "characteristics": "Has serrated or rat-tooth tips",
+          "description": "Instrument: Tissue Forcep\nFunction: To hold tissue during surgical\nprocedures\nCharacteristics: Has serrated or rat-tooth tips"
+        },
+        {
+          "id": "p26-inst-2",
+          "pageNumber": 26,
+          "entryIndex": 2,
+          "imagePath": "instruments/p026-i02-unknown.png",
+          "widthPx": 344,
+          "heightPx": 219,
+          "name": "(unknown)",
+          "description": ""
+        },
+        {
+          "id": "p26-inst-3",
+          "pageNumber": 26,
+          "entryIndex": 3,
+          "imagePath": "instruments/p026-i03-tongue-and-cheek.png",
+          "widthPx": 300,
+          "heightPx": 126,
+          "name": "Tongue and Cheek",
+          "function": "To hold and retract tongue or cheek",
+          "characteristics": "Styles and sizes vary. Also called the Minnesota.",
+          "description": "Instrument: Tongue and Cheek\nRetractor\nFunction: To hold and retract tongue or cheek\nCharacteristics: Styles and sizes vary. Also called the\nMinnesota."
+        },
+        {
+          "id": "p26-inst-4",
+          "pageNumber": 26,
+          "entryIndex": 4,
+          "imagePath": "instruments/p026-i04-hemostat.png",
+          "widthPx": 299,
+          "heightPx": 130,
+          "name": "Hemostat",
+          "function": "To grasp tissue or bone fragment",
+          "characteristics": "Has variety of functions. Working end is serrated and it locks. Can be straight or curved",
+          "description": "Instrument: Hemostat\nFunction: To grasp tissue or bone fragment\nCharacteristics: Has variety of functions. Working\nend is serrated and it locks. Can be\nstraight or curved"
+        },
+        {
+          "id": "p26-inst-5",
+          "pageNumber": 26,
+          "entryIndex": 5,
+          "imagePath": "instruments/p026-i05-tissue-scissors.png",
+          "widthPx": 617,
+          "heightPx": 224,
+          "name": "Tissue Scissors",
+          "function": "To cut tissue",
+          "characteristics": "Can be straight or curved. Variety of shapes and sizes",
+          "description": "Instrument: Tissue Scissors\nFunction: To cut tissue\nCharacteristics: Can be straight or curved. Variety of\nshapes and sizes"
+        },
+        {
+          "id": "p26-inst-6",
+          "pageNumber": 26,
+          "entryIndex": 6,
+          "imagePath": "instruments/p026-i06-unknown.png",
+          "widthPx": 333,
+          "heightPx": 219,
+          "name": "(unknown)",
+          "description": ""
+        },
+        {
+          "id": "p26-inst-7",
+          "pageNumber": 26,
+          "entryIndex": 7,
+          "imagePath": "instruments/p026-i07-needle-holder-driver.png",
+          "widthPx": 319,
+          "heightPx": 139,
+          "name": "Needle Holder/ Driver",
+          "function": "To grasp and manipulate suture needle during suturing",
+          "characteristics": "Working end has different lengths. Ends are notched to accommodate needle. 26",
+          "description": "Instrument: Needle Holder/ Driver\nFunction: To grasp and manipulate suture\nneedle during suturing\nCharacteristics: Working end has different lengths.\nEnds are notched to accommodate\nneedle.\n26"
+        }
+      ],
+      "fullPageText": "UNIVERSAL SURGICAL INSTRUMENTS\nInstrument: Scalpel Handle with Instrument: Tissue Forcep\nBlades\nFunction: To Hold blade in place, cut tissue Function: To hold tissue during surgical\nwith blade, trim interproximal procedures\nrestoration\nCharacteristics: Blades are disposable after each Characteristics: Has serrated or rat-tooth tips\nuse. Handle can be autoclaved or\ndisposable.\nInstrument: Hemostat Instrument: Tongue and Cheek\nRetractor\nFunction: To grasp tissue or bone fragment Function: To hold and retract tongue or cheek\nCharacteristics: Has variety of functions. Working Characteristics: Styles and sizes vary. Also called the\nend is serrated and it locks. Can be Minnesota.\nstraight or curved\nInstrument: Tissue Scissors Instrument: Needle Holder/ Driver\nFunction: To cut tissue Function: To grasp and manipulate suture\nneedle during suturing\nCharacteristics: Can be straight or curved. Variety of\nshapes and sizes Characteristics: Working end has different lengths.\nEnds are notched to accommodate\nneedle.\n26"
+    },
+    {
+      "pageNumber": 27,
+      "pageType": "mixed",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p27-inst-0",
+          "pageNumber": 27,
+          "entryIndex": 0,
+          "imagePath": "instruments/p027-i00-suture-scissors.png",
+          "widthPx": 528,
+          "heightPx": 219,
+          "name": "Suture Scissors",
+          "function": "To cut sutures",
+          "characteristics": "Has straight or angled cutting edges. May have a notch on end of cutting edge. 4 5 6 7 5. Suture Scissors 6. Cotton Forcep 7. Mouth Mirror 27",
+          "description": "Instrument: Suture Scissors\nFunction: To cut sutures\nCharacteristics: Has straight or angled cutting edges.\nMay have a notch on end of cutting\nedge.\n4\n5 6 7\n5. Suture Scissors\n6. Cotton Forcep\n7. Mouth Mirror\n27"
+        },
+        {
+          "id": "p27-inst-1",
+          "pageNumber": 27,
+          "entryIndex": 1,
+          "imagePath": "instruments/p027-i01-suture-needles-and-sutures.png",
+          "widthPx": 376,
+          "heightPx": 219,
+          "name": "Suture Needles and Sutures",
+          "function": "To suture surgical site",
+          "characteristics": "Reabsorbable sutures: gut and chromic gut. Non-reabsorbable: silk, nylon, polypropylene. Available in packages. SUTURE TRAY SET-UP 1 2 3 1. Suture and Needle 2. 2x2 Gauze 3. Cotton Rolls 4. Hemostat",
+          "description": "Instrument: Suture Needles and Sutures\nFunction: To suture surgical site\nCharacteristics: Reabsorbable sutures: gut and\nchromic gut. Non-reabsorbable:\nsilk, nylon, polypropylene.\nAvailable in packages.\nSUTURE TRAY SET-UP\n1\n2\n3\n1. Suture and Needle\n2. 2x2 Gauze\n3. Cotton Rolls\n4. Hemostat"
+        }
+      ],
+      "traySetup": {
+        "id": "p27-tray",
+        "pageNumber": 27,
+        "title": "UNIVERSAL SURGICAL INSTRUMENTS",
+        "imagePath": "tray-setups/p027-universal-surgical-instruments.png",
+        "widthPx": 1199,
+        "heightPx": 818,
+        "items": [
+          {
+            "number": 1,
+            "name": "Suture and Needle"
+          },
+          {
+            "number": 3,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 5,
+            "name": "Suture Scissors"
+          },
+          {
+            "number": 6,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 7,
+            "name": "Mouth Mirror"
+          }
+        ],
+        "legendText": "UNIVERSAL SURGICAL INSTRUMENTS\nInstrument: Suture Needles and Sutures Instrument: Suture Scissors\nFunction: To cut sutures\nFunction: To suture surgical site\nCharacteristics: Has straight or angled cutting edges.\nCharacteristics: Reabsorbable sutures: gut and\nMay have a notch on end of cutting\nchromic gut. Non-reabsorbable:\nedge.\nsilk, nylon, polypropylene.\nAvailable in packages.\nSUTURE TRAY SET-UP\n1\n2 4\n3\n5 6 7\n1. Suture and Needle 5. Suture Scissors\n2. 2x2 Gauze 6. Cotton Forcep\n3. Cotton Rolls 7. Mouth Mirror\n4. Hemostat 27",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "UNIVERSAL SURGICAL INSTRUMENTS\nInstrument: Suture Needles and Sutures Instrument: Suture Scissors\nFunction: To cut sutures\nFunction: To suture surgical site\nCharacteristics: Has straight or angled cutting edges.\nCharacteristics: Reabsorbable sutures: gut and\nMay have a notch on end of cutting\nchromic gut. Non-reabsorbable:\nedge.\nsilk, nylon, polypropylene.\nAvailable in packages.\nSUTURE TRAY SET-UP\n1\n2 4\n3\n5 6 7\n1. Suture and Needle 5. Suture Scissors\n2. 2x2 Gauze 6. Cotton Forcep\n3. Cotton Rolls 7. Mouth Mirror\n4. Hemostat 27"
+    },
+    {
+      "pageNumber": 28,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p28-tray",
+        "pageNumber": 28,
+        "title": "UNIVERSAL SURGICAL INSTRUMENTS",
+        "imagePath": "tray-setups/p028-universal-surgical-instruments.png",
+        "widthPx": 1236,
+        "heightPx": 785,
+        "items": [
+          {
+            "number": 1,
+            "name": "Explorer/ Perioprobe"
+          },
+          {
+            "number": 2,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 3,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 4,
+            "name": "Suture Scissors"
+          },
+          {
+            "number": 5,
+            "name": "Cotton Rolls"
+          }
+        ],
+        "legendText": "UNIVERSAL SURGICAL INSTRUMENTS\nSUTURE REMOVAL TRAY SET-UP\n1\n2\n3\n4\n6 5\n1. Explorer/ Perioprobe 4. Suture Scissors\n2. Mouth Mirror 5. Cotton Rolls\n3. Cotton Forcep 6. 2x2 Gauzes\n28",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "UNIVERSAL SURGICAL INSTRUMENTS\nSUTURE REMOVAL TRAY SET-UP\n1\n2\n3\n4\n6 5\n1. Explorer/ Perioprobe 4. Suture Scissors\n2. Mouth Mirror 5. Cotton Rolls\n3. Cotton Forcep 6. 2x2 Gauzes\n28"
+    },
+    {
+      "pageNumber": 29,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p29-inst-0",
+          "pageNumber": 29,
+          "entryIndex": 0,
+          "imagePath": "instruments/p029-i00-straight-elevators.png",
+          "widthPx": 569,
+          "heightPx": 219,
+          "name": "Straight Elevators",
+          "function": "To loosen tooth from periodontal ligaments before extraction. To separate and lift tooth from socket.",
+          "characteristics": "Single ended. Variety of sizes.",
+          "description": "Instrument: Straight Elevators\nFunction: To loosen tooth from periodontal\nligaments before extraction. To\nseparate and lift tooth from socket.\nCharacteristics: Single ended. Variety of sizes."
+        },
+        {
+          "id": "p29-inst-1",
+          "pageNumber": 29,
+          "entryIndex": 1,
+          "imagePath": "instruments/p029-i01-periosteal-elevator.png",
+          "widthPx": 659,
+          "heightPx": 107,
+          "name": "Periosteal Elevator",
+          "function": "To provide indirect vision To retract lips, cheeks, and tongue To reflect light into the mouth",
+          "characteristics": "Accurate image from flat surface mirrors, image magnified with concave mirrors.",
+          "description": "Instrument: Periosteal Elevator\nFunction: To provide indirect vision\nTo retract lips, cheeks, and tongue\nTo reflect light into the mouth\nCharacteristics: Accurate image from flat surface\nmirrors, image magnified with\nconcave mirrors."
+        },
+        {
+          "id": "p29-inst-2",
+          "pageNumber": 29,
+          "entryIndex": 2,
+          "imagePath": "instruments/p029-i02-root-elevators-cryers.png",
+          "widthPx": 554,
+          "heightPx": 219,
+          "name": "Root Elevators/ Cryers",
+          "function": "To loosen root. To separate and lift tooth from socket. To use on posterior teeth",
+          "characteristics": "Single ended. Can be right or left. Variety of sizes.",
+          "description": "Instrument: Root Elevators/ Cryers\nFunction: To loosen root. To separate and lift\ntooth from socket. To use on\nposterior teeth\nCharacteristics: Single ended. Can be right or left.\nVariety of sizes."
+        },
+        {
+          "id": "p29-inst-3",
+          "pageNumber": 29,
+          "entryIndex": 3,
+          "imagePath": "instruments/p029-i03-root-tip-picks.png",
+          "widthPx": 659,
+          "heightPx": 142,
+          "name": "Root-Tip Picks",
+          "function": "To lift and remove small root tips in difficult areas",
+          "characteristics": "Pointed at working end . Straight or right-and-left pairs.",
+          "description": "Instrument: Root-Tip Picks\nFunction: To lift and remove small root tips in\ndifficult areas\nCharacteristics: Pointed at working end . Straight or\nright-and-left pairs."
+        },
+        {
+          "id": "p29-inst-4",
+          "pageNumber": 29,
+          "entryIndex": 4,
+          "imagePath": "instruments/p029-i04-root-tip-elevators.png",
+          "widthPx": 659,
+          "heightPx": 208,
+          "name": "Root-Tip Elevators",
+          "function": "To lift and remove fragments of root",
+          "characteristics": "Single ended. Rounded or pointed. Straight or right-and-left pairs",
+          "description": "Instrument: Root-Tip Elevators\nFunction: To lift and remove fragments of root\nCharacteristics: Single ended. Rounded or pointed.\nStraight or right-and-left pairs"
+        },
+        {
+          "id": "p29-inst-5",
+          "pageNumber": 29,
+          "entryIndex": 5,
+          "imagePath": "instruments/p029-i05-bone-file.png",
+          "widthPx": 659,
+          "heightPx": 142,
+          "name": "Bone File",
+          "function": "To remove or smooth edges of alveolar bone",
+          "characteristics": "Used in push-pull motion; straight- cut or cross-cut cutting end; variety of sizes, angles, and shapes. 29",
+          "description": "Instrument: Bone File\nFunction: To remove or smooth edges of\nalveolar bone\nCharacteristics: Used in push-pull motion; straight-\ncut or cross-cut cutting end; variety\nof sizes, angles, and shapes.\n29"
+        }
+      ],
+      "fullPageText": "ORAL SURGERY INSTRUMENTS\nInstrument: Straight Elevators Instrument: Periosteal Elevator\nFunction: To loosen tooth from periodontal Function: To provide indirect vision\nligaments before extraction. To To retract lips, cheeks, and tongue\nseparate and lift tooth from socket. To reflect light into the mouth\nCharacteristics: Single ended. Variety of sizes. Characteristics: Accurate image from flat surface\nmirrors, image magnified with\nconcave mirrors.\nInstrument: Root-Tip Picks Instrument: Root Elevators/ Cryers\nFunction: To lift and remove small root tips in Function: To loosen root. To separate and lift\ndifficult areas tooth from socket. To use on\nposterior teeth\nCharacteristics: Pointed at working end . Straight or Characteristics: Single ended. Can be right or left.\nright-and-left pairs. Variety of sizes.\nInstrument: Root-Tip Elevators Instrument: Bone File\nFunction: To lift and remove fragments of root\nFunction: To remove or smooth edges of\nalveolar bone\nCharacteristics: Single ended. Rounded or pointed.\nCharacteristics: Used in push-pull motion; straight-\nStraight or right-and-left pairs\ncut or cross-cut cutting end; variety\nof sizes, angles, and shapes.\n29"
+    },
+    {
+      "pageNumber": 30,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p30-inst-0",
+          "pageNumber": 30,
+          "entryIndex": 0,
+          "imagePath": "instruments/p030-i00-maxillary-universal.png",
+          "widthPx": 659,
+          "heightPx": 149,
+          "name": "Maxillary Universal",
+          "function": "To extract maxillary central, laterals, cuspids, premolars, and roots",
+          "characteristics": "Has straight handles or one curved handle",
+          "description": "Instrument: Maxillary Universal\nForceps/ Cryer 150\nFunction: To extract maxillary central,\nlaterals, cuspids, premolars, and\nroots\nCharacteristics: Has straight handles or one curved\nhandle"
+        },
+        {
+          "id": "p30-inst-1",
+          "pageNumber": 30,
+          "entryIndex": 1,
+          "imagePath": "instruments/p030-i01-maxillary-right-forceps.png",
+          "widthPx": 659,
+          "heightPx": 139,
+          "name": "Maxillary Right Forceps/",
+          "function": "To extract trifurcated maxillary right first or second molars",
+          "characteristics": "Has right-split beak to engage lingual root",
+          "description": "Instrument: Maxillary Right Forceps/\nNo. 88R\nFunction: To extract trifurcated maxillary right\nfirst or second molars\nCharacteristics: Has right-split beak to engage\nlingual root"
+        },
+        {
+          "id": "p30-inst-2",
+          "pageNumber": 30,
+          "entryIndex": 2,
+          "imagePath": "instruments/p030-i02-mandibular-universal.png",
+          "widthPx": 659,
+          "heightPx": 167,
+          "name": "Mandibular Universal",
+          "function": "To extract manibular central, laterals, cuspids, premolars, and roots",
+          "characteristics": "Has straight handles or one curved handle",
+          "description": "Instrument: Mandibular Universal\nForceps/ Cryer 151\nFunction: To extract manibular central,\nlaterals, cuspids, premolars, and\nroots\nCharacteristics: Has straight handles or one curved\nhandle"
+        },
+        {
+          "id": "p30-inst-3",
+          "pageNumber": 30,
+          "entryIndex": 3,
+          "imagePath": "instruments/p030-i03-maxillary-left-forceps-no.png",
+          "widthPx": 659,
+          "heightPx": 151,
+          "name": "Maxillary Left Forceps/ No.",
+          "function": "To extract trifurcated maxillary left first or second molars",
+          "characteristics": "Has left-split beak to engage lingual root",
+          "description": "Instrument: Maxillary Left Forceps/ No.\n88L\nFunction: To extract trifurcated maxillary left\nfirst or second molars\nCharacteristics: Has left-split beak to engage lingual\nroot"
+        },
+        {
+          "id": "p30-inst-4",
+          "pageNumber": 30,
+          "entryIndex": 4,
+          "imagePath": "instruments/p030-i04-rongeur.png",
+          "widthPx": 412,
+          "heightPx": 219,
+          "name": "Rongeur",
+          "function": "To trim and remove excess alveolar bone after extraction",
+          "characteristics": "Variety of sizes and angles 30",
+          "description": "Instrument: Rongeur\nFunction: To trim and remove excess alveolar\nbone after extraction\nCharacteristics: Variety of sizes and angles\n30"
+        },
+        {
+          "id": "p30-inst-5",
+          "pageNumber": 30,
+          "entryIndex": 5,
+          "imagePath": "instruments/p030-i05-universal-mandibular.png",
+          "widthPx": 659,
+          "heightPx": 157,
+          "name": "Universal Mandibular",
+          "function": "To extract mandibular first and second molars",
+          "characteristics": "Referred to as “Cowhorn” forceps; straight handles or one curved handle",
+          "description": "Instrument: Universal Mandibular\nForceps No. 23\nFunction: To extract mandibular first and\nsecond molars\nCharacteristics: Referred to as “Cowhorn” forceps;\nstraight handles or one curved\nhandle"
+        }
+      ],
+      "fullPageText": "ORAL SURGERY INSTRUMENTS\nInstrument: Maxillary Universal Instrument: Maxillary Right Forceps/\nForceps/ Cryer 150 No. 88R\nFunction: To extract trifurcated maxillary right\nFunction: To extract maxillary central, first or second molars\nlaterals, cuspids, premolars, and\nroots Characteristics: Has right-split beak to engage\nCharacteristics: Has straight handles or one curved lingual root\nhandle\nInstrument: Maxillary Left Forceps/ No. Instrument: Mandibular Universal\n88L Forceps/ Cryer 151\nFunction: To extract trifurcated maxillary left Function: To extract manibular central,\nfirst or second molars laterals, cuspids, premolars, and\nroots\nCharacteristics: Has left-split beak to engage lingual Characteristics: Has straight handles or one curved\nroot handle\nInstrument: Universal Mandibular Instrument: Rongeur\nForceps No. 23\nFunction: To extract mandibular first and Function: To trim and remove excess alveolar\nsecond molars bone after extraction\nCharacteristics: Referred to as “Cowhorn” forceps;\nstraight handles or one curved Characteristics: Variety of sizes and angles\nhandle\n30"
+    },
+    {
+      "pageNumber": 31,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p31-inst-0",
+          "pageNumber": 31,
+          "entryIndex": 0,
+          "imagePath": "instruments/p031-i00-surgical-curette.png",
+          "widthPx": 659,
+          "heightPx": 123,
+          "name": "Surgical Curette",
+          "function": "To remove debris or granulation tissue from surgical site; to remove cyst from extraction site or surgical site; to use for gross tissue debridement",
+          "characteristics": "Various sizes and shapes; single or double ended 31",
+          "description": "Instrument: Surgical Curette\nFunction: To remove debris or granulation\ntissue from surgical site; to remove\ncyst from extraction site or surgical\nsite; to use for gross tissue\ndebridement\nCharacteristics: Various sizes and shapes; single or\ndouble ended\n31"
+        },
+        {
+          "id": "p31-inst-1",
+          "pageNumber": 31,
+          "entryIndex": 1,
+          "imagePath": "instruments/p031-i01-surgical-evacuation-tip.png",
+          "widthPx": 639,
+          "heightPx": 134,
+          "name": "Surgical Evacuation Tip",
+          "function": "To evacuate fluid from oral cavity and surgical sites",
+          "characteristics": "Stainless steel, autoclavable plastic, or disposable plastic; tips narrow to accommodate surgical site; attaches to tubing on dental unit",
+          "description": "Instrument: Surgical Evacuation Tip\nFunction: To evacuate fluid from oral cavity\nand surgical sites\nCharacteristics: Stainless steel, autoclavable plastic,\nor disposable plastic; tips narrow to\naccommodate surgical site; attaches\nto tubing on dental unit"
+        }
+      ],
+      "fullPageText": "ORAL SURGERY INSTRUMENTS\nInstrument: Bone Chisel Instrument: Surgical Curette\nFunction: To split or section a tooth for easier Function: To remove debris or granulation\nremoval by tapping on chisel with tissue from surgical site; to remove\nmallet; to reshape or contour cyst from extraction site or surgical\nalveolar bone site; to use for gross tissue\nCharacteristics: Single-level chisel for contouring or debridement\nremoving alveolar bone; bilevel Characteristics: Various sizes and shapes; single or\nchisel for splitting teeth; variety of double ended\nsizes\nInstrument: Surgical Evacuation Tip\nFunction: To evacuate fluid from oral cavity\nand surgical sites\nCharacteristics: Stainless steel, autoclavable plastic,\nor disposable plastic; tips narrow to\naccommodate surgical site; attaches\nto tubing on dental unit\n31"
+    },
+    {
+      "pageNumber": 32,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p32-tray",
+        "pageNumber": 32,
+        "title": "EXTRACTION TRAY SET-UP INSTRUMENTS",
+        "imagePath": "tray-setups/p032-extraction-tray-set-up.png",
+        "widthPx": 1426,
+        "heightPx": 1070,
+        "items": [
+          {
+            "number": 1,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 2,
+            "name": "Topical Anesthetic"
+          },
+          {
+            "number": 4,
+            "name": "Needle (Short for Maxillary; Long for Mandibular)"
+          },
+          {
+            "number": 5,
+            "name": "Anesthetic Carpules"
+          },
+          {
+            "number": 6,
+            "name": "Syringe"
+          },
+          {
+            "number": 7,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 8,
+            "name": "Explorer/ Perioprobe"
+          },
+          {
+            "number": 9,
+            "name": "Small Elevator"
+          },
+          {
+            "number": 10,
+            "name": "Large Elevator"
+          },
+          {
+            "number": 11,
+            "name": "Periosteal"
+          },
+          {
+            "number": 12,
+            "name": "Surgical Curette"
+          },
+          {
+            "number": 13,
+            "name": "Forcep:"
+          }
+        ],
+        "legendText": "EXTRACTION TRAY SET-UP INSTRUMENTS\n1. Cotton Rolls\n2. Topical Anesthetic\n3. 2x2 Gauzes\n4. Needle (Short for Maxillary; Long for Mandibular)\n5. Anesthetic Carpules\n6. Syringe\n7. Mouth Mirror\n8. Explorer/ Perioprobe\n9. Small Elevator\n10. Large Elevator\n11. Periosteal\n12. Surgical Curette\n13. Forcep:\n• Teeth #1-3: 88R\n• Teeth #4-13: 150\n• Teeth #14-16: 88L\n• Teeth #17-19: Cowhorn 23\n• Teeth #20-29: 151\n• Teeth #30-32: Cowhorn 23\n33",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "13\n12\n11\n10\n9\n8\n7\n6\n5\n4\nEXTRACTION TRAY SET-UP\n3\n1\n2\n32"
+    },
+    {
+      "pageNumber": 33,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "EXTRACTION TRAY SET-UP INSTRUMENTS\n1. Cotton Rolls\n2. Topical Anesthetic\n3. 2x2 Gauzes\n4. Needle (Short for Maxillary; Long for Mandibular)\n5. Anesthetic Carpules\n6. Syringe\n7. Mouth Mirror\n8. Explorer/ Perioprobe\n9. Small Elevator\n10. Large Elevator\n11. Periosteal\n12. Surgical Curette\n13. Forcep:\n• Teeth #1-3: 88R\n• Teeth #4-13: 150\n• Teeth #14-16: 88L\n• Teeth #17-19: Cowhorn 23\n• Teeth #20-29: 151\n• Teeth #30-32: Cowhorn 23\n33"
+    },
+    {
+      "pageNumber": 34,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p34-inst-0",
+          "pageNumber": 34,
+          "entryIndex": 0,
+          "imagePath": "instruments/p034-i00-bur.png",
+          "widthPx": 639,
+          "heightPx": 120,
+          "name": "Bur",
+          "function": "To be inserted in high-speed or low- speed handpiece",
+          "characteristics": "Parts: 1. Head: Part of bur that cuts, polishes, or finishes (various sizes, shapes, and shanks); 2. Neck: Part of bur that tapers to connect shank to head of bur; 3. Shank: Part of bur that is inserted into the handpiece • Length and style varies depending on handpiece being used • Bur with a straight and long shank fits into straight slow-speed handpiece • Bur with latch type at end of shank fits into contra-angle slow-speed handpiece • Friction grip bur fits into high- speed handpiece; a chunk tightens bur into handpiece",
+          "description": "Instrument: Bur\nFunction: To be inserted in high-speed or low-\nspeed handpiece\nCharacteristics: Parts: 1. Head: Part of bur that cuts,\npolishes, or finishes (various sizes,\nshapes, and shanks); 2. Neck: Part of\nbur that tapers to connect shank to\nhead of bur; 3. Shank: Part of bur\nthat is inserted into the handpiece\n• Length and style varies depending\non handpiece being used\n• Bur with a straight and long shank\nfits into straight slow-speed\nhandpiece\n• Bur with latch type at end of shank\nfits into contra-angle slow-speed\nhandpiece\n• Friction grip bur fits into high-\nspeed handpiece; a chunk tightens\nbur into handpiece"
+        },
+        {
+          "id": "p34-inst-1",
+          "pageNumber": 34,
+          "entryIndex": 1,
+          "imagePath": "instruments/p034-i01-round-bur.png",
+          "widthPx": 273,
+          "heightPx": 220,
+          "name": "Round Bur",
+          "function": "To remove caries from tooth structure; to open tooth for endodontic treatment",
+          "characteristics": "Various sizes; small to large 34",
+          "description": "Instrument: Round Bur\nFunction: To remove caries from tooth\nstructure; to open tooth for\nendodontic treatment\nCharacteristics: Various sizes; small to large\n34"
+        },
+        {
+          "id": "p34-inst-2",
+          "pageNumber": 34,
+          "entryIndex": 2,
+          "imagePath": "instruments/p034-i02-rubber-points.png",
+          "widthPx": 491,
+          "heightPx": 219,
+          "name": "Rubber Points",
+          "function": "To remove amalgam restorations",
+          "characteristics": "Various polishing grits; brown points (Brownies) are abrasive for polishing; green points (Greenies) are less abrasive; Variety of shanks: 1. Latch type, 2. Friction grip",
+          "description": "Instrument: Rubber Points\nFunction: To remove amalgam restorations\nCharacteristics: Various polishing grits; brown\npoints (Brownies) are abrasive for\npolishing; green points (Greenies)\nare less abrasive; Variety of shanks:\n1. Latch type, 2. Friction grip"
+        }
+      ],
+      "fullPageText": "BURS FOR HIGH SPEED AND LOW SPEED HANDPIECES\n1 2 3\nInstrument: Bur\nFunction: To be inserted in high-speed or low-\nspeed handpiece\nCharacteristics: Parts: 1. Head: Part of bur that cuts,\npolishes, or finishes (various sizes,\nshapes, and shanks); 2. Neck: Part of\nInstrument: Magnetic Bur Block with\nbur that tapers to connect shank to\nBurs\nhead of bur; 3. Shank: Part of bur\nFunction: To be used by inserting into dental that is inserted into the handpiece\nhandpiece; to attach discs to • Length and style varies depending\nmandrel for finishing and polishing on handpiece being used\ninside or outside of oral cavity • Bur with a straight and long shank\nCharacteristics: Different shanks: 1. Long shanks – fits into straight slow-speed\nstraight slow-speed handpiece, 2. handpiece\nShort latch-type shank – contra- • Bur with latch type at end of shank\nangle slow-speed handpiece, 3.. fits into contra-angle slow-speed\nFriction grip – high speed handpiece handpiece\n• Friction grip bur fits into high-\nspeed handpiece; a chunk tightens\nbur into handpiece\nInstrument: Rubber Points Instrument: Round Bur\nFunction: To remove amalgam restorations Function: To remove caries from tooth\nstructure; to open tooth for\nendodontic treatment\nCharacteristics: Various polishing grits; brown Characteristics: Various sizes; small to large\npoints (Brownies) are abrasive for\npolishing; green points (Greenies)\nare less abrasive; Variety of shanks:\n34\n1. Latch type, 2. Friction grip"
+    },
+    {
+      "pageNumber": 35,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p35-inst-0",
+          "pageNumber": 35,
+          "entryIndex": 0,
+          "imagePath": "instruments/p035-i00-white-stone.png",
+          "widthPx": 639,
+          "heightPx": 169,
+          "name": "White Stone",
+          "function": "To polish restorative material",
+          "characteristics": "Various shapes and shanks",
+          "description": "Instrument: White Stone\nFunction: To polish restorative material\nCharacteristics: Various shapes and shanks"
+        },
+        {
+          "id": "p35-inst-1",
+          "pageNumber": 35,
+          "entryIndex": 1,
+          "imagePath": "instruments/p035-i01-straight-fissure-crosscut.png",
+          "widthPx": 639,
+          "heightPx": 128,
+          "name": "Straight Fissure - Crosscut",
+          "function": "To cut cavity preparation; to form walls of cavity preparation; to place retention grooves in walls of cavity preparation",
+          "characteristics": "Cutting part of bur has parallel sides with horizontal cutting edge",
+          "description": "Instrument: Straight Fissure - Crosscut\nFunction: To cut cavity preparation; to form\nwalls of cavity preparation; to place\nretention grooves in walls of cavity\npreparation\nCharacteristics: Cutting part of bur has parallel sides\nwith horizontal cutting edge"
+        },
+        {
+          "id": "p35-inst-2",
+          "pageNumber": 35,
+          "entryIndex": 2,
+          "imagePath": "instruments/p035-i02-taper-fissure-crosscut.png",
+          "widthPx": 230,
+          "heightPx": 63,
+          "name": "Taper Fissure - Crosscut",
+          "function": "To cut cavity preparation; to form angles in walls of cavity preparation",
+          "characteristics": "Cutting part of bur has tapered sides with horizontal cutting edges",
+          "description": "Instrument: Taper Fissure - Crosscut\nFunction: To cut cavity preparation; to\nform angles in walls of cavity\npreparation\nCharacteristics: Cutting part of bur has tapered\nsides with horizontal cutting\nedges"
+        },
+        {
+          "id": "p35-inst-3",
+          "pageNumber": 35,
+          "entryIndex": 3,
+          "imagePath": "instruments/p035-i03-straight-fissure-plain-cut.png",
+          "widthPx": 649,
+          "heightPx": 131,
+          "name": "Straight Fissure – Plain Cut",
+          "function": "To cut cavity preparation; to form inner walls of cavity preparation; to replace retention grooves in walls of cavity preparation",
+          "characteristics": "Cutting part of bur has parallel sides",
+          "description": "Instrument: Straight Fissure – Plain Cut\nFunction: To cut cavity preparation; to\nform inner walls of cavity\npreparation; to replace retention\ngrooves in walls of cavity\npreparation\nCharacteristics: Cutting part of bur has parallel sides"
+        },
+        {
+          "id": "p35-inst-4",
+          "pageNumber": 35,
+          "entryIndex": 4,
+          "imagePath": "instruments/p035-i04-carbide-football-finishing.png",
+          "widthPx": 639,
+          "heightPx": 161,
+          "name": "Carbide Football Finishing",
+          "function": "To finish composite restoration by restoring anatomy in tooth; to equilibrate or adjust occlusion",
+          "characteristics": "Shaped like a football 35",
+          "description": "Instrument: Carbide Football Finishing\nBur\nFunction: To finish composite restoration by\nrestoring anatomy in tooth; to\nequilibrate or adjust occlusion\nCharacteristics: Shaped like a football\n35"
+        },
+        {
+          "id": "p35-inst-5",
+          "pageNumber": 35,
+          "entryIndex": 5,
+          "imagePath": "instruments/p035-i05-taper-fissure-plain-cut.png",
+          "widthPx": 640,
+          "heightPx": 95,
+          "name": "Taper Fissure – Plain Cut",
+          "function": "To cut cavity preparation; to form angles in walls of cavity preparation",
+          "characteristics": "Cutting part of bur has tapered sides",
+          "description": "Instrument: Taper Fissure – Plain Cut\nFunction: To cut cavity preparation; to form\nangles in walls of cavity preparation\nCharacteristics: Cutting part of bur has tapered sides"
+        }
+      ],
+      "fullPageText": "BURS FOR HIGH SPEED AND LOW SPEED HANDPIECES\nInstrument: White Stone Instrument: Straight Fissure - Crosscut\nFunction: To polish restorative material Function: To cut cavity preparation; to form\nwalls of cavity preparation; to place\nretention grooves in walls of cavity\nCharacteristics: Various shapes and shanks preparation\nCharacteristics: Cutting part of bur has parallel sides\nwith horizontal cutting edge\nInstrument: Straight Fissure – Plain Cut Instrument: Taper Fissure - Crosscut\nFunction: To cut cavity preparation; to Function: To cut cavity preparation; to\nform inner walls of cavity form angles in walls of cavity\npreparation; to replace retention preparation\ngrooves in walls of cavity\npreparation Characteristics: Cutting part of bur has tapered\nCharacteristics: Cutting part of bur has parallel sides sides with horizontal cutting\nedges\nInstrument: Taper Fissure – Plain Cut Instrument: Carbide Football Finishing\nBur\nFunction: To cut cavity preparation; to form\nFunction: To finish composite restoration by\nangles in walls of cavity preparation\nrestoring anatomy in tooth; to\nequilibrate or adjust occlusion\nCharacteristics: Cutting part of bur has tapered sides\nCharacteristics: Shaped like a football\n35"
+    },
+    {
+      "pageNumber": 36,
+      "pageType": "instrument",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [
+        {
+          "id": "p36-inst-0",
+          "pageNumber": 36,
+          "entryIndex": 0,
+          "imagePath": "instruments/p036-i00-mandrel.png",
+          "widthPx": 292,
+          "heightPx": 68,
+          "name": "Mandrel",
+          "function": "To be used by inserting into a dental handpiece; to attach discs to mandrel for finishing and polishing inside or outside of oral cavity",
+          "characteristics": "Different shanks: 1. Long shank – straight slow-speed handpiece; 2. short latch-type shank – contra- angle slow speed handpiece.",
+          "description": "Instrument: Mandrel\nFunction: To be used by inserting into a dental\nhandpiece; to attach discs to\nmandrel for finishing and polishing\ninside or outside of oral cavity\nCharacteristics: Different shanks: 1. Long shank –\nstraight slow-speed handpiece; 2.\nshort latch-type shank – contra-\nangle slow speed handpiece."
+        },
+        {
+          "id": "p36-inst-1",
+          "pageNumber": 36,
+          "entryIndex": 1,
+          "imagePath": "instruments/p036-i01-polishing-discs.png",
+          "widthPx": 433,
+          "heightPx": 119,
+          "name": "Polishing Discs",
+          "function": "To contour (coarse grit) or polish and smooth (extra-fine grit) restorative material",
+          "characteristics": "Different grits: coarse to extra- fine; various sizes; snap-on (with metal center) or screw-on",
+          "description": "Instrument: Polishing Discs\nFunction: To contour (coarse grit) or\npolish and smooth (extra-fine\ngrit) restorative material\nCharacteristics: Different grits: coarse to extra-\nfine; various sizes; snap-on (with\nmetal center) or screw-on"
+        },
+        {
+          "id": "p36-inst-2",
+          "pageNumber": 36,
+          "entryIndex": 2,
+          "imagePath": "instruments/p036-i02-diamond-flat-end-taper.png",
+          "widthPx": 639,
+          "heightPx": 109,
+          "name": "Diamond Flat-End Taper",
+          "function": "To reduce a tooth for crown preparation when a square shoulder is needed",
+          "characteristics": "Different grits: coarse to super- fine; various sizes and shapes; super-fine used for finishing restorations 36",
+          "description": "Instrument: Diamond Flat-End Taper\nFunction: To reduce a tooth for crown\npreparation when a square\nshoulder is needed\nCharacteristics: Different grits: coarse to super-\nfine; various sizes and shapes;\nsuper-fine used for finishing\nrestorations\n36"
+        },
+        {
+          "id": "p36-inst-3",
+          "pageNumber": 36,
+          "entryIndex": 3,
+          "imagePath": "instruments/p036-i03-diamond-flat-end-cylinder.png",
+          "widthPx": 659,
+          "heightPx": 131,
+          "name": "Diamond Flat-End Cylinder",
+          "function": "To reduce a tooth for crown preparation when parallel walls and flat floors are needed",
+          "characteristics": "Different grits: coarse to super- fine; various sizes and shapes; super-fine used for finishing restorations",
+          "description": "Instrument: Diamond Flat-End Cylinder\nFunction: To reduce a tooth for crown\npreparation when parallel walls\nand flat floors are needed\nCharacteristics: Different grits: coarse to super-\nfine; various sizes and shapes;\nsuper-fine used for finishing\nrestorations"
+        }
+      ],
+      "fullPageText": "BURS FOR HIGH SPEED AND LOW SPEED HANDPIECES\nInstrument: Diamond Football Instrument: Mandrel\nFunction: To reduce a tooth for crown Function: To be used by inserting into a dental\npreparation for subgingival margins handpiece; to attach discs to\nmandrel for finishing and polishing\ninside or outside of oral cavity\nCharacteristics: Different grits: coarse to super-fine; Characteristics: Different shanks: 1. Long shank –\nvarious shapes and sizes; super-fine straight slow-speed handpiece; 2.\nused finishing restorations. short latch-type shank – contra-\nangle slow speed handpiece.\nInstrument: Polishing Discs Instrument: Diamond Flat-End Taper\nFunction: To contour (coarse grit) or Function: To reduce a tooth for crown\npolish and smooth (extra-fine preparation when a square\ngrit) restorative material shoulder is needed\nCharacteristics: Different grits: coarse to extra- Characteristics: Different grits: coarse to super-\nfine; various sizes; snap-on (with fine; various sizes and shapes;\nmetal center) or screw-on super-fine used for finishing\nrestorations\nInstrument: Diamond Flat-End Cylinder\nFunction: To reduce a tooth for crown\npreparation when parallel walls\nand flat floors are needed\nCharacteristics: Different grits: coarse to super-\nfine; various sizes and shapes;\nsuper-fine used for finishing\nrestorations\n36"
+    },
+    {
+      "pageNumber": 37,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p37-tray",
+        "pageNumber": 37,
+        "title": "PULPOTOMY/ OPEN & MED. TRAY SET-UP",
+        "imagePath": "tray-setups/p037-pulpotomy-open-med-tray-set-up.png",
+        "widthPx": 1102,
+        "heightPx": 799,
+        "items": [
+          {
+            "number": 8,
+            "name": "Endo Set"
+          },
+          {
+            "number": 9,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 10,
+            "name": "Metal Ruler"
+          },
+          {
+            "number": 11,
+            "name": "Articulating Paper Holder"
+          },
+          {
+            "number": 12,
+            "name": "Articulating Paper"
+          },
+          {
+            "number": 13,
+            "name": "Floss"
+          },
+          {
+            "number": 14,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 16,
+            "name": "Topical Anesthetic"
+          },
+          {
+            "number": 17,
+            "name": "High Speed Handpiece"
+          },
+          {
+            "number": 18,
+            "name": "Restorative Bur Block"
+          },
+          {
+            "number": 19,
+            "name": "Syringe"
+          },
+          {
+            "number": 20,
+            "name": "Anesthetic Carpules"
+          },
+          {
+            "number": 21,
+            "name": "Needle"
+          },
+          {
+            "number": 22,
+            "name": "Sodium Hypochloride (Bleach)"
+          },
+          {
+            "number": 23,
+            "name": "Chlorohexidine"
+          },
+          {
+            "number": 24,
+            "name": "Nerve Broaches"
+          },
+          {
+            "number": 25,
+            "name": "Endofiles"
+          },
+          {
+            "number": 26,
+            "name": "Monoject with Yellow Needle"
+          },
+          {
+            "number": 27,
+            "name": "Monoject with Blue Needle"
+          },
+          {
+            "number": 28,
+            "name": "Root Canal Lubricant"
+          },
+          {
+            "number": 29,
+            "name": "Low Speed Handpiece"
+          },
+          {
+            "number": 30,
+            "name": "IRM"
+          },
+          {
+            "number": 31,
+            "name": "Mixing Pad"
+          },
+          {
+            "number": 32,
+            "name": "Paper Points"
+          },
+          {
+            "number": 33,
+            "name": "Calcium Hydroxide"
+          },
+          {
+            "number": 34,
+            "name": "Mixing Spatula"
+          }
+        ],
+        "legendText": "PULPOTOMY/ OPEN & MED. TRAY SET-UP\n1.Mouth Mirror\n2 – 8. Endo Set\n9. Cotton Forcep\n10. Metal Ruler\n11. Articulating Paper Holder\n12. Articulating Paper\n13. Floss\n14. Cotton Rolls\n15. 2x2 Gauzes\n16. Topical Anesthetic\n17. High Speed Handpiece\n18. Restorative Bur Block\n19. Syringe\n20. Anesthetic Carpules\n21. Needle\n22. Sodium Hypochloride (Bleach)\n23. Chlorohexidine\n24. Nerve Broaches\n25. Endofiles\n26. Monoject with Yellow Needle\n27. Monoject with Blue Needle\n28. Root Canal Lubricant\n29. Low Speed Handpiece\n30. IRM\n31. Mixing Pad\n32. Paper Points\n33. Calcium Hydroxide\n34. Mixing Spatula\n38",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "PULPOTOMY/ OPEN & MED. TRAY SET-UP\n12\n13\n14 16\n10\n15\n9\n11\n1 2 3 4 5 6 7\n8\n20\n21\n18\n19\n17\n30\n23\n22\n26 27\n31\n33\n24 25 32\n28 29 34\n37"
+    },
+    {
+      "pageNumber": 38,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "PULPOTOMY/ OPEN & MED. TRAY SET-UP\n1.Mouth Mirror\n2 – 8. Endo Set\n9. Cotton Forcep\n10. Metal Ruler\n11. Articulating Paper Holder\n12. Articulating Paper\n13. Floss\n14. Cotton Rolls\n15. 2x2 Gauzes\n16. Topical Anesthetic\n17. High Speed Handpiece\n18. Restorative Bur Block\n19. Syringe\n20. Anesthetic Carpules\n21. Needle\n22. Sodium Hypochloride (Bleach)\n23. Chlorohexidine\n24. Nerve Broaches\n25. Endofiles\n26. Monoject with Yellow Needle\n27. Monoject with Blue Needle\n28. Root Canal Lubricant\n29. Low Speed Handpiece\n30. IRM\n31. Mixing Pad\n32. Paper Points\n33. Calcium Hydroxide\n34. Mixing Spatula\n38"
+    },
+    {
+      "pageNumber": 39,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p39-tray",
+        "pageNumber": 39,
+        "title": "ROOT CANAL (FINISH) INSTRUMENTS",
+        "imagePath": "tray-setups/p039-root-canal-tray-set-up.png",
+        "widthPx": 1099,
+        "heightPx": 824,
+        "items": [
+          {
+            "number": 8,
+            "name": "Endo Set"
+          },
+          {
+            "number": 9,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 10,
+            "name": "Metal Ruler"
+          },
+          {
+            "number": 11,
+            "name": "Articulating Paper Holder"
+          },
+          {
+            "number": 12,
+            "name": "Articulating Paper"
+          },
+          {
+            "number": 13,
+            "name": "Floss"
+          },
+          {
+            "number": 14,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 16,
+            "name": "Topical Anesthetic"
+          },
+          {
+            "number": 17,
+            "name": "High Speed Handpiece"
+          },
+          {
+            "number": 18,
+            "name": "Restorative Bur Block"
+          },
+          {
+            "number": 19,
+            "name": "Syringe"
+          },
+          {
+            "number": 20,
+            "name": "Anesthetic Carpules"
+          },
+          {
+            "number": 21,
+            "name": "Needle"
+          },
+          {
+            "number": 22,
+            "name": "Sodium Hypochloride (Bleach)"
+          },
+          {
+            "number": 23,
+            "name": "Chlorohexidine"
+          },
+          {
+            "number": 24,
+            "name": "Nerve Broaches"
+          },
+          {
+            "number": 25,
+            "name": "Endofiles"
+          },
+          {
+            "number": 26,
+            "name": "Monoject with Yellow Needle"
+          },
+          {
+            "number": 27,
+            "name": "Monoject with Blue Needle"
+          },
+          {
+            "number": 28,
+            "name": "Root Canal Lubricant"
+          },
+          {
+            "number": 29,
+            "name": "Low Speed Handpiece"
+          },
+          {
+            "number": 30,
+            "name": "IRM"
+          },
+          {
+            "number": 31,
+            "name": "Mixing Pad"
+          },
+          {
+            "number": 32,
+            "name": "Paper Points"
+          },
+          {
+            "number": 34,
+            "name": "Gutta Percha Points"
+          },
+          {
+            "number": 35,
+            "name": "Mixing Spatula"
+          }
+        ],
+        "legendText": "ROOT CANAL (FINISH) INSTRUMENTS\n1.Mouth Mirror\n2 – 8. Endo Set\n9. Cotton Forcep\n10. Metal Ruler\n11. Articulating Paper Holder\n12. Articulating Paper\n13. Floss\n14. Cotton Rolls\n15. 2x2 Gauzes\n16. Topical Anesthetic\n17. High Speed Handpiece\n18. Restorative Bur Block\n19. Syringe\n20. Anesthetic Carpules\n21. Needle\n22. Sodium Hypochloride (Bleach)\n23. Chlorohexidine\n24. Nerve Broaches\n25. Endofiles\n26. Monoject with Yellow Needle\n27. Monoject with Blue Needle\n28. Root Canal Lubricant\n29. Low Speed Handpiece\n30. IRM\n31. Mixing Pad\n32. Paper Points\n33, 34. Gutta Percha Points\n35. Mixing Spatula\n40",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "ROOT CANAL TRAY SET-UP\n12\n13\n14 16\n10\n15\n9\n11\n1 2 3 4 5 6 7\n8\n20\n21\n18\n19\n17\n30\n23\n22\n29\n35\n31\n26 27 28\n32\n24 25 33\n34\n39"
+    },
+    {
+      "pageNumber": 40,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "ROOT CANAL (FINISH) INSTRUMENTS\n1.Mouth Mirror\n2 – 8. Endo Set\n9. Cotton Forcep\n10. Metal Ruler\n11. Articulating Paper Holder\n12. Articulating Paper\n13. Floss\n14. Cotton Rolls\n15. 2x2 Gauzes\n16. Topical Anesthetic\n17. High Speed Handpiece\n18. Restorative Bur Block\n19. Syringe\n20. Anesthetic Carpules\n21. Needle\n22. Sodium Hypochloride (Bleach)\n23. Chlorohexidine\n24. Nerve Broaches\n25. Endofiles\n26. Monoject with Yellow Needle\n27. Monoject with Blue Needle\n28. Root Canal Lubricant\n29. Low Speed Handpiece\n30. IRM\n31. Mixing Pad\n32. Paper Points\n33, 34. Gutta Percha Points\n35. Mixing Spatula\n40"
+    },
+    {
+      "pageNumber": 41,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p41-tray",
+        "pageNumber": 41,
+        "title": "DRY SOCKET TRAY SET-UP",
+        "imagePath": "tray-setups/p041-dry-socket-tray-set-up.png",
+        "widthPx": 1024,
+        "heightPx": 824,
+        "items": [
+          {
+            "number": 1,
+            "name": "Cotton Rolls"
+          },
+          {
+            "number": 3,
+            "name": "Topical Anesthetic"
+          },
+          {
+            "number": 4,
+            "name": "Eugenol"
+          },
+          {
+            "number": 5,
+            "name": "Mouth Mirror"
+          },
+          {
+            "number": 6,
+            "name": "Explorer/ Perioprobe"
+          },
+          {
+            "number": 7,
+            "name": "Cotton Forcep"
+          },
+          {
+            "number": 8,
+            "name": "Scissors"
+          }
+        ],
+        "legendText": "DRY SOCKET TRAY SET-UP\n5 6\n4\n7\n8\n1\n2\n3\nDRY SOCKET TRAY SET-UP INSTRUMENTS\n1. Cotton Rolls\n2. 2x2 Gauzes\n3. Topical Anesthetic\n4. Eugenol\n5. Mouth Mirror\n6. Explorer/ Perioprobe\n7. Cotton Forcep\n8. Scissors\n41",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "DRY SOCKET TRAY SET-UP\n5 6\n4\n7\n8\n1\n2\n3\nDRY SOCKET TRAY SET-UP INSTRUMENTS\n1. Cotton Rolls\n2. 2x2 Gauzes\n3. Topical Anesthetic\n4. Eugenol\n5. Mouth Mirror\n6. Explorer/ Perioprobe\n7. Cotton Forcep\n8. Scissors\n41"
+    },
+    {
+      "pageNumber": 42,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p42-tray",
+        "pageNumber": 42,
+        "title": "FULL DENTURE ALIGINATE IMPRESSION TRAY SET-UP",
+        "imagePath": "tray-setups/p042-full-denture-aliginate-impression-tray-s.png",
+        "widthPx": 1199,
+        "heightPx": 840,
+        "items": [
+          {
+            "number": 1,
+            "name": "MIXING BOWL"
+          },
+          {
+            "number": 2,
+            "name": "ALIGNATE MATERIAL"
+          },
+          {
+            "number": 4,
+            "name": "COTTON ROLLS"
+          },
+          {
+            "number": 5,
+            "name": "MIXING SPATULA"
+          },
+          {
+            "number": 6,
+            "name": "LOWER IMPRESSION TRAY"
+          },
+          {
+            "number": 7,
+            "name": "UPPER IMPRESSION TRAY"
+          },
+          {
+            "number": 8,
+            "name": "COTTON FORCEP"
+          },
+          {
+            "number": 9,
+            "name": "EXPLORER/ PERIOPROBE"
+          },
+          {
+            "number": 10,
+            "name": "MOUTH MIRROR"
+          }
+        ],
+        "legendText": "FULL DENTURE ALIGINATE IMPRESSION TRAY SET-UP\n1\n6\n2\n5\n3\n8\n7\n4 10\n9\nTRAY SET-UP INSTRUMENTS\n1. MIXING BOWL\n2. ALIGNATE MATERIAL\n3. 2X2 GAUZES\n4. COTTON ROLLS\n5. MIXING SPATULA\n6. LOWER IMPRESSION TRAY\n7. UPPER IMPRESSION TRAY\n8. COTTON FORCEP\n9. EXPLORER/ PERIOPROBE\n10. MOUTH MIRROR\n42",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "FULL DENTURE ALIGINATE IMPRESSION TRAY SET-UP\n1\n6\n2\n5\n3\n8\n7\n4 10\n9\nTRAY SET-UP INSTRUMENTS\n1. MIXING BOWL\n2. ALIGNATE MATERIAL\n3. 2X2 GAUZES\n4. COTTON ROLLS\n5. MIXING SPATULA\n6. LOWER IMPRESSION TRAY\n7. UPPER IMPRESSION TRAY\n8. COTTON FORCEP\n9. EXPLORER/ PERIOPROBE\n10. MOUTH MIRROR\n42"
+    },
+    {
+      "pageNumber": 43,
+      "pageType": "tray_setup",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "traySetup": {
+        "id": "p43-tray",
+        "pageNumber": 43,
+        "title": "CROWN PREP TRAY SEP-UP INSTRUMENTS",
+        "imagePath": "tray-setups/p043-crown-prep-tray-sep-up.png",
+        "widthPx": 1199,
+        "heightPx": 899,
+        "items": [
+          {
+            "number": 1,
+            "name": "CORDS"
+          },
+          {
+            "number": 2,
+            "name": "BITE BLOCK"
+          },
+          {
+            "number": 3,
+            "name": "TEMP CEMENT"
+          },
+          {
+            "number": 4,
+            "name": "CROWN & BRIDGE BUR BLOCK"
+          },
+          {
+            "number": 5,
+            "name": "VISCOSTAT"
+          },
+          {
+            "number": 6,
+            "name": "SCISSORS"
+          },
+          {
+            "number": 7,
+            "name": "ARTICULATING PAPER"
+          },
+          {
+            "number": 8,
+            "name": "CORD PACKER"
+          },
+          {
+            "number": 9,
+            "name": "ANESTHETIC CARPULES"
+          },
+          {
+            "number": 10,
+            "name": "NEEDLE"
+          },
+          {
+            "number": 11,
+            "name": "SYRINGE"
+          },
+          {
+            "number": 12,
+            "name": "COTTON FORCEP"
+          },
+          {
+            "number": 13,
+            "name": "MOUTH MIRROR"
+          },
+          {
+            "number": 14,
+            "name": "FLOSS"
+          },
+          {
+            "number": 15,
+            "name": "EXPLORER/ PERIOPROBE"
+          },
+          {
+            "number": 16,
+            "name": "COTTON ROLLS"
+          },
+          {
+            "number": 20,
+            "name": "BITE REGISTRATION"
+          },
+          {
+            "number": 21,
+            "name": "LIGHT BODY"
+          },
+          {
+            "number": 22,
+            "name": "HEAVY BODY"
+          },
+          {
+            "number": 23,
+            "name": "BITE REGISTRATION TIP (TEAL)"
+          },
+          {
+            "number": 24,
+            "name": "LIGHT BODY TIP ( YELLOW WITH TIP)"
+          },
+          {
+            "number": 25,
+            "name": "HEAVY BODY TIP (TEAL)"
+          }
+        ],
+        "legendText": "CROWN PREP TRAY SEP-UP INSTRUMENTS\n1. CORDS\n2. BITE BLOCK\n3. TEMP CEMENT\n4. CROWN & BRIDGE BUR BLOCK\n5. VISCOSTAT\n6. SCISSORS\n7. ARTICULATING PAPER\n8. CORD PACKER\n9. ANESTHETIC CARPULES\n10. NEEDLE\n11. SYRINGE\n12. COTTON FORCEP\n13. MOUTH MIRROR\n14. FLOSS\n15. EXPLORER/ PERIOPROBE\n16. COTTON ROLLS\n17. 2X2 GAUZES\n18. TRIPLE TRAY X 3\n19. IMPRESSION MATERIAL GUN X3\n20. BITE REGISTRATION\n21. LIGHT BODY\n22. HEAVY BODY\n23. BITE REGISTRATION TIP (TEAL)\n24. LIGHT BODY TIP ( YELLOW WITH TIP)\n25. HEAVY BODY TIP (TEAL)\n44",
+        "matchConfidence": "high"
+      },
+      "fullPageText": "CROWN PREP TRAY SEP-UP\n9 15 16\n1 12\n13\n17\n4\n8\n18\n5 6\n10 11\n14\n2 3 7\n23\n19\n20\n24\n21\n25\n22\n43"
+    },
+    {
+      "pageNumber": 44,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "CROWN PREP TRAY SEP-UP INSTRUMENTS\n1. CORDS\n2. BITE BLOCK\n3. TEMP CEMENT\n4. CROWN & BRIDGE BUR BLOCK\n5. VISCOSTAT\n6. SCISSORS\n7. ARTICULATING PAPER\n8. CORD PACKER\n9. ANESTHETIC CARPULES\n10. NEEDLE\n11. SYRINGE\n12. COTTON FORCEP\n13. MOUTH MIRROR\n14. FLOSS\n15. EXPLORER/ PERIOPROBE\n16. COTTON ROLLS\n17. 2X2 GAUZES\n18. TRIPLE TRAY X 3\n19. IMPRESSION MATERIAL GUN X3\n20. BITE REGISTRATION\n21. LIGHT BODY\n22. HEAVY BODY\n23. BITE REGISTRATION TIP (TEAL)\n24. LIGHT BODY TIP ( YELLOW WITH TIP)\n25. HEAVY BODY TIP (TEAL)\n44"
+    },
+    {
+      "pageNumber": 45,
+      "pageType": "other",
+      "pageWidth": 540,
+      "pageHeight": 720,
+      "instruments": [],
+      "fullPageText": "CREDITS\nA BIG THANK YOU TO:\n• BOYD YU: Helped with page format for the tray\nset-ups and number-labeling Composite,\nAmalgam, and Prophy tray set-ups\n• CLIFF LEE: Took photos of the Endo tray set-ups\n45"
+    }
+  ]
+}

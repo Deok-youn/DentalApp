@@ -23,9 +23,8 @@
 # PDF extraction artifacts
 /data/output/
 
-# Generated catalog data (regenerate with: npm run extract:pdf + copy to src/data and public/catalog)
-/src/data/catalog.json
-/public/catalog/
+# Generated catalog data — committed to repo for Vercel build
+# (regenerate locally with: npm run extract:pdf + copy to src/data and public/catalog)
 
 # misc
 .DS_Store
